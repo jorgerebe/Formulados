@@ -1,0 +1,980 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1656727822220608}
+  m_IsPrefabAsset: 1
+--- !u!1 &1656727822220608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4885834037958518}
+  - component: {fileID: 114104323354801992}
+  m_Layer: 0
+  m_Name: PreguntillasCircuitosDestacados
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4885834037958518
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656727822220608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114104323354801992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656727822220608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Circuitos
+  nombreniveles:
+  - "M\xF3naco"
+  - Spa
+  - Silverstone
+  - Suzuka
+  - Monza
+  - Montreal
+  - Hockenheim
+  - Interlagos
+  - "N\xFCrburgring"
+  - Hungaroring
+  Preguntas:
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en el calendario de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en este trazado?"
+  - "\xBFQu\xE9 piloto tiene el record de vuelta?"
+  - "\xBFCu\xE1l es la velocidad media m\xE1xima alcanzada en un Gran Premio de M\xF3naco?"
+  - "\xBFCu\xE1ntas veces gan\xF3 Ayrton Senna en este circuito?"
+  - "\xBFQui\xE9n ha sido el ganador del \xFAltimo Gran Premio de M\xF3naco?"
+  - "\xBFQu\xE9 piloto ha sido el \xFAltimo en ganar tres veces seguidas en este trazado?"
+  - "\xBFQu\xE9 a\xF1o fue la \xFAltima victoria de McLaren en el Gran Premio de M\xF3naco?"
+  - "\xBFCu\xE1l es record de vuelta en este circuito?"
+  - "\xBFQu\xE9 piloto logr\xF3 la mayor velocidad media en un Gran Premio de M\xF3naco?"
+  - "\xBFQu\xE9 equipo tiene el record de vuelta r\xE1pida en este trazado?"
+  - "\xBFCu\xE1l es la curva m\xE1s famosa de este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 Gran Premio se celebra en este circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces de forma consecutiva en este circuito?"
+  - "\xBFQui\xE9n fue el ganador del Gran Premio de B\xE9lgica en 2016?"
+  - "\xBFCu\xE1l era la longitud del trazado original?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 equipo logr\xF3 meter sus 4 coches n las 4 primeras posiciones del
+    Gran Premio de B\xE9lgica de 1961?"
+  - "\xBFCu\xE1ntas poles y cu\xE1ntas victorias ha conseguido Fernando Alonso en
+    este circuito en F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 pilotos han ganado m\xE1s veces en este trazado?"
+  - "\xBFQui\xE9n ha sido el ganador este a\xF1o del Gran Premio celebrado en este
+    circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces seguidas aqu\xED?"
+  - "\xBFCu\xE1ntas veces ha ganado Alain Prost en este circuito?"
+  - "Antes de ser un circuito de carreras, \xBFqu\xE9 era Silverstone?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 el circuito en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue el margen m\xE1s grande entre el primer y el segundo clasificado?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 Gran Premio se celebra en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este trazado?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue el \xFAltimo piloto Japon\xE9s en estar en el podio de este
+    circuito?"
+  - "\xBFQu\xE9 equipo tiene la vuelta r\xE1pida?"
+  - "\xBFQui\xE9n gan\xF3 en la edici\xF3n de 2016 del Gran Premio de Jap\xF3n?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 Gran Premio acoge?"
+  - "\xBFCu\xE1ntas veces ha ganado aqu\xED Schumacher?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 la edici\xF3n del 2016?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s victorias seguidas en este circuito?"
+  - "\xBFDe que famosa curva de este circuito se alfast\xF3 la escapatoria?"
+  - "\xBFCu\xE1ntas victorias seguidas lleg\xF3 a lograr Fangio?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es su vuelta r\xE1pida?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 Gran Premio acoge este circuito?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 piloto ha ganado la edici\xF3n de este a\xF1o del Gran Premio de Canad\xE1?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 otro nombre tiene el circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher?"
+  - "\xBFCu\xE1l es el muro m\xE1s famoso de este circuito?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o se corri\xF3 por \xFAltima vez en este circuito en F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 piloto tiene el record de victorias?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces aqu\xED?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado presente en el calendario de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 Gran Premio alberga?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 en este circuito en 2016?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces seguidas en este circuito?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto tiene m\xE1s victorias en este trazado?"
+  - "\xBFCu\xE1ntas veces ha ganado aqu\xED Ferrari?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 famoso piloto brasile\xF1o no ha ganado nunca en este circuito?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFCu\xE1l ha sido la distancia m\xE1s peque\xF1a entre el primero y el segundo
+    en este circuito?"
+  - "\xBFCu\xE1l era la longitud del trazado original?"
+  - "\xBFQui\xE9n gan\xF3 en este circuito en 2016?"
+  - "\xBFCu\xE1ntos pilotos han ganado tres veces seguidas en este circuito?"
+  - "\xBFA qui\xE9n est\xE1 dedicada la primera curva de este circuito?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFC\xF3mo es conocido el trazado original?"
+  - "\xBFQu\xE9 a\xF1o se corri\xF3 por \xFAltima vez en \xE9l en F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 famoso piloto austriaco tuvo en el circuito original un accidente
+    que casi le cuesta la vida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este trazado?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFCu\xE1ntas curvas ten\xEDa el trazado original?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto ha logrado m\xE1s victorias en este trazado?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida en carrera?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida en clasificaci\xF3n?"
+  - "\xBFQui\xE9n ha sido el ganador de la edici\xF3n 2017 del Gran Premio de Hungr\xEDa?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1ntas victorias ha conseguido Hamilton en este circuito?"
+  - "\xBFQu\xE9 piloto logr\xF3 la vuelta r\xE1pida en carrera?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este cirucito?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida en clasificaci\xF3n?"
+  - "\xBFQu\xE9 equipo ha sido el ganador de la edici\xF3n 2017 del Gran Premio de
+    Hungr\xEDa?"
+  - "\xBFQu\xE9 piloto ha logrado la vuelta r\xE1pida de la carrera en la edici\xF3n
+    2017 del Gran Premio de Hungr\xEDa?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en este trazado?"
+  RespuestasCorrectas:
+  - 3,33 km
+  - McLaren
+  - 19
+  - Ayrton Senna
+  - 64
+  - 15
+  - "Kimi R\xE4ikk\xF6nen"
+  - 155,55 km/h
+  - 6
+  - Sebastian Vettel
+  - Nico Rosberg
+  - 2008
+  - 1:12.178
+  - Fernando Alonso
+  - Ferrari
+  - Eau Rouge
+  - 19
+  - Ferrari
+  - 50
+  - 7,003 km
+  - Michael Schumacher
+  - Sebastian Vettel
+  - "El Gran Premio de B\xE9lgica"
+  - 6
+  - McLaren
+  - Nico Rosberg
+  - 14,120 km
+  - 1924
+  - Ferrari
+  - 0 poles y 0 victorias
+  - 51
+  - 5,88 km
+  - Fernando Alonso
+  - 18
+  - 1948
+  - Ferrari
+  - 1:30.874
+  - Alain Prost y Lewis Hamilton
+  - Lewis Hamilton
+  - 12
+  - Lewis Hamilton
+  - 5
+  - "Un aer\xF3dromo"
+  - 1950
+  - Una vuelta entera
+  - 5,80 km
+  - "El Gran Premio de Jap\xF3n"
+  - 18
+  - Michael Schumacher
+  - 1:31.540
+  - Ferrari
+  - 1962
+  - "Kimi R\xE4ikk\xF6nen"
+  - 7
+  - 29
+  - 6
+  - 1987
+  - Kamui Kobayashi
+  - McLaren
+  - Nico Rosberg
+  - 1950
+  - 11
+  - 5,79 km
+  - Michael Schumacher
+  - 67
+  - Rubens Barrichello
+  - 1922
+  - El Gran Premio de Italia
+  - 5
+  - 1:21.046
+  - 18
+  - Nico Rosberg
+  - Juan Manuel Fangio
+  - De la Parabolica
+  - 3
+  - 1978
+  - 4,36 km
+  - 38
+  - 14
+  - 1:13.622
+  - Michael Schumacher
+  - "El Gran Premio de Canad\xE1"
+  - Ferrari
+  - 1978
+  - Lewis Hamilton
+  - 10
+  - Rubens Barrichello
+  - Circuito de Gilles Villeneuve
+  - 7
+  - El muro de los campeones
+  - 1929
+  - 4,57 km
+  - 2016
+  - Michael Schumacher
+  - 1:14.917
+  - Ferrari
+  - 35
+  - El Gran Premio de Alemania
+  - 4
+  - "Kimi R\xE4ikk\xF6nen"
+  - 17
+  - 10
+  - Lewis Hamilton
+  - 1970
+  - Ayrton Senna
+  - 4,29 km
+  - Juan Pablo Montoya
+  - Ferrari
+  - 15
+  - 1973
+  - Michael Schumacher
+  - 8
+  - 32
+  - Ayrton Senna
+  - 1:11.473
+  - 0,588
+  - 7,96 km
+  - Lewis Hamilton
+  - 0
+  - A Ayrton Senna
+  - 5,14 km
+  - 1926
+  - Como el infierno verde
+  - 2013
+  - 15
+  - Michael Schumacher
+  - Niki Lauda
+  - Ferrari
+  - 1:29.468
+  - 40
+  - Michael Schumacher
+  - 14
+  - 1951
+  - 5
+  - 73
+  - 4,38 km
+  - 32
+  - Lewis Hamilton
+  - 1:19.071
+  - 1986
+  - 1:16.276
+  - Sebastian Vettel
+  - 15
+  - 5
+  - Michael Schumacher
+  - McLaren
+  - Sebastian Vettel
+  - Ferrari
+  - Fernando Alonso
+  - 11
+  respuestasA:
+  - 4,48 km
+  - Ferrari
+  - 23
+  - Ayrton Senna
+  - 67
+  - 16
+  - Ayrton Senna
+  - 155,55 km/h
+  - 8
+  - Ayrton Senna
+  - Nico Rosberg
+  - 2009
+  - 1:16.481
+  - Sebastian Vettel
+  - Ferrari
+  - La Source
+  - 7
+  - Ferrari
+  - 62
+  - 9,035 km
+  - Michael Schumacher
+  - Niki Lauda
+  - El Gran Premio de Spa-Francorchamps
+  - 6
+  - Lotus
+  - Max Verstappen
+  - 17,586 km
+  - 1924
+  - McLaren
+  - 1 pole y 0 victorias
+  - 68
+  - 4,62 km
+  - Fernando Alonso
+  - 21
+  - 1952
+  - Ferrari
+  - 1:32.357
+  - Alain Prost y Ayrton Senna
+  - Lewis Hamilton
+  - 10
+  - Sebastian Vettel
+  - 5
+  - El aeropuerto de Silverstone
+  - 1950
+  - 30 segundos
+  - 4,62 km
+  - El Gran Premio de China
+  - 15
+  - Sebastian Vettel
+  - 1:31.540
+  - McLaren
+  - 1984
+  - "Kimi R\xE4ikk\xF6nen"
+  - 4
+  - 35
+  - 4
+  - 1963
+  - Sakon Yamamoto
+  - Williams
+  - Nico Rosberg
+  - 1971
+  - 9
+  - 2,86 km
+  - Michael Schumacher
+  - 41
+  - Michael Schumacher
+  - 1933
+  - El Gran Premio de Europa
+  - 1
+  - 1:20.648
+  - 18
+  - Lewis Hamilton
+  - Ayrton Senna
+  - De la primera variante
+  - 2
+  - 1967
+  - 4,54 km
+  - 38
+  - 12
+  - 1:14.480
+  - Michael Schumacher
+  - El Gran Premio de Gilles Villeneuve
+  - McLaren
+  - 1978
+  - Lewis Hamilton
+  - 8
+  - Gilles Villeneuve
+  - Circuito de Jacques Villeneuve
+  - 7
+  - El muro de los vencedores
+  - 1932
+  - 5,33 km
+  - 2015
+  - Michael Schumacher
+  - 1:13.168
+  - Williams
+  - 35
+  - El Gran Premio de Alemania
+  - 3
+  - Michael Schumacher
+  - 17
+  - 9
+  - Nico Rosberg
+  - 1963
+  - Ayrton Senna
+  - 5,89 km
+  - Juan Pablo Montoya
+  - McLaren
+  - 12
+  - 1973
+  - Felipe Massa
+  - 6
+  - 22
+  - Felipe Massa
+  - 1:11.473
+  - 0,369
+  - 7,96 km
+  - Michael Schumacher
+  - 2
+  - A Ayrton Senna
+  - 4,44 km
+  - 1935
+  - Como el infierno azul
+  - 2016
+  - 15
+  - Nico Rosberg
+  - Helmut Marko
+  - Williams
+  - 1:29.468
+  - 34
+  - Sebastian Vettel
+  - 12
+  - 1951
+  - 6
+  - 65
+  - 3,32 km
+  - 32
+  - Sebastian Vettel
+  - 1:21.659
+  - 1986
+  - 1:18.649
+  - Lewis Hamilton
+  - 7
+  - 5
+  - Lewis Hamilton
+  - Williams
+  - Lewis Hamilton
+  - Ferrari
+  - "Kimi R\xE4ikk\xF6nen"
+  - 11
+  respuestasB:
+  - 2,60 km
+  - McLaren
+  - 34
+  - Alain Prost
+  - 64
+  - 14
+  - Fernando Alonso
+  - 168,42 km/h
+  - 6
+  - Nico Rosberg
+  - Lewis Hamilton
+  - 2008
+  - 1:09.132
+  - Lewis Hamilton
+  - McLaren
+  - Les Combes
+  - 19
+  - Alfa Romeo
+  - 67
+  - 7,003 km
+  - Ayrton Senna
+  - Michael Schumacher
+  - "El Gran Premio de B\xE9lgica"
+  - 4
+  - Ferrari
+  - Nico Rosberg
+  - 7,68 km
+  - 1931
+  - Williams
+  - 2 poles y 3 victorias
+  - 51
+  - 4,31 km
+  - Jenson Button
+  - 14
+  - 1948
+  - McLaren
+  - 1:27.643
+  - Mark Webber y Lewis Hamilton
+  - Nico Rosberg
+  - 9
+  - Lewis Hamilton
+  - 2
+  - Una base militar
+  - 1948
+  - Una vuelta entera
+  - 5,80 km
+  - "El Gran Premio de Jap\xF3n"
+  - 16
+  - Michael Schumacher
+  - 1:30.584
+  - Williams
+  - 1962
+  - Sebastian Vettel
+  - 7
+  - 19
+  - 2
+  - 1995
+  - Kamui Kobayashi
+  - McLaren
+  - Lewis Hamilton
+  - 1963
+  - 11
+  - 4,49 km
+  - Fernando Alonso
+  - 59
+  - Sebastian Vettel
+  - 1922
+  - El Gran Premio de Ferrari
+  - 4
+  - 1:21.046
+  - 16
+  - Sebastian Vettel
+  - Juan Manuel Fangio
+  - De la variante Ascari
+  - 3
+  - 1978
+  - 5,44 km
+  - 42
+  - 14
+  - 1:09.358
+  - Lewis Hamilton
+  - "El Gran Premio de Canad\xE1"
+  - Williams
+  - 1983
+  - Nico Rosberg
+  - 7
+  - Rubens Barrichello
+  - "Circuito internacional de Canad\xE1"
+  - 9
+  - El muro de los campeones
+  - 1929
+  - 4,4 km
+  - 2014
+  - Sebastian Vettel
+  - 1:14.917
+  - McLaren
+  - 43
+  - El Gran Premio de Hockenheim
+  - 4
+  - Lewis Hamilton
+  - 19
+  - 6
+  - Daniel Ricciardo
+  - 1970
+  - Michael Schumacher
+  - 4,29 km
+  - Ayrton Senna
+  - Ferrari
+  - 19
+  - 1979
+  - Rubens Barrichello
+  - 4
+  - 32
+  - Rubens Barrichello
+  - 1:13.375
+  - 0,588
+  - 8,33 km
+  - Fernando Alonso
+  - 0
+  - A Rubens Barrichello
+  - 5,91 km
+  - 1926
+  - Como el infierno verde
+  - 2011
+  - 12
+  - Lewis Hamitlon
+  - Niki Lauda
+  - Ferrari
+  - 1:10.348
+  - 40
+  - Lewis Hamilton
+  - 14
+  - 1942
+  - 1
+  - 73
+  - 4,38 km
+  - 44
+  - Michael Schumacher
+  - 1:19.071
+  - 1997
+  - 1:17.499
+  - Sebastian Vettel
+  - 12
+  - 3
+  - Michael Schumacher
+  - Ferrari
+  - Sebastian Vettel
+  - Red Bull
+  - Lewis Hamilton
+  - 14
+  respuestasC:
+  - 3,33 km
+  - Williams
+  - 12
+  - Fernando Alonso
+  - 50
+  - 20
+  - "Kimi R\xE4ikk\xF6nen"
+  - 124,55 km/h
+  - 4
+  - Sebastian Vettel
+  - Sebastian Vettel
+  - 2012
+  - 1:14.800
+  - Fernando Alonso
+  - Williams
+  - Eau Rouge
+  - 14
+  - Williams
+  - 43
+  - 8,14 km
+  - Niki Lauda
+  - Sebastian Vettel
+  - El Gran Premio de Francia
+  - 8
+  - Williams
+  - Lewis Hamilton
+  - 14,120 km
+  - 1950
+  - Renault
+  - 0 poles y 0 victorias
+  - 48
+  - 5,88 km
+  - Sebastian Vettel
+  - 23
+  - 1950
+  - Williams
+  - 1:29.921
+  - Alain Prost y Lewis Hamilton
+  - Valtteri Bottas
+  - 12
+  - Alain Prost
+  - 6
+  - "Un aer\xF3dromo"
+  - 1936
+  - 1 minuto
+  - 3,23 km
+  - El Gran Premio de Asia
+  - 13
+  - Fernando Alonso
+  - 1:32:651
+  - Ferrari
+  - 1973
+  - Michael Schumacher
+  - 3
+  - 29
+  - 9
+  - 1987
+  - Takuma Sato
+  - Ferrari
+  - Sebastian Vettel
+  - 1954
+  - 16
+  - 6,63 km
+  - Lewis Hamilton
+  - 72
+  - Rubens Barrichello
+  - 1950
+  - El Gran Premio de Italia
+  - 3
+  - 1:23.984
+  - 23
+  - Nico Rosberg
+  - Michael Schumacher
+  - De la Parabolica
+  - 6
+  - 1985
+  - 3,62 km
+  - 31
+  - 17
+  - 1:13.622
+  - Daniel Ricciardo
+  - El Gran Premio de Lance Stroll
+  - Red Bull
+  - 1996
+  - Daniel Ricciardo
+  - 10
+  - Michael Schumacher
+  - Circuito de Gilles Villeneuve
+  - 5
+  - El muro de los novatos
+  - 1935
+  - 4,57 km
+  - 2017
+  - Nico Rosberg
+  - 1:15.658
+  - Red Bull
+  - 39
+  - El Gran Premio de Europa
+  - 7
+  - Sebastian Vettel
+  - 14
+  - 10
+  - Sebastian Vettel
+  - 1944
+  - Lewis Hamilton
+  - 3,87 km
+  - Felipe Massa
+  - Red Bull
+  - 15
+  - 1966
+  - Michael Schumacher
+  - 10
+  - 17
+  - Ayton Senna
+  - 1:12.588
+  - 0,471
+  - 22,81 km
+  - Lewis Hamilton
+  - 3
+  - A Emerson Fittipaldi
+  - 6,95 km
+  - 1986
+  - Como el infierno rojo
+  - 2013
+  - 16
+  - Sebastian Vettel
+  - Gerhard Berger
+  - Red Bull
+  - 1:27.756
+  - 46
+  - Michael Schumacher
+  - 16
+  - 1950
+  - 3
+  - 79
+  - 6,48 km
+  - 27
+  - Lewis Hamilton
+  - 1:14.587
+  - 1968
+  - 1:16.276
+  - "Kimi R\xE4ikk\xF6nen"
+  - 21
+  - 7
+  - Sebastian Vettel
+  - Red Bull
+  - Michael Schumacher
+  - McLaren
+  - Fernando Alonso
+  - 9
+  respuestasD:
+  - 1,5 km
+  - Red Bull
+  - 19
+  - Michael Schumacher
+  - 72
+  - 15
+  - Lewis Hamilton
+  - 173,34 km/h
+  - 10
+  - Lewis Hamilton
+  - Michael Schumacher
+  - 2010
+  - 1:12.178
+  - Ayrton Senna
+  - Red Bull
+  - Blanchimont
+  - 23
+  - McLaren
+  - 50
+  - 6,78 km
+  - Felipe Massa
+  - Ayrton Senna
+  - El Gran Premio de Europa
+  - 7
+  - McLaren
+  - Daniel Ricciardo
+  - 15,143 km
+  - 1963
+  - Ferrari
+  - 0 poles y 1 victoria
+  - 53
+  - 6,4 km
+  - Michael Schumacher
+  - 18
+  - 1962
+  - Benetton
+  - 1:30.874
+  - Alain Prost y Fernando Alonso
+  - Sebastian Vettel
+  - 15
+  - Ayrton Senna
+  - 2
+  - Una pista de pruebas de hidroaviones
+  - 1922
+  - 2 vueltas
+  - 4,21 km
+  - El Gran Premio de Tailandia
+  - 18
+  - Rubens Barichello
+  - 1:29.218
+  - Red Bull
+  - 1978
+  - Lewis Hamilton
+  - 5
+  - 43
+  - 6
+  - 1975
+  - Yuji Ide
+  - Tyrell
+  - Daniel Ricciardo
+  - 1950
+  - 14
+  - 5,79 km
+  - Sebastian Vettel
+  - 67
+  - Lewis Hamilton
+  - 1984
+  - "El Gran Premio de Canad\xE1"
+  - 5
+  - 1:19.508
+  - 21
+  - Max Verstappen
+  - Lewis Hamilton
+  - De la curva Biassono
+  - 4
+  - 1963
+  - 4,36 km
+  - 29
+  - 20
+  - 1:16.355
+  - Sebastian Vettel
+  - El Gran Premio de Montreal
+  - Ferrari
+  - 1967
+  - Sebastian Vettel
+  - 13
+  - Fernando Alonso
+  - Circuito de Lance Stroll
+  - 3
+  - El muro Maldonado
+  - 1943
+  - 6,10 km
+  - 2016
+  - Lewis Hamilton
+  - 1:13.746
+  - Caterham
+  - 21
+  - El Gran Premio de Berlin
+  - 10
+  - "Kimi R\xE4ikk\xF6nen"
+  - 12
+  - 13
+  - Lewis Hamilton
+  - 1979
+  - Fernando Alonso
+  - 3,18 km
+  - Lewis Hamilton
+  - Williams
+  - 21
+  - 1981
+  - Ayrton Senna
+  - 8
+  - 29
+  - Bruno Senna
+  - 1:10.268
+  - 0,698
+  - 5,47 km
+  - Sebastian Vettel
+  - 1
+  - A Felipe Massa
+  - 5,14 km
+  - 1950
+  - Como el circuito temido
+  - 2015
+  - 10
+  - Michael Schumacher
+  - Dieter Quester
+  - Benetton
+  - 1:34.287
+  - 24
+  - Fernando Alonso
+  - 17
+  - 1963
+  - 5
+  - 46
+  - 5,19 km
+  - 18
+  - Daniel Ricciardo
+  - 1:22.547
+  - 1973
+  - 1:19.489
+  - Max Verstappen
+  - 15
+  - 6
+  - Ayrton Senna
+  - McLaren
+  - Nico Rosberg
+  - Williams
+  - Sebastian Vettel
+  - 16

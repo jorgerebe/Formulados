@@ -1,0 +1,972 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1142426515605920}
+  m_IsPrefabAsset: 1
+--- !u!1 &1142426515605920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4616854767304718}
+  - component: {fileID: 114315804711003282}
+  m_Layer: 0
+  m_Name: PreguntillasPilotosLegendarios
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4616854767304718
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142426515605920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114315804711003282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142426515605920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Pilotos
+  nombreniveles:
+  - Schumacher
+  - Senna
+  - Prost
+  - Mansell
+  - Stewart
+  - Clark
+  - Fangio
+  - Piquet
+  - Lauda
+  - Alonso
+  Preguntas:
+  - "\xBFCu\xE1ntas temporadas ha estado compitiendo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales ha ganado?"
+  - "\xBFEn cu\xE1ntos equipos ha competido?"
+  - "\xBFEn cu\xE1ntos Grandes Premios ha participado?"
+  - "\xBFEn qu\xE9 equipos ha competido?"
+  - "\xBFCon cu\xE1ntos a\xF1os se retir\xF3 definitivamente?"
+  - "\xBFCu\xE1l es su apodo m\xE1s conocido?"
+  - "\xBFEn qu\xE9 equipo debut\xF3?"
+  - "\xBFCu\xE1ndo debut\xF3?"
+  - "\xBFPor qu\xE9 fue descalificado del mundial de 1997?"
+  - "\xBFCu\xE1ntos t\xEDtulos mundiales consecutivos gan\xF3 con Ferrari?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo?"
+  - "\xBFCu\xE1l es el n\xFAmero m\xE1ximo de victorias que consigui\xF3 en una temporada?"
+  - "\xBFCu\xE1ntos puntos ha sumado a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ndo debut\xF3?"
+  - "\xBFCu\xE1ntos mundiales gan\xF3 a lo largo de su carrera?"
+  - "\xBFEn qu\xE9 Gran Premio falleci\xF3?"
+  - "\xBFCu\xE1ntas victorias logr\xF3?"
+  - "\xBFCon qu\xE9 equipo debut\xF3?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3 en su carrera?"
+  - "\xBFEn qu\xE9 equipo consigui\xF3 todos sus mundiales?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFQui\xE9n fue su mayor rival?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFCu\xE1ntas poles logr\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios corri\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales gan\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntas poles ha conseguido?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su mayor rival?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1ntas victorias obtuvo?"
+  - "\xBFCon qu\xE9 equipo consigui\xF3 la mayor\xEDa de sus mundiales?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFPara qu\xE9 equipo trabaja ahora?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera?"
+  - "\xBFQu\xE9 equipo franc\xE9s dej\xF3 para irse a McLaren?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales consigui\xF3?"
+  - "\xBFEn cu\xE1ntos equipos estuvo?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos ha estado pilotando?"
+  - "\xBFQu\xE9 a\xF1o consigui\xF3 su primer mundial?"
+  - "\xBFCu\xE1ntas victorias logr\xF3 en la F\xF3rmula 1?"
+  - "\xBFPor qu\xE9 se le conoce?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFCu\xE1l fue el \xFAltimo equipo para el que pilot\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en el equipo Williams?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales consigui\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntos equipos estuvo?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos estuvo?"
+  - "\xBFCu\xE1ntas victorias consigui\xF3?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn qu\xE9 circuito logr\xF3 su \xFAltima victoria?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFEn qu\xE9 principio se basaba cuando corr\xEDa?"
+  - "\xBFQu\xE9 hecho le impidi\xF3 alcanzar su Gran Premio n\xBA 100?"
+  - "\xBFCu\xE1l fue su \xFAnica temporada sin ganar al menos una carrera?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCon qu\xE9 equipo consigui\xF3 sus dos \xFAltimos mundiales?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFEn qu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntos victorias logr\xF3?"
+  - "\xBFQu\xE9 equipo le ofreci\xF3 un proyecto en la F\xF3rmula 1 que rechaz\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1ntos puntos anot\xF3?"
+  - "\xBFCu\xE1ntas victorias consecutivas lleg\xF3 a obtener?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltima victoria y carrera?"
+  - "\xBFQu\xE9 pensaban sus rivales de \xE9l?"
+  - "\xBFD\xF3nde falleci\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFCu\xE1l es su frase m\xE1s c\xE9lebre?"
+  - "\xBFPor qu\xE9 era conocido antes de llegar a la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias logr\xF3?"
+  - "\xBFEn qu\xE9 equipos estuvo?"
+  - "\xBFCu\xE1ntos puntos obtuvo a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 ciudad tiene un museo dedicado hacia \xE9l?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntas carreras particip\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio gan\xF3 por \xFAltima vez?"
+  - "\xBFCu\xE1ntos campeonatos consecutivos logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os falleci\xF3?"
+  - "\xBFEn qu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la categor\xEDa reina?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFEn cu\xE1ntos equipos estuvo en su primera temporada?"
+  - "\xBFQui\xE9n fue su jefe de equipo cuando estuvo en Brabham?"
+  - "\xBFCu\xE1ntas poles logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFQu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntas victorias consecutivas lleg\xF3 a conseguir?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 su \xFAltima victoria?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn qu\xE9 circuito sufri\xF3 un accidente que casi le cuesta la vida?"
+  - "\xBFCu\xE1ntas victorias consigui\xF3?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival?"
+  - "\xBFCu\xE1l es una de sus frases m\xE1s c\xE9lebres?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFEn qu\xE9 equipo trabaja ahora?"
+  - "\xBFCu\xE1ntos podios logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFQu\xE9 hace en Mercedes ahora?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales tiene?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntos subcampeonatos tiene?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival en 2007?"
+  - "\xBFCu\xE1ntos podios ha conseguido? (hasta final 2016)"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 su \xFAltima victoria en Ferrari?"
+  - "\xBFCu\xE1ntas victorias ha logrado?"
+  - "\xBFCu\xE1l es su equipo actualmente?"
+  - "\xBFQu\xE9 a\xF1o no gan\xF3 el t\xEDtulo de pilotos por un punto?"
+  - "\xBFQui\xE9n es su compa\xF1ero de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFQu\xE9 a\xF1os consigui\xF3 sus dos primeros t\xEDtulos?"
+  RespuestasCorrectas:
+  - 19
+  - 7
+  - En 4
+  - 308
+  - Jordan, Benetton, Ferrari y Mercedes
+  - Con 43
+  - Kaiser
+  - Jordan
+  - 1991
+  - "Por chocar contra Jacques Villeneuve en la \xFAltima carrera"
+  - 5
+  - Mercedes
+  - 13
+  - 1566
+  - Alemania
+  - En el 1984
+  - 3
+  - En el Gran Premio de San Marino de 1994
+  - 41
+  - Toleman
+  - 614
+  - En McLaren-Honda
+  - Brasil
+  - Alain Prost
+  - Toleman, Lotus, McLaren y Williams
+  - 65
+  - Williams
+  - Con 24
+  - En 161 Grandes Premios
+  - "10 a\xF1os"
+  - 4
+  - En 4
+  - Francia
+  - 33
+  - 13
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 25 a\xF1os"
+  - Ayrton Senna
+  - En 200 Grandes Premios
+  - 51
+  - Con McLaren
+  - En el Gran Premio de Francia de 1981
+  - Renault
+  - 798,5
+  - Renault
+  - 59
+  - 1980
+  - 1
+  - 4
+  - "Gran Breta\xF1a"
+  - 15
+  - Lotus, Williams, Ferrari y McLaren
+  - 1992
+  - 31
+  - Por su bigote
+  - 32
+  - Gran Premio de Europa de 1985
+  - McLaren
+  - 7
+  - 482
+  - 3
+  - "Con 26 a\xF1os"
+  - En 3 equipos
+  - 360 puntos
+  - 9
+  - BRM, Matra y Tyrrell
+  - 27
+  - "Gran Breta\xF1a"
+  - "En N\xFCrburgring Nordschleife"
+  - En 99
+  - En ganar con la menor velocidad posible
+  - Su equipo se vio obligado a retirarse
+  - 1967
+  - 1965
+  - Tyrrell
+  - 9
+  - 33
+  - 2
+  - En 1
+  - En 1960
+  - 25
+  - Aston Martin
+  - En 72
+  - 274
+  - 6
+  - Con 24
+  - En Lotus
+  - "Gran Premio de Sud\xE1frica de 1968"
+  - "Que acabar detr\xE1s de \xE9l era lo mejor que pod\xEDan hacer"
+  - En una carrera de F2
+  - 5
+  - Hay que intentar ser el mejor pero nunca creerse el mejor
+  - Por sus buenos resultados en carreras de larga distancia
+  - 24
+  - Alfa Romeo, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 277,14
+  - En Balcarce
+  - Con 39
+  - En 51
+  - En el Gran Premio de Alemania de 1957
+  - 4
+  - Con 84
+  - En 1950
+  - 8
+  - Argentina
+  - 3
+  - 203
+  - En 3
+  - Bernie Ecclestone
+  - 24
+  - Con 26
+  - 14
+  - Brasil
+  - En 6
+  - 1978
+  - 2
+  - "Gran Premio de Canad\xE1 de 1991"
+  - Ensign, BS Fabrications, Brabham, Williams, Lotus y Benetton
+  - Nigel Mansell
+  - 485,5
+  - 3
+  - "En N\xFCrburgring Nordschleife"
+  - 25
+  - James Hunt
+  - Prefiero tener mi pie derecho bien que una bella cara
+  - 1971
+  - En 5
+  - 24
+  - En Mercedes
+  - 54
+  - Con 22
+  - 13
+  - March, BRM, Ferrari, Brabham y McLaren
+  - Es el director no ejecutivo
+  - En Austria
+  - En 4
+  - 2001
+  - 2
+  - En Minardi, Renault, McLaren y Ferrari
+  - Con 20
+  - 3
+  - Lewis Hamilton
+  - 97
+  - "En el Gran Premio de Espa\xF1a de 2013"
+  - 32
+  - McLaren
+  - En 2007
+  - Stoffel Vandoorne
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2005 y 2006
+  respuestasA:
+  - 19
+  - 8
+  - En 5
+  - 300
+  - Minardi, Benetton, Ferrari y Mercedes
+  - Con 43
+  - Schumi
+  - Toro Rosso
+  - 2000
+  - Por insultar al director de carrera
+  - 5
+  - Ferrari
+  - 11
+  - 1348
+  - Francia
+  - En el 1984
+  - 4
+  - En el Gran Premio de San Marino de 1990
+  - 32
+  - Toleman
+  - 865
+  - En Red Bull
+  - "Gran Breta\xF1a"
+  - Nigel Mansell
+  - Toleman, Lotus, McLaren y Williams
+  - 52
+  - Williams
+  - Con 22
+  - En 195 Grandes Premios
+  - "16 a\xF1os"
+  - 5
+  - En 3
+  - Francia
+  - 40
+  - 18
+  - Lotus, Renault, Ferrari y Williams
+  - "Con 23 a\xF1os"
+  - Ayrton Senna
+  - En 180 Grandes Premios
+  - 43
+  - Con Ferrari
+  - "En el Gran Premio de B\xE9lgica de 1979"
+  - Force India
+  - 798,5
+  - Ferrari
+  - 45
+  - 1989
+  - 2
+  - 6
+  - Italia
+  - 8
+  - Lotus, Williams, Ferrari y Mercedes
+  - 1992
+  - 28
+  - Por su pilotaje conservador
+  - 32
+  - Gran Premio de Australia de 1988
+  - Renault
+  - 2
+  - 350
+  - 3
+  - "Con 36 a\xF1os"
+  - En 5 equipos
+  - 360 puntos
+  - 4
+  - BRM, Matra, Tyrrell y McLaren
+  - 23
+  - "Gran Breta\xF1a"
+  - En Spa-Francorchamps
+  - En 182
+  - En ganar con la menor velocidad posible
+  - "Sufri\xF3 un accidente que le impidi\xF3 seguir compitiendo"
+  - 1973
+  - 1968
+  - Tyrrell
+  - 7
+  - 56
+  - 5
+  - En 5
+  - En 1962
+  - 25
+  - Lotus
+  - En 43
+  - 689
+  - 8
+  - Con 24
+  - En Lotus
+  - "Gran Premio de Espa\xF1a de 1969"
+  - "Que acabar delante de \xE9l era muy f\xE1cil"
+  - En una carrera de F2
+  - 6
+  - El segundo es el primero de los perdedores
+  - "Por su experiencia en la F\xF3rmula E"
+  - 24
+  - Alfa Romeo, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 295.2
+  - En Buenos Aires
+  - Con 23
+  - En 51
+  - En el Gran Premio de Italia de 2001
+  - 7
+  - Con 52
+  - En 1950
+  - 7
+  - Francia
+  - 5
+  - 203
+  - En 1
+  - Frank Williams
+  - 33
+  - Con 26
+  - 8
+  - "Gran Breta\xF1a"
+  - En 6
+  - 1984
+  - 2
+  - "Gran Premio de Espa\xF1a de 1993"
+  - Benetton, BS Fabrications, Ferrari, Williams, Lotus y Mercedes
+  - Jackie Stewart
+  - 485,5
+  - 4
+  - "En N\xFCrburgring Nordschleife"
+  - 20
+  - Michael Schumacher
+  - "El motor no razona, el piloto s\xED"
+  - 1968
+  - En 5
+  - 22
+  - En Renault
+  - 52
+  - Con 25
+  - 8
+  - BRM, Ferrari, Mercedes y McLaren
+  - Es presidente de honor
+  - En Alemania
+  - En 2
+  - 2002
+  - 1
+  - En Minardi, Renault, McLaren y Ferrari
+  - Con 19
+  - 2
+  - Lewis Hamilton
+  - 95
+  - "En el Gran Premio de Espa\xF1a de 2013"
+  - 31
+  - McLaren
+  - En 2004
+  - Jenson Button
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2004 y 2005
+  respuestasB:
+  - 15
+  - 6
+  - En 4
+  - 280
+  - Jordan, Benetton, Ferrari y Mercedes
+  - Con 48
+  - Kaiser
+  - Minardi
+  - 1991
+  - Por chocar contra el Safety Car
+  - 7
+  - McLaren
+  - 10
+  - 1806
+  - Alemania
+  - En el 1988
+  - 7
+  - "En el Gran Premio de B\xE9lgica de 1994"
+  - 41
+  - McLaren
+  - 614
+  - En Williams
+  - Francia
+  - Alain Prost
+  - Toleman, Lotus, McLaren y Ferrari
+  - 44
+  - Ferrari
+  - Con 24
+  - En 161 Grandes Premios
+  - "6 a\xF1os"
+  - 3
+  - En 4
+  - Italia
+  - 33
+  - 10
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 25 a\xF1os"
+  - Nigel Mansell
+  - En 200 Grandes Premios
+  - 32
+  - Con Williams
+  - En el Gran Premio de Italia de 1983
+  - Ferrari
+  - 903
+  - Williams
+  - 36
+  - 1980
+  - 1
+  - 3
+  - Brasil
+  - 15
+  - Lotus, Williams, Ferrari y McLaren
+  - 1988
+  - 31
+  - "Por su atareada vida fuera de la F\xF3rmula 1"
+  - 36
+  - Gran Premio de Francia de 1970
+  - McLaren
+  - 4
+  - 651
+  - 5
+  - "Con 21 a\xF1os"
+  - En 3 equipos
+  - 220 puntos
+  - 9
+  - McLaren, Matra y Ferrari
+  - 44
+  - "Espa\xF1a"
+  - "En N\xFCrburgring Nordschleife"
+  - En 106
+  - "En ir siempre al l\xEDmite"
+  - Su equipo se vio obligado a retirarse
+  - 1967
+  - 1994
+  - Williams
+  - 11
+  - 33
+  - 7
+  - En 4
+  - En 1973
+  - 32
+  - Aston Martin
+  - En 62
+  - 862
+  - 3
+  - Con 19
+  - En Ferrari y en Lotus
+  - "Gran Premio de Sud\xE1frica de 1968"
+  - "Que acabar detr\xE1s de \xE9l era complicado"
+  - "En un accidente en su \xFAltima carrera"
+  - 3
+  - Hay que intentar ser el mejor pero nunca creerse el mejor
+  - Por sus buenos resultados en los Rallys
+  - 26
+  - Alfa Romeo, Maserati, Mercedes, Ferrari y en su propio equipo
+  - 164
+  - En Balcarce
+  - Con 20
+  - En 130
+  - En el Gran Premio de Alemania de 1957
+  - 4
+  - Con 69
+  - En 1960
+  - 5
+  - Italia
+  - 1
+  - 320
+  - En 3
+  - Jean Todt
+  - 21
+  - Con 30
+  - 14
+  - Argentina
+  - En 3
+  - 1982
+  - 3
+  - "Gran Premio de Canad\xE1 de 1991"
+  - Ensign, Lotus, Ferrari, Williams, Renault y Benetton
+  - Ayrton Senna
+  - 360.1
+  - 2
+  - En Monza
+  - 25
+  - Mario Andretti
+  - Prefiero tener mi pie derecho bien que una bella cara
+  - 1978
+  - En 4
+  - 32
+  - En Mercedes
+  - 58
+  - Con 29
+  - 13
+  - March, BRM, Ferrari, Brabham y Mercedes
+  - Es el jefe de equipo
+  - En Austria
+  - En 6
+  - 2001
+  - 3
+  - En Minardi, Renault, McLaren y Red Bull
+  - Con 20
+  - 1
+  - "Kimi R\xE4ikk\xF6nen"
+  - 105
+  - "En el Gran Premio de Hungr\xEDa de 2014"
+  - 23
+  - Ferrari
+  - En 2007
+  - Felipe Massa
+  - En el Gran Premio de Malasia de 2003
+  - 2005 y 2006
+  respuestasC:
+  - 20
+  - 7
+  - En 1
+  - 380
+  - Jordan, Benetton, Ferrari y McLaren
+  - Con 36
+  - Magic
+  - Benetton
+  - 1989
+  - "Por chocar contra Jacques Villeneuve en la \xFAltima carrera"
+  - 3
+  - Mercedes
+  - 15
+  - 1566
+  - "Espa\xF1a"
+  - En el 1975
+  - 3
+  - En el Gran Premio de Italia de 1996
+  - 44
+  - Jordan
+  - 542
+  - En McLaren-Honda
+  - Alemania
+  - Juan Manuel Fangio
+  - Jordan, Lotus, McLaren y Renault
+  - 66
+  - Renault
+  - Con 32
+  - En 163 Grandes Premios
+  - "10 a\xF1os"
+  - 6
+  - En 5
+  - "Gran Breta\xF1a"
+  - 40
+  - 8
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 32 a\xF1os"
+  - Jim Clark
+  - En 250 Grandes Premios
+  - 51
+  - Con Renault
+  - "En el Gran Premio de Espa\xF1a de 1988"
+  - Renault
+  - 655
+  - Mercedes
+  - 52
+  - 1988
+  - 6
+  - 4
+  - Francia
+  - 17
+  - Ferari, Williams, Renault y McLaren
+  - 1978
+  - 12
+  - Por su pilotaje agresivo
+  - 31
+  - Gran Premio de Italia de 1982
+  - Williams
+  - 5
+  - 482
+  - 8
+  - "Con 26 a\xF1os"
+  - En 9 equipos
+  - 435 puntos
+  - 7
+  - BRM, Matra y Tyrrell
+  - 36
+  - Italia
+  - En Monaco
+  - En 268
+  - En ser el mejor por encima de todo
+  - "Se cans\xF3 de la F\xF3rmula 1 y cambi\xF3 de categor\xEDa"
+  - 1983
+  - 1959
+  - Ferrari
+  - 9
+  - 44
+  - 2
+  - En 1
+  - En 1972
+  - 18
+  - Renault
+  - En 72
+  - 274
+  - 1
+  - Con 36
+  - En McLaren y en Ferrari
+  - Gran Premio de Italia de 1969
+  - "Que acabar detr\xE1s de \xE9l era lo mejor que pod\xEDan hacer"
+  - "En un accidente de tr\xE1fico"
+  - 5
+  - "El que no baja los brazos est\xE1 listo para levantar el trofeo"
+  - "Por sus \xE9xitos en el Karting"
+  - 32
+  - Renault, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 277,14
+  - En Santa Rosa
+  - Con 36
+  - En 143
+  - "En el Gran Premio de Espa\xF1a de 1957"
+  - 6
+  - Con 84
+  - En 1953
+  - 8
+  - "Espa\xF1a"
+  - 3
+  - 209
+  - En 2
+  - Bernie Ecclestone
+  - 24
+  - Con 30
+  - 12
+  - "Espa\xF1a"
+  - En 2
+  - 1978
+  - 5
+  - "Gran Premio de B\xE9lgica de 1988"
+  - Ensign, BS Fabrications, Ferrari, Williams, Lotus y Benetton
+  - Niki Lauda
+  - 238
+  - 3
+  - En Spa-Francorchamps
+  - 33
+  - Clay Regazzoni
+  - "S\xF3lo viv\xED una sensaci\xF3n igual a la del accidente un d\xEDa que fum\xE9
+    Marihuana"
+  - 1971
+  - En 3
+  - 28
+  - En Ferrari
+  - 36
+  - Con 22
+  - 18
+  - March, BRM, Ferrari y Renault
+  - Es el director no ejecutivo
+  - En Italia
+  - En 4
+  - 2000
+  - 4
+  - En Toro Rosso, Renault, McLaren y Ferrari
+  - Con 21
+  - 3
+  - Felipe Massa
+  - 97
+  - "En el Gran Premio de Espa\xF1a de 2017"
+  - 38
+  - Renault
+  - En 2012
+  - "Kimi R\xE4ikk\xF6nen"
+  - En el Gran Premio de Brasil de 2003
+  - 2006 y 2007
+  respuestasD:
+  - 7
+  - 9
+  - En 3
+  - 308
+  - Benetton, Ferrari y Mercedes
+  - Con 50
+  - El doctor
+  - Jordan
+  - 1995
+  - Por haberse negado a asistir a una entrevista
+  - 2
+  - Lotus
+  - 13
+  - 1875
+  - "Gran Breta\xF1a"
+  - En el 1994
+  - 1
+  - En el Gran Premio de San Marino de 1994
+  - 48
+  - Ferrari
+  - 1302
+  - En Ferrari
+  - Brasil
+  - Jim Clark
+  - Toleman, Lotus, Ferrari y Williams
+  - 65
+  - Tyrrell
+  - Con 19
+  - En 306 Grandes Premios
+  - "13 a\xF1os"
+  - 4
+  - En 2
+  - Brasil
+  - 36
+  - 13
+  - Jordan, McLaren, Renault y Williams
+  - "Con 19 a\xF1os"
+  - Michael Schumacher
+  - En 400 Grandes Premios
+  - 62
+  - Con McLaren
+  - En el Gran Premio de Francia de 1981
+  - Mercedes
+  - 732.6
+  - Renault
+  - 59
+  - 1998
+  - 4
+  - 5
+  - "Gran Breta\xF1a"
+  - 12
+  - Lotus, Williams, Renault y McLaren
+  - 1995
+  - 20
+  - Por su bigote
+  - 44
+  - Gran Premio de Europa de 1985
+  - Ferrari
+  - 7
+  - 493
+  - 1
+  - "Con 30 a\xF1os"
+  - En 1 equipo
+  - 320.5 puntos
+  - 16
+  - BRM, Matra, Tyrrell y Ferrari
+  - 27
+  - Francia
+  - "En Montmel\xF3"
+  - En 99
+  - En no correr riesgos
+  - Le retiraron la superlicencia
+  - 1973
+  - 1965
+  - McLaren
+  - 5
+  - 28
+  - 6
+  - En 3
+  - En 1960
+  - 69
+  - Ferrari
+  - En 65
+  - 256.5
+  - 6
+  - Con 28
+  - En Aston Martin
+  - "Gran Premio de B\xE9lgica de 1967"
+  - "Que ganarle era algo que s\xF3lo se pod\xEDa conseguir con mucho esfuerzo"
+  - En su cama de manera natural
+  - 2
+  - No vale la pena arriesgar la vida por un poco de popularidad
+  - Por sus buenos resultados en carreras de larga distancia
+  - 30
+  - Alfa Romeo, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 365
+  - En Santa Fe
+  - Con 39
+  - En 250
+  - En el Gran Premio de Alemania de 1977
+  - 2
+  - Con 90
+  - En 1949
+  - 10
+  - Argentina
+  - 2
+  - 103
+  - En 4
+  - Ross Brawn
+  - 44
+  - Con 37
+  - 18
+  - Brasil
+  - En 5
+  - 1972
+  - 7
+  - Gran Premio de Italia de 1985
+  - Ensign, BS Fabrications, Brabham, Williams, Lotus y Benetton
+  - Nigel Mansell
+  - 523
+  - 1
+  - "En M\xF3naco"
+  - 28
+  - James Hunt
+  - "Los F1 actuales los puede pilotar hasta un chimpanc\xE9"
+  - 1976
+  - En 6
+  - 24
+  - En McLaren
+  - 54
+  - Con 19
+  - 7
+  - March, BRM, Ferrari, Brabham y McLaren
+  - Es el asesor
+  - "En Gran Breta\xF1a"
+  - En 5
+  - 2003
+  - 2
+  - En Minardi, Renault, Mercedes y Ferrari
+  - Con 22
+  - 4
+  - Jenson Button
+  - 82
+  - "En el Gran Premio de Hungr\xEDa de 2014"
+  - 32
+  - Red Bull
+  - En 2010
+  - Stoffel Vandoorne
+  - "En el Gran Premio de Espa\xF1a de 2001"
+  - 2007 y 2008

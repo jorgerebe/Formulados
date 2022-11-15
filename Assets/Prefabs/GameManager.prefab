@@ -1,0 +1,5794 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3365623669557649689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3365623669557649670}
+  - component: {fileID: 3365623669557649671}
+  - component: {fileID: 3365623669557649668}
+  - component: {fileID: 3365623669557649669}
+  - component: {fileID: 3365623669557649690}
+  - component: {fileID: 3365623669557649691}
+  - component: {fileID: 3365623669557649688}
+  - component: {fileID: 3365623669557649664}
+  - component: {fileID: 75431139968569752}
+  - component: {fileID: 3396868834355633936}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3365623669557649670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.085631974, y: 0.046937726, z: -17.433594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3365623669557649671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: F1 en general
+  nombreniveles:
+  - Nivel 1
+  - Nivel 2
+  - Nivel 3
+  - Nivel 4
+  - Nivel 5
+  - Nivel 6
+  - Nivel 7
+  - Nivel 8
+  - Nivel 9
+  - Nivel 10
+  Preguntas:
+  - "\xBFCu\xE1l es el proveedor oficial de neum\xE1ticos de la F\xF3rmula 1?"
+  - "\xBFQui\xE9n convirti\xF3 la F\xF3rmula 1 en un negocio?"
+  - "\xBFCu\xE1ntos Grandes Premios hay actualmente en el calendario?"
+  - "\xBFQu\xE9 piloto de F\xF3rmula 1 tiene m\xE1s mundiales?"
+  - "\xBFCu\xE1l es el circuito que m\xE1s kil\xF3metros tiene del calendario actual?"
+  - "\xBFQui\xE9n es el piloto m\xE1s joven en ganar una carrera de F1?"
+  - "\xBFQui\xE9n es el presidente actual de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 el primer mundial de F\xF3rmula 1 moderna?"
+  - "\xBFCu\xE1ntas escuder\xEDas hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es la duraci\xF3n m\xE1xima de una carrera?"
+  - "\xBFCu\xE1ntos pilotos hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es el m\xEDnimo de kil\xF3metros que tiene una carrera?"
+  - "\xBFCu\xE1ntos neum\xE1ticos hay en total?"
+  - "\xBFQu\xE9 motor se utiliza actualmente en la F1?"
+  - "\xBFQu\xE9 piloto fue el campe\xF3n del mundo en el comienzo de la era h\xEDbrida
+    (2014)?"
+  - "\xBFCu\xE1ntas marchas tiene un monoplaza de F1?"
+  - "\xBFQu\xE9 equipo domin\xF3 la era h\xEDbrida en sus comienzos?"
+  - "\xBFCu\xE1ntas rondas de clasificaci\xF3n hay?"
+  - "\xBFQu\xE9 pilotos punt\xFAan al finalizar una carrera?"
+  - "\xBFQu\xE9 ocurre cuando hay bandera roja?"
+  - "\xBFQui\xE9n fue el primer campe\xF3n del mundo de la historia?"
+  - "\xBFQu\xE9 sistema de salida se usa en la F1?"
+  - "\xBFCu\xE1ntos kg de combustible se pueden usar cada carrera?"
+  - "\xBFPara qu\xE9 sirve el DRS?"
+  - "\xBFCu\xE1l es el m\xE1ximo de RPM que tiene un motor?"
+  - "\xBFQu\xE9 significa la bandera azul?"
+  - "\xBFCu\xE1l es el m\xE1ximo de motores sin sanci\xF3n que puede usar un piloto
+    por temporada?"
+  - "\xBFCu\xE1ntos puntos se llevan, respectivamente, los 10 primeros de cada carrera?"
+  - "\xBFQu\xE9 piloto gan\xF3 el primer GP de la F\xF3rmula 1 moderna?"
+  - "\xBFCu\xE1nto mide de ancho un F1?"
+  - "\xBFEn qu\xE9 consiste un 'drive-through'?"
+  - "\xBFCu\xE1l es el peso m\xEDnimo que tiene que tener un F1?"
+  - "\xBFQu\xE9 tipo de cambio utiliza un F1?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s pole positions?"
+  - "\xBFQu\xE9 persona ha realizado un servicio m\xE1s largo a la F1?"
+  - "\xBFEn qu\xE9 consiste el Parc Ferm\xE9?"
+  - "\xBFQu\xE9 piloto ha disputado m\xE1s Grandes Premios?"
+  - "\xBFQu\xE9 es el ERS?"
+  - "\xBFQu\xE9 pa\xEDs tiene m\xE1s victorias?"
+  - "\xBFD\xF3nde se puede activar el DRS?"
+  - "\xBFCu\xE1ntos Grandes Premios nocturnos en su totalidad hay actualmente?"
+  - "\xBFQu\xE9 significa la bandera negra?"
+  - "\xBFCu\xE1ntos caballos de potencia extra genera el ERS?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay?"
+  - "\xBFQu\xE9 piloto ha competido con m\xE1s a\xF1os?"
+  - "\xBFCu\xE1ntas poles ha conseguido Lewis Hamilton?"
+  - "\xBFPara qui\xE9n est\xE1 reservado el dorsal n\xBA 1?"
+  - "\xBFQu\xE9 edad ten\xEDa Eitel Cantoni en su \xFAltimo GP?"
+  - "\xBFQui\xE9n ha sido el piloto m\xE1s joven de la historia en participar en un
+    GP?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s Grandes Premios antes de ser campe\xF3n del
+    mundo?"
+  - "\xBFQu\xE9 edad ten\xEDa Max Verstappen cuando disput\xF3 su primer Gran Premio?"
+  - "\xBFCu\xE1nto pesa aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l es el intervalo de temperatura para el \xF3ptimo funcionamiento de
+    los neum\xE1ticos?"
+  - "\xBFCu\xE1nto peso puede llegar a perder un piloto durante una carrera?"
+  - "\xBFCu\xE1ndo sale el Safety Car?"
+  - "\xBFQu\xE9 a\xF1o regres\xF3 la dupla McLaren-Honda?"
+  - "\xBFQui\xE9n es el piloto del Safety Car?"
+  - "\xBFCu\xE1ntos a\xF1os dura el dorsal que elijas?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de seco de Pirelli?"
+  - "\xBFQui\xE9n es el director de carrera?"
+  - "\xBFCu\xE1l es el patrocinador oficial de la F1?"
+  - "\xBFCu\xE1ntos compuestos de seco lleva Pirelli a cada GP?"
+  - "\xBFQu\xE9 papel desempe\xF1a actualmente Bernie Ecclestone en la F1?"
+  - "\xBFCu\xE1l es el desarrollador de los videojuegos oficiales de la F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 significa la bandera verde?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay que montar como m\xEDnimo en cada carrera
+    de clima seco?"
+  - "\xBFQu\xE9 apodo tiene Kimi R\xE4ikk\xF6nen?"
+  - "\xBFQu\xE9 tipo de tracci\xF3n usa un F1?"
+  - "\xBFCu\xE1l es el promedio de cambios de marcha en una carrera?"
+  - "\xBFCu\xE1ntos botones tiene aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l ha sido la m\xE1xima velocidad punta que ha alcanzado un F1?"
+  - "\xBFCu\xE1nto dur\xF3 el pitstop m\xE1s r\xE1pido de la historia?"
+  - "\xBFC\xF3mo se engrana la marcha atr\xE1s?"
+  - "\xBFQu\xE9 piloto cobra m\xE1s actualmente?"
+  - "\xBFQu\xE9 temperatura puede alcanzar el cockpit?"
+  - "\xBFCu\xE1ntos litros de agua por segundo desplazan los neum\xE1ticos de lluvia?"
+  - "\xBFCu\xE1nta distancia separa al fondo plano del suelo?"
+  - "\xBFCu\xE1ntas piezas componen un F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces usa de promedio un piloto la radio por vuelta?"
+  - "\xBFCada cu\xE1nto tiempo se cambia la marcha de promedio?"
+  - "\xBFQu\xE9 marca proporciona el champagne que se bebe en el podio?"
+  - "\xBFQui\xE9n fue el \xFAltimo piloto en fallecer por las secuelas de un accidente
+    en F1?"
+  - "\xBFQu\xE9 pilotos suben al podio al finalizar la carrera?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de lluvia de Pirelli?"
+  - "\xBFCu\xE1l es el equipo m\xE1s longevo de la F1?"
+  - "\xBFQu\xE9 significa la bandera a cuadros?"
+  - "\xBFCu\xE1l ha sido la distancia m\xE1s peque\xF1a entre el primero y el segundo
+    en un Gran Premio?"
+  - "\xBFQu\xE9 piloto ha logrado m\xE1s vueltas r\xE1pidas?"
+  - "\xBFCu\xE1l es el circuito en el que m\xE1s veces se ha corrido?"
+  - "\xBFQu\xE9 piloto ha conseguido anotar m\xE1s puntos?"
+  - "\xBFCu\xE1nto cuesta aproximadamente un F1?"
+  - "\xBFCu\xE1l es la edad m\xEDnima para obtener la superlicencia?"
+  - "\xBFCu\xE1ntos pilotos puede usar un equipo cada temporada?"
+  - "\xBFEn qu\xE9 carreras est\xE1 permitido el ABS?"
+  - "\xBFQu\xE9 significa la bandera blanca y negra?"
+  - "\xBFPara qu\xE9 sirve el Hans?"
+  - "\xBFCu\xE1ntos pilotos han logrado puntuar a lo largo de la historia de la F1?"
+  - "\xBFCu\xE1ntos coches de repuesto pueden tener los equipos?"
+  - "\xBFPuede usarse l\xEDquido para refrigerar los frenos?"
+  - "\xBFCu\xE1ntos pilotos han logrado la vuelta r\xE1pida en su debut?"
+  - "\xBFQu\xE9 circuito es conocido por su peligrosidad?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en M\xF3naco?"
+  - "\xBFCu\xE1l fue el Gran Premio en el que participaron menos pilotos?"
+  - "\xBFCu\xE1l es el circuito m\xE1s largo que ha estado en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto en activo lleva m\xE1s tiempo en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 hizo Nelson Piquet Jr en el Gran Premio de Singapur 2008?"
+  - "\xBFCu\xE1l es el santo m\xE1s formulero?"
+  - "\xBFQu\xE9 sistema de seguridad se ha introdujo en 2018?"
+  - "\xBFCu\xE1l fue la carrera m\xE1s larga de la historia?"
+  - "\xBFPara qu\xE9 sirve la bandera negra con un c\xEDrculo naranja?"
+  - "\xBFEst\xE1n permitidas las \xF3rdenes de equipo?"
+  - "\xBFQui\xE9n ha sido el \xFAltimo piloto en debutar en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos pilotos corrieron en el Gran Premio de Estados Unidos de 2005?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Ron Dennis liderando el equipo McLaren?"
+  - "\xBFCu\xE1nto dur\xF3 el pit stop m\xE1s r\xE1pido de la temporada 2018?"
+  - "\xBFCu\xE1ntos cambios de direcci\xF3n se pueden hacer en una recta para defender
+    la posici\xF3n?"
+  - "\xBFQu\xE9 piloto consigui\xF3 m\xE1s victorias en 2018?"
+  - "\xBFCu\xE1nto dur\xF3 el Gran Premio de Canad\xE1 de 2011 incluyendo parones?"
+  - "\xBFQu\xE9 piloto en activo tienen m\xE1s t\xEDtulos mundiales?"
+  - "\xBFCu\xE1ntos pilotos acabaron el primer GP de M\xF3naco de la historia? Participaron
+    19"
+  - "\xBFQu\xE9 equipo hizo el pit stop m\xE1s r\xE1pido de la temporada 2018?"
+  - "\xBFQu\xE9 significa la bandera blanca?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en M\xF3naco?"
+  - "\xBFEn qu\xE9 Gran Premio naci\xF3 San Ganchao?"
+  - "\xBFQui\xE9n es el director deportivo de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 equipo ha sido el campe\xF3n del mundo en 2018?"
+  - "\xBFEn qu\xE9 circuito se obtiene la menor velocidad media?"
+  - "\xBFCu\xE1l es la longitud del circuito de Pescara?"
+  - "\xBFQu\xE9 piloto ha participado en m\xE1s carreras antes de lograr un podio?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en el circuito de Monza?"
+  - "\xBFQu\xE9 piloto gan\xF3 el mundial con el mayor margen de puntos y en qu\xE9
+    a\xF1o?"
+  - "\xBFQui\xE9n es el ingeniero que m\xE1s renombre tiene?"
+  - "\xBFQu\xE9 piloto ha sido el \xFAnico en conseguir un mundial de F\xF3rmula 1
+    y otro de MotoGP?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en Spa-Francorchamps?"
+  - "\xBFQu\xE9 pa\xEDs ha alojado m\xE1s Grandes Premios?"
+  - "\xBFCu\xE1ntos circuitos de F\xF3rmula 1 hay en Europa?"
+  - "\xBFEn qu\xE9 circuito se ha alcanzado la mayor velocidad media en una vuelta
+    en carrera?"
+  - "\xBFQu\xE9 piloto ha sido el campe\xF3n del mundo en 2018?"
+  - "\xBFQu\xE9 proveedor de neum\xE1ticos ha estado en m\xE1s carreras?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Monza?"
+  - "\xBFQu\xE9 piloto ha estado m\xE1s a\xF1os en F\xF3rmula 1?"
+  - "\xBFQu\xE9 significa la bandera a rayas amarillas y rojas?"
+  - "\xBFEn qu\xE9 Gran Premio fue la \xFAltima victoria de Jenson Button?"
+  - "\xBFCu\xE1ntos puntos sac\xF3 Sebastian Vettel a Fernando Alonso en 2013?"
+  - "\xBFCu\xE1ntas veces gan\xF3 Senna en M\xF3naco?"
+  - "\xBFCu\xE1ntos Grandes Premios ha alojado Italia?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Spa-Franchorchamps?"
+  - "\xBFEn cu\xE1ntas carreras ha estado Goodyear?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Barrichello en F\xF3rmula 1?"
+  - "\xBFQu\xE9 velocidad media se alcanz\xF3 en la vuelta m\xE1s r\xE1pida dada en
+    Monza en carrera?"
+  RespuestasCorrectas:
+  - Pirelli
+  - Bernie Ecclestone
+  - 21
+  - Michael Schumacher
+  - Spa-Francorchamps
+  - Max Verstappen
+  - Chase Carey
+  - 1950
+  - 10
+  - 2 horas
+  - 20
+  - "305 (menos en M\xF3naco)"
+  - 5
+  - "V6 Turbo H\xEDbrido"
+  - Lewis Hamilton
+  - 8
+  - Mercedes
+  - 3
+  - Los diez primeros
+  - "Se para la sesi\xF3n"
+  - Nino Farina
+  - "Salida por sem\xE1foro"
+  - Hasta 110 kg
+  - Para ganar velocidad punta
+  - 15.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 3
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Nino Farina
+  - 2 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 743 kg
+  - "Semiautom\xE1tico con levas"
+  - Lewis Hamilton
+  - Bernie Ecclestone
+  - En no poder realizar cambios importantes en el coche
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Gran Breta\xF1a"
+  - En las zonas marcadas por la FIA
+  - 2
+  - El piloto al que se le muestra queda expulsado
+  - 163
+  - 3
+  - Eitel Cantoni
+  - 83
+  - "Para el vigente campe\xF3n"
+  - "55 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Nico Rosberg
+  - "17 a\xF1os y 166 d\xEDas"
+  - 2kg
+  - "80\xBAC y 100\xBAC"
+  - 3kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Bernd Mayl\xE4nder"
+  - "Todos los que permanezcas en la categor\xEDa"
+  - P-Zero
+  - Charlie Whiting
+  - Heineken
+  - 3
+  - Presidente de honor
+  - Codemasters
+  - No hay peligro
+  - 2
+  - Iceman
+  - Trasera
+  - 2750
+  - 41
+  - 378km/h
+  - 1,9 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Lewis Hamilton
+  - "50\xBAC"
+  - 90 litros por segundo
+  - Entre 10 y 50 mm
+  - 80.000
+  - 1
+  - Cada 1,3 segundos
+  - Carbon
+  - Jules Bianchi
+  - Los 3 primeros
+  - Cinturato
+  - Scuderia Ferrari
+  - La carrera ha terminado
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monza
+  - Lewis Hamilton
+  - "8.438.000\u20AC"
+  - "18 a\xF1os"
+  - 4
+  - "No est\xE1 permitido el ABS"
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 289
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Indianapolis de 2005
+  - Pescara
+  - "Kimi R\xE4ikk\xF6nen"
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Ganchao
+  - El Halo
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xED"
+  - Alexander Albon
+  - 5
+  - 36
+  - 1,97 segundos
+  - 1
+  - Lewis Hamilton
+  - 4 horas, 4 minutos y 39 segundos
+  - Lewis Hamilton
+  - 7
+  - Ferrari
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 15
+  - En el Gran Premio de China 2007
+  - Ross Brawn
+  - Mercedes
+  - "En M\xF3naco"
+  - 25,57 km
+  - "Nico H\xFClkenberg"
+  - Ferrari
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - John Surtees
+  - Ferrari
+  - Italia
+  - 38
+  - En Monza
+  - Lewis Hamilton
+  - Goodyear
+  - 18
+  - Rubens Barrichello
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - Gran Premio de Brasil de 2012
+  - 155
+  - 6
+  - 88
+  - 12
+  - En 358
+  - 18
+  - 257,34 km/h
+  respuestasA:
+  - Pirelli
+  - Max Mosley
+  - 19
+  - Juan Manuel Fangio
+  - Monaco
+  - Carlos Sainz
+  - Chase Carey
+  - 2000
+  - 9
+  - 1h y 30min
+  - 20
+  - 275
+  - 5
+  - "V8 Atmosf\xE9rico"
+  - Lewis Hamilton
+  - 6
+  - Ferrari
+  - 3
+  - "Los diez \xFAltimos"
+  - No se puede adelantar
+  - Juan Manuel Fangio
+  - Salida lanzada
+  - Hasta 105 kg
+  - Para frenar mejor
+  - 15.000
+  - No hay peligro
+  - 3
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Michael Schumacher
+  - 4 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 734 kg
+  - "Autom\xE1tico"
+  - Sebastian Vettel
+  - Ron Dennis
+  - "En juntar todos los coches despu\xE9s de la clasificaci\xF3n"
+  - Michael Schumacher
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Espa\xF1a"
+  - En todo el circuito
+  - 1
+  - No se puede adelantar
+  - 150
+  - 3
+  - Michael Schumacher
+  - 68
+  - "Para el vigente campe\xF3n"
+  - "45 a\xF1os y 332 d\xEDas"
+  - Fernando Alonso
+  - Lewis Hamilton
+  - "18 a\xF1os y 23 d\xEDas"
+  - 2kg
+  - "130\xBAC y 140\xBAC"
+  - 3kg
+  - Siempre que llueve
+  - 2013
+  - Carlos Sainz
+  - "Todos los que permanezcas en la categor\xEDa"
+  - Cinturato
+  - Bernie Ecclestone
+  - Heineken
+  - 2
+  - Director ejecutivo de la FOM
+  - EA Sports
+  - "Se para la sesi\xF3n"
+  - 1
+  - Iceman
+  - Integral
+  - 2200
+  - 50
+  - 372km/h
+  - 1,9 segundos
+  - "Poniendo el punto muerto y manteniendo pulsado el embrague durante m\xE1s de
+    medio segundo"
+  - "Kimi R\xE4ikk\xF6nen"
+  - "80\xBAC"
+  - 90 litros por segundo
+  - Entre 40 y 80 mm
+  - 1.000.000
+  - 2
+  - Cada 1 segundo
+  - Mumm
+  - Maria de Villota
+  - "S\xF3lo el primero"
+  - Cinturato
+  - McLaren
+  - No hay peligro
+  - 0.100 segundos
+  - "Kimi R\xE4ikk\xF6nen"
+  - Spa-Francorchamps
+  - Fernando Alonso
+  - "13.438.000\u20AC"
+  - "No hay edad m\xEDnima"
+  - 3
+  - En todas
+  - El piloto al que se le muestra queda descalificado
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 300
+  - 3
+  - "S\xF3lo en las que la temperatura es excesiva"
+  - 3
+  - Spa-Francorchamps
+  - Ferrari
+  - Gran Premio de Indianapolis de 2005
+  - "N\xFCrburgring Nordschleife"
+  - Lewis Hamilton
+  - "Gan\xF3 su primera carrera"
+  - San Michael
+  - El 'shield'
+  - "El Gran Premio de Gran Breta\xF1a de 2016"
+  - Para avisar de que no hay peligro
+  - No
+  - Pierre Gasly
+  - 4
+  - 34
+  - 2,17 segundos
+  - 2
+  - Lewis Hamilton
+  - 4 horas, 39 minutos y 39 segundos
+  - Michael Schumacher
+  - 5
+  - Ferrari
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 12
+  - "En el Gran Premio de Hungr\xEDa 2007"
+  - Sean Bratches
+  - Williams
+  - "En M\xF3naco"
+  - 23,25 km
+  - "Nico H\xFClkenberg"
+  - Renault
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - Angel Nieto
+  - Williams
+  - "M\xF3naco"
+  - 9
+  - En Spa-Francorchamps
+  - "Kimi R\xE4ikk\xF6nen"
+  - Pirelli
+  - 16
+  - Fernando Alonso
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - "Gran Premio de M\xF3naco de 2017"
+  - 143
+  - 6
+  - 69
+  - 10
+  - En 285
+  - 18
+  - 277,34 km/h
+  respuestasB:
+  - Michelin
+  - Chase Carey
+  - 20
+  - Fernando Alonso
+  - Monza
+  - Max Verstappen
+  - Bernie Ecclestone
+  - 1949
+  - 11
+  - 2 horas
+  - 18
+  - 350
+  - 7
+  - V8 Turbo
+  - Sebastian Vettel
+  - 7
+  - Mercedes
+  - 4
+  - Los tres primeros
+  - "Se para la sesi\xF3n"
+  - Michael Schumacher
+  - Salida por bandera
+  - Al menos 105 kg
+  - Para ganar velocidad en curva
+  - "No hay l\xEDmite"
+  - "Se para la sesi\xF3n"
+  - "No hay l\xEDmite"
+  - 1, 2, 3, 6, 8, 10, 12, 15, 18, 25
+  - Nino Farina
+  - 1,6 metros
+  - "En perder 5 segundos la pr\xF3xima vez que pares en boxes"
+  - 743 kg
+  - "Semiautom\xE1tico con levas"
+  - Ayrton Senna
+  - Michael Schumacher
+  - En no poder realizar cambios importantes en el coche
+  - Juan Manuel Fangio
+  - "Es el sistema de gesti\xF3n de combustible"
+  - "Gran Breta\xF1a"
+  - "S\xF3lo en las curvas"
+  - 3
+  - El piloto al que se le muestra queda expulsado
+  - 200
+  - 6
+  - Max Verstappen
+  - 55
+  - Para el que se lo pida primero
+  - "55 a\xF1os y 337 d\xEDas"
+  - Carlos Sainz
+  - Nico Rosberg
+  - "19 a\xF1os y 98 d\xEDas"
+  - 4kg
+  - "40\xBAC y 50\xBAC"
+  - 5kg
+  - Cuando hay que remolcar a un monoplaza
+  - 2014
+  - "Bernd Mayl\xE4nder"
+  - 2 temporadas
+  - "Los F1 no utilizan neum\xE1ticos Pirelli"
+  - Charlie Whiting
+  - Rolex
+  - 5
+  - Presidente de honor
+  - Nintendo
+  - No hay peligro
+  - 3
+  - Aquaman
+  - Delantera
+  - 2750
+  - 30
+  - 378km/h
+  - 2,2 segundos
+  - Igual que una marcha normal
+  - Sebastian Vettel
+  - "50\xBAC"
+  - 80 litros por segundo
+  - Entre 30 y 50 mm
+  - 80.000
+  - 0.5
+  - Cada 1,6 segundos
+  - Chandom
+  - Gilles Villeneuve
+  - "Los 3 \xFAltimos"
+  - P-Zero
+  - Scuderia Ferrari
+  - Prohibido adelantar
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monaco
+  - Lewis Hamilton
+  - "9.438.000\u20AC"
+  - "16 a\xF1os"
+  - 2
+  - "No est\xE1 permitido el ABS"
+  - La carrera ha acabado
+  - Para que no ocurran acccidentes
+  - 280
+  - 10
+  - Siempre
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Italia de 2003
+  - Spa-Francorchamps
+  - Sebastian Vettel
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Senna
+  - "Un casco con una visera m\xE1s resistente"
+  - "El Gran Premio de M\xF3naco de 2013"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xF3lo cuando la FIA lo decide"
+  - Alexander Albon
+  - 5
+  - 35
+  - 3,04 segundos
+  - 1
+  - Sebastian Vettel
+  - 5 horas, 4 minutos y 39 segundos
+  - Fernando Alonso
+  - 4
+  - McLaren
+  - Advierte a un piloto de que ha sido descalificado
+  - 15
+  - En el Gran Premio de China 2008
+  - Ross Brawn
+  - Ferrari
+  - En Spa-Francorchamps
+  - 25,57 km
+  - Marcus Ericsson
+  - Williams
+  - Fernando Alonso en 2005
+  - Paddy Lowe
+  - John Surtees
+  - Lotus
+  - "B\xE9lgica"
+  - 26
+  - En Monza
+  - Lewis Hamilton
+  - Goodyear
+  - 15
+  - Jenson Button
+  - "Advierte a los pilotos de un veh\xEDculo lento en la pista en la pista"
+  - "Gran Premio de Canad\xE1 de 2011"
+  - 155
+  - 4
+  - 88
+  - 12
+  - En 340
+  - 16
+  - 257,34 km/h
+  respuestasC:
+  - Bridgestone
+  - Bernie Ecclestone
+  - 18
+  - Ayrton Senna
+  - Spa-Francorchamps
+  - Sebastian Vettel
+  - Jean Todt
+  - 1951
+  - 10
+  - "No hay l\xEDmite"
+  - 22
+  - 305 (en todos)
+  - 6
+  - "V6 Turbo H\xEDbrido"
+  - Fernando Alonso
+  - 8
+  - McLaren
+  - 2
+  - Los diez primeros
+  - No hay peligro
+  - Fernando Alonso
+  - "Salida lanzada detr\xE1s del Safety Car"
+  - Hasta 110 kg
+  - Para ganar velocidad punta
+  - 18.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 4
+  - 16, 8, 7, 5, 4, 3, 2.5, 2, 1, 0.5
+  - Leslie Johnson
+  - 1,8 metros
+  - En recibir una advertencia por saltarte varias curvas
+  - 839 kg
+  - Manual
+  - Lewis Hamilton
+  - Bernie Ecclestone
+  - "En dejar los coches juntos despu\xE9s de la clasificaci\xF3in para que los vean
+    los espectadores"
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de aerodin\xE1mica"
+  - Alemania
+  - En las zonas marcadas por la FIA
+  - Ninguno
+  - Hay peligro
+  - 163
+  - 7
+  - Eitel Cantoni
+  - 83
+  - "Para el \xFAltimo del a\xF1o pasado"
+  - "48 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Michael Schumacher
+  - "17 a\xF1os y 347 d\xEDas"
+  - 3kg
+  - "90\xBAC y 110\xBAC"
+  - 2,5kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Matthias Ekstr\xF6m"
+  - Siempre hasta que consigas ganar el campeonato
+  - P7
+  - Chase Carey
+  - LG
+  - 3
+  - Presidente
+  - Ubisoft
+  - "Hay un monoplaza con problemas mec\xE1nicos"
+  - 2
+  - Fireman
+  - Total
+  - 3100
+  - 41
+  - 384km/h
+  - 1,7 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Lewis Hamilton
+  - "45\xBAC"
+  - 60 litros por segundo
+  - Entre 10 y 50 mm
+  - 500.000
+  - 4
+  - Cada 1,3 segundos
+  - Carbon
+  - Ayrton Senna
+  - Los 3 primeros
+  - Sottozero
+  - Williams
+  - La carrera ha terminado
+  - 0.110 segundos
+  - Lewis Hamilton
+  - Monza
+  - Sebastian Vettel
+  - "20.438.000\u20AC"
+  - "18 a\xF1os"
+  - 5
+  - En las 5 que cada equipo seleccione
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - Para frenar mejor
+  - 289
+  - 6
+  - En las que marque la FIA
+  - 1
+  - Monza
+  - Williams
+  - Gran Premio de San Marino de 2005
+  - Pescara
+  - "Kimi R\xE4ikk\xF6nen"
+  - "Agredi\xF3 a su compa\xF1ero de equipo"
+  - San Ganchao
+  - El Aeroscreen
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - Para advertir de que no se puede adelantar
+  - "S\xF3lo en 5 Grandes Premios por temporada"
+  - Antonio Giovinazzi
+  - 3
+  - 26
+  - 1,97 segundos
+  - 3
+  - "Kimi R\xE4ikk\xF6nen"
+  - 4 horas, 4 minutos y 39 segundos
+  - Lewis Hamilton
+  - 7
+  - Mercedes
+  - Advierte de que el Safety Car ha sido desplegado
+  - 20
+  - En el Gran Premio de Australia 2008
+  - Chase Carey
+  - Mercedes
+  - En Singapur
+  - 19,8 km
+  - Pedro de la Rosa
+  - Mercedes
+  - Michael Schumacher en 2004
+  - James Allison
+  - Michael Schumacher
+  - Red Bull
+  - Italia
+  - 14
+  - En Silverstone
+  - Fernando Alonso
+  - Michelin
+  - 18
+  - Michael Schumacher
+  - Avisa a los pilotos de que la carrera ha finalizado
+  - Gran Premio de Brasil de 2012
+  - 130
+  - 2
+  - 34
+  - 9
+  - En 372
+  - 14
+  - 267,54 km/h
+  respuestasD:
+  - Goodyear
+  - Jean Todt
+  - 21
+  - Michael Schumacher
+  - "Canad\xE1"
+  - Lewis Hamilton
+  - Maurizio Arrivabene
+  - 1950
+  - 12
+  - 3 horas
+  - 19
+  - "305 (menos en M\xF3naco)"
+  - 9
+  - V10
+  - Nico Rosberg
+  - 9
+  - Red Bull
+  - 1
+  - Los cinco primeros
+  - Han expulsado a un piloto de la carrera
+  - Nino Farina
+  - "Salida por sem\xE1foro"
+  - "No hay ning\xFAn m\xEDnimo ni ning\xFAn l\xEDmite"
+  - Para que no llueva
+  - 10.000
+  - No se puede adelantar
+  - 8
+  - 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+  - Ninguna es correcta
+  - 2 metros
+  - "En perder 10 segundos la pr\xF3xima vez que pares en boxes"
+  - 722 kg
+  - Manual con levas
+  - Michael Schumacher
+  - Stefano Domenicali
+  - En tener que pasar obligatoriamente por boxes
+  - Nigel Mansell
+  - "Es el sistema de calentamiento de neum\xE1ticos"
+  - Brasil
+  - En el pit lane
+  - 2
+  - "Se suspende la sesi\xF3n"
+  - 1007
+  - 4
+  - Juan Manuel Fangio
+  - 103
+  - "Para el que haya ganado m\xE1s veces el a\xF1o anterior"
+  - "53 a\xF1os y 337 d\xEDas"
+  - Michael Schumacher
+  - Jenson Button
+  - "17 a\xF1os y 166 d\xEDas"
+  - 1kg
+  - "80\xBAC y 100\xBAC"
+  - 1kg
+  - Cuando se va a dar la salida
+  - 2017
+  - Tom Blomqvist
+  - 10 temporadas
+  - P-Zero
+  - Jo Bauer
+  - Pirelli
+  - 7
+  - Director no ejecutivo de la FOM
+  - Codemasters
+  - La carrera ha acabado
+  - 4
+  - Snowman
+  - Trasera
+  - 5000
+  - 13
+  - 396km/h
+  - 1,85 segundos
+  - "Los F1 no tienen marcha atr\xE1s"
+  - Max Verstappen
+  - "55\xBAC"
+  - 75 litros por segundo
+  - Entre 20 y 60 mm
+  - 700.00
+  - 1
+  - Cada 1,2 segundos
+  - Freixenet
+  - Jules Bianchi
+  - Los diez primeros
+  - P7
+  - Mercedes
+  - "Se para la sesi\xF3n"
+  - 0.011 segundos
+  - Alain Prost
+  - Silverstone
+  - Michael Schumacher
+  - "8.438.000\u20AC"
+  - "20 a\xF1os"
+  - 4
+  - En las que determine la FIA
+  - "Se para la sesi\xF3n"
+  - Para ganar velocidad punta
+  - 310
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 2
+  - Monaco
+  - Renault
+  - "Gran Premio de Espa\xF1a de 1963"
+  - Silverstone
+  - "Nico H\xFClkenberg"
+  - Tuvo que abandonar antes de comenzar la carrera
+  - San Fernado
+  - El Halo
+  - El Gran Premio de EEUU de 2005
+  - "Para avisar de que se ha parado la sesi\xF3n"
+  - "S\xED"
+  - George Russell
+  - 6
+  - 36
+  - 2,45 segundos
+  - 4
+  - Valtteri Bottas
+  - 3 horas, 39 minutos y 39 segundos
+  - Sebastian Vettel
+  - 3
+  - Williams
+  - Avisa del final de la carrera
+  - 17
+  - En el Gran Premio de China 2007
+  - Bernie Ecclestone
+  - Red Bull
+  - "En Bak\xFA"
+  - 7,25 km
+  - Martin Brundle
+  - Ferrari
+  - Sebastian Vettel en 2011
+  - Ross Brawn
+  - Valentino Rossi
+  - Ferrari
+  - "Gran Breta\xF1a"
+  - 38
+  - "En Bak\xFA"
+  - Sebastian Vettel
+  - Bridgestone
+  - 20
+  - Rubens Barrichello
+  - "Avisa a los pilotos de que la sesi\xF3n se ha parado"
+  - Gran Premio de Australia de 2014
+  - 172
+  - 7
+  - 103
+  - 8
+  - En 358
+  - 15
+  - 231,34 km/h
+--- !u!114 &3365623669557649668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: "F1 espa\xF1ola"
+  nombreniveles:
+  - General 1
+  - General 2
+  - HRT
+  - Jarama
+  - De Portago
+  - "Montj\xFCic"
+  - De la Rosa
+  - Villadelprat
+  - "Montmel\xF3"
+  - Sainz
+  Preguntas:
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles han participado en alg\xFAn Gran Premio?
+    (incluidos los no clasificados)"
+  - "\xBFCu\xE1ntos circuitos espa\xF1oles ha habido en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes fueron los primeros pilotos espa\xF1oles en participar en un Gran
+    Premio?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 el primer Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 circuito se celebr\xF3 el primer GP de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto espa\xF1ol fue el primero en debutar en Ferrari?"
+  - "\xBFCu\xE1l fue el segundo circuito que acogi\xF3 el Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto logr\xF3 el primer podio de la historia para Espa\xF1a?"
+  - "\xBFQu\xE9 circuitos se alternaron el Gran Premio de Espa\xF1a?"
+  - "\xBFPor qu\xE9 se dej\xF3 de correr en el circuito de Montju\xEFc?"
+  - "\xBFQu\xE9 pilotos debutaron en el Gran Premio de Espa\xF1a de 1976?"
+  - "\xBFCu\xE1l fue la primera escuder\xEDa espa\xF1ola?"
+  - "\xBFQu\xE9 a\xF1o se dej\xF3 de correr en el Jarama?"
+  - "\xBFQu\xE9 circuito debut\xF3 en el Gran Premio de Espa\xF1a de 1986?"
+  - "\xBFQui\xE9nes formaron la \xFAnica dupla de pilotos espa\xF1ola?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 el circuito de Montmel\xF3 en el Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 dos pilotos espa\xF1oles debutaron en el Gran Premio de Australia
+    de 1999?"
+  - "\xBFCon qu\xE9 equipo y en qu\xE9 a\xF1o debut\xF3 Fernando Alonso?"
+  - "\xBFQu\xE9 papel tuvo Alonso en la temporada 2002?"
+  - "\xBFQu\xE9 piloto consigui\xF3 la primera victoria espa\xF1ola en F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 ocurri\xF3 en el Gran Premio de Brasil de 2003 con Alonso?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 Alonso su primera victoria?"
+  - "\xBFQui\xE9n consigui\xF3 el primer t\xEDtulo de pilotos para Espa\xF1a?"
+  - "\xBFQu\xE9 a\xF1os consigui\xF3 Alonso sus dos primeros t\xEDtulos de pilotos?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 Pedro de la Rosa su primer podio?"
+  - "\xBFQu\xE9 a\xF1o se convirti\xF3 Alonso en el segundo piloto espa\xF1ol en Ferrari?"
+  - "\xBFQu\xE9 escuder\xEDa espa\xF1ola debut\xF3 en 2010?"
+  - "\xBFQu\xE9 pilotos espa\xF1oles debutaron en 2015?"
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles hay en la parrilla actualmente?"
+  - "\xBFQui\xE9n fue la piloto mujer que m\xE1s cerca estuvo de la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFD\xF3nde se encontraba su sede?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su motorista?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles tuvo en sus filas?"
+  - "\xBFQui\xE9nes formaron su \xFAltima dupla de pilotos?"
+  - "\xBFCu\xE1ntos puntos lograron?"
+  - "\xBFCu\xE1l fue su mejor posici\xF3n?"
+  - "\xBFQu\xE9 otro espa\xF1ol fue su tercer piloto en 2012?"
+  - "En desventaja con el resto de equipos, \xBFcon qu\xE9 dispositivo no contaron?"
+  - "\xBFCon qu\xE9 piloto disputaron m\xE1s Grandes Premios?"
+  - "\xBFEn qu\xE9 posici\xF3n acabaron en la temporada 2012?"
+  - "\xBFPor qu\xE9 se vieron obligados a retirarse?"
+  - "\xBFCon qu\xE9 equipo ten\xEDan un acuerdo de transferencia de tecnolog\xEDa?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 tipo de prueba fue en F\xF3rmula 1 el a\xF1o 1967?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1?"
+  - "\xBFQu\xE9 a\xF1o alberg\xF3 por primera vez el Gran Premio de Espa\xF1a puntuable?"
+  - "\xBFCu\xE1l es el record del trazado?"
+  - "\xBFQui\xE9n gan\xF3 el primer Gran Premio de Espa\xF1a que acogieron?"
+  - "\xBFQu\xE9 a\xF1o fueron por \xFAltima vez la sede del Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFQui\xE9n tiene el record de vuelta?"
+  - "\xBFCu\xE1ntos metros de ancho tiene?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en este circuito?"
+  - "\xBFQu\xE9 piloto espa\xF1ol logr\xF3 la mejor posici\xF3n en el GP de Espa\xF1a
+    en este trazado?"
+  - "\xBFQui\xE9n fue el \xFAltimo ganador del Gran Premio de Espa\xF1a en este circuito?"
+  - "\xBFCu\xE1l fue la mejor posici\xF3n de Emilio de Villota en este trazado?"
+  - "\xBFEn cu\xE1ntos equipos corri\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1l fue su primer equipo?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su \xFAltimo podio?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltimo Gran Premio?"
+  - "\xBFC\xF3mo le respondi\xF3 Enzo Ferrari a su solicitud de un asiento en Ferrari?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3?"
+  - "\xBFEn qu\xE9 carrera falleci\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os quer\xEDa dejar de correr?"
+  - "\xBFQu\xE9 hizo en la mitad de las Mil Millas?"
+  - "\xBFCu\xE1ntas personas fallecieron en su accidente de las Mil Millas?"
+  - "\xBFCu\xE1ntos Grandes Premios logr\xF3 acabar?"
+  - "\xBFCu\xE1ntas veces alberg\xF3 el Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1 situado?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l era su longitud?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto tiene el record de vuelta?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 la \xFAltima edici\xF3n del Gran Premio de Espa\xF1a
+    en este circuito?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFQui\xE9n gan\xF3 el \xFAltimo Gran Premio celebrado en este trazado?"
+  - "\xBFCon qu\xE9 circuito se altern\xF3 como sede del Gran Premio de Espa\xF1a?"
+  - "\xBFPor qu\xE9 se dej\xF3 de correr en este circuito?"
+  - "\xBFQui\xE9n se neg\xF3 a empezar la \xFAltima carrera en este trazado?"
+  - "\xBFCu\xE1ntos pilotos finalizaron en la primera edici\xF3n del Gran Premio de
+    Espa\xF1a en este circuito?"
+  - "\xBFComo se denominaba a la monta\xF1a donde se encontraba el circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha corrido como piloto titular?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFCu\xE1l es su apodo en Jap\xF3n?"
+  - "\xBFEn qu\xE9 equipos ha corrido?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primer podio?"
+  - "\xBFDe qu\xE9 circuito tiene el r\xE9cord?"
+  - "\xBFDe qu\xE9 categor\xEDa es el \xFAltimo monoplaza que ha probado?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo en el que estuvo como titular?"
+  - "\xBFCu\xE1l fue su posici\xF3n en su Gran Premio de debut?"
+  - "\xBFQui\xE9n fue su compa\xF1ero de equipo en 2012?"
+  - "\xBFCu\xE1l es su trabajo actual?"
+  - "\xBFCu\xE1l fue su \xFAltimo trabajo en la F\xF3rmula 1 y con qu\xE9 equipo fue?"
+  - "\xBFQu\xE9 a\xF1o se retir\xF3 de la competici\xF3n?"
+  - "\xBFCon cu\xE1ntos campeones del mundo ha estado?"
+  - "\xBFQu\xE9 le pidi\xF3 Ron Dennis justo antes de contratarle?"
+  - "\xBFEn cu\xE1ntos equipos trabaj\xF3?"
+  - "\xBFQu\xE9 a\xF1o empez\xF3 a trabajar en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos trabaj\xF3?"
+  - "\xBFQu\xE9 a\xF1o se convirti\xF3 en el primer jefe de mec\xE1nicos no italiano
+    de la historia de Ferrari?"
+  - "\xBFCon cu\xE1ntos a\xF1os empez\xF3 a trabajar en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 papel tuvo en Prost Grand Prix?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola naci\xF3?"
+  - "\xBFCu\xE1ntos campeonatos del mundo de pilotos acumul\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue su papel en Benetton?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo trabajando en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue el \xFAltimo equipo para el que trabaj\xF3 fuera de la F\xF3rmula
+    1?"
+  - "\xBFCu\xE1ntos campeonatos del mundo de constructores acumul\xF3 en la F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 a\xF1os estuvo como comentarista de Movistar F1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 como sede del Gran Premio de Espa\xF1a?"
+  - "\xBFQui\xE9n tiene el record de vuelta?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es el record de vuelta en el trazado actual?"
+  - "\xBFQui\xE9n gan\xF3 la primera edici\xF3n del Gran Premio de Espa\xF1a en este
+    circuito?"
+  - "\xBFCu\xE1ntas veces ha albergado el Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1 situado?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 a\xF1o se termin\xF3 el circuito?"
+  - "\xBFQu\xE9 piloto gan\xF3 en 2018?"
+  - "\xBFQu\xE9 a\xF1o gan\xF3 por \xFAltima vez un piloto espa\xF1ol en este circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 en este trazado en el a\xF1o 2012?"
+  - "\xBFCu\xE1ntas veces se ha modificado el circuito?"
+  - "\xBFEn qu\xE9 categor\xEDa gan\xF3 el t\xEDtulo que le catapult\xF3 a la F\xF3rmula
+    1?"
+  - "\xBFEn qu\xE9 equipo debut\xF3?"
+  - "\xBFCu\xE1l ha sido su mejor posici\xF3n en la F\xF3rmula 1? (hasta final 2018)"
+  - "\xBFQui\xE9n es su compa\xF1ero de equipo?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon qu\xE9 piloto mantuvo una gran rivalidad su primer a\xF1o en F\xF3rmula
+    1?"
+  - "\xBFCon qu\xE9 otro piloto espa\xF1ol debut\xF3 en el Gran Premio de Australia
+    de 2015?"
+  - "\xBFCu\xE1ntos puntos le sac\xF3 de ventaja su compa\xF1ero de equipo en 2018?"
+  - "\xBFQu\xE9 n\xFAmero lleva en su monoplaza?"
+  - "\xBFQui\xE9n ha sido desde siempre su \xEDdolo?"
+  - "\xBFCu\xE1l fue su resultado en su Gran Premio de debut (Australia 2015)?"
+  - "\xBFDe que categor\xEDa es el ganador m\xE1s joven de la historia?"
+  RespuestasCorrectas:
+  - 15
+  - 6
+  - Paco Godia y Juan Jover
+  - 1951
+  - En el circuito de Pedralbes
+  - Alfonso de Portago
+  - El circuito del Jarama
+  - Alfonso de Portago
+  - "El circuito del Jarama y el circuito de Montju\xEFc"
+  - Por falta de seguridad
+  - Emilio de Villota y Emilio Zapico
+  - Iberia Airlines F1
+  - 1981
+  - El circuito de Jerez
+  - "Adri\xE1n Campos y Luis P\xE9rez-Sala"
+  - 1991
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - Con Minardi en 2001
+  - Fue piloto probador en Renault
+  - Fernando Alonso
+  - "Alonso fue 3\xBA, pero no subi\xF3 al podio por un accidente"
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - Fernando Alonso
+  - 2005 y 2006
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - 2010
+  - HRT
+  - Carlos Sainz y Roberto Merhi
+  - 2
+  - "Mar\xEDa de Villota"
+  - "Adri\xE1n Campos"
+  - En Murcia
+  - En 2010
+  - Cossworth
+  - 2012
+  - 1
+  - Pedro de la Rosa y Narain Karthikeyan
+  - 0
+  - "13\xAA"
+  - Dani Clos
+  - Con el KERS
+  - Con Narain Karthikeyan
+  - "En la 12\xAA posici\xF3n"
+  - "Por razones econ\xF3micas"
+  - Con Williams
+  - 3,85 km
+  - 13
+  - No puntuable
+  - En Madrid
+  - 1968
+  - 1:16.44
+  - Graham Hill
+  - 1981
+  - Mario Andretti
+  - Gilles Villeneuve
+  - 12
+  - Lotus
+  - Emilio de Villota
+  - Gilles Villeneuve
+  - "13\xAA posici\xF3n"
+  - En 1
+  - 2
+  - 1
+  - En 5
+  - Ferrari
+  - "En el Gran Premio de Gran Breta\xF1a"
+  - Con 27
+  - El Gran Premio de Argentina de 1958
+  - "Con una foto de su accidente en N\xFCrburgring"
+  - 4
+  - En las Mil Millas de Italia
+  - Con 35
+  - "Se baj\xF3 del coche a dar un beso a su novia"
+  - 12
+  - 2
+  - 4
+  - En Barcelona
+  - 1969
+  - 3,79 km
+  - 12
+  - Ronnie Peterson
+  - Jackie Stewart
+  - 1975
+  - 1:23.8
+  - Jochen Mass
+  - Con el circuito del Jarama
+  - Por falta de seguridad
+  - Emerson Fittipaldi
+  - 5
+  - "Monta\xF1a m\xE1gica"
+  - 1999
+  - 5
+  - 1
+  - Nippon Ichi
+  - En Arrows, Jaguar, McLaren, Sauber y HRT
+  - Con 28
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - Del circuito de Bahrein
+  - "De la F\xF3rmula E"
+  - HRT
+  - "6\xAA posici\xF3n"
+  - Narain Karthikeyan
+  - Es comentarista en Movistar F1
+  - Piloto probador en Ferrari
+  - 2012
+  - Con 9
+  - Que se cortara el pelo
+  - En 5
+  - 1981
+  - En McLaren, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1987
+  - Con 20
+  - Director general
+  - En Barcelona
+  - 5
+  - "Fue parte del personal de direcci\xF3n"
+  - 22
+  - Epsilon Euskadi
+  - 3
+  - 2014, 2015 y 2016
+  - 4,62 km
+  - 1991
+  - Daniel Ricciardo
+  - 16
+  - 1:18.441
+  - Nigel Mansell
+  - 27
+  - En Barcelona
+  - Michael Schumacher
+  - 1991
+  - Lewis Hamilton
+  - 2013
+  - 6
+  - Pastor Maldonado
+  - 7
+  - En las World Series
+  - Toro Rosso
+  - "4\xAA posici\xF3n"
+  - Lando Norris
+  - 2015
+  - En 3
+  - Con 20
+  - En Toro Rosso, Renault y McLaren
+  - Con Max Verstappen
+  - Con Roberto Merhi
+  - 16
+  - 55
+  - Fernando Alonso
+  - "9\xBA"
+  - De las World Series
+  respuestasA:
+  - 15
+  - 1
+  - Paco Godia y Alfonso de Portago
+  - 1965
+  - "En el circuito de Montmel\xF3"
+  - Alfonso de Portago
+  - El circuito de Pedralbes
+  - Paco Godia
+  - "El circuito del Jarama y el circuito de Montju\xEFc"
+  - "Porque se acab\xF3 el contrato con la FIA"
+  - "Adri\xE1n Campos y Emilio Zapico"
+  - HRT
+  - 1964
+  - El circuito de Jerez
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - 1999
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - Con Renault en 2001
+  - Fue piloto probador en Renault
+  - Carlos Sainz
+  - "Alonso consigui\xF3 su primera victoria"
+  - En el Gran Premio de Malasia de 2003
+  - Alfonso de Portago
+  - 2012 y 2013
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - 2013
+  - Virgin Racing
+  - Jaime Alguersuari y Carlos Sainz
+  - 3
+  - "Marta Garc\xEDa"
+  - "Luis P\xE9rez-Sala"
+  - En Madrid
+  - En 2010
+  - Mercedes
+  - 2011
+  - 0
+  - Roberto Merhi y Pedro de la Rosa
+  - 0
+  - "4\xAA"
+  - Jaime Alguersuari
+  - Con el ERS
+  - Con Narain Karthikeyan
+  - "En la 13\xAA posici\xF3n"
+  - Por incumplimiento de su contrato con la FOM
+  - Con Ferrari
+  - 3,85 km
+  - 11
+  - No puntuable
+  - En Barcelona
+  - 1985
+  - 1:11.66
+  - Alain Prost
+  - 1958
+  - Mario Andretti
+  - Niki Lauda
+  - 14
+  - Lotus
+  - Emilio Zapico
+  - Graham Hill
+  - "8\xAA posici\xF3n"
+  - En 0
+  - 2
+  - 2
+  - En 3
+  - Ferrari
+  - En el Gran Premio de Australia
+  - Con 27
+  - En el Gran Premio de Australia de 1958
+  - Con un rotundo no
+  - 4
+  - En el Gran Premio de Italia
+  - Con 28
+  - "Se baj\xF3 del coche a dormir un rato"
+  - 12
+  - 3
+  - 1
+  - En Barcelona
+  - 1973
+  - 2,81 km
+  - 12
+  - Jackie Stewart
+  - Graham Hill
+  - 1963
+  - 1:23.8
+  - Stirling Moss
+  - Con el circuito del Jarama
+  - "Porque se acab\xF3 el contrato con la FOM"
+  - Niki Lauda
+  - 5
+  - "Monta\xF1a de oro"
+  - 1999
+  - 2
+  - 1
+  - El profesor chiflado
+  - En Minardi, Jordan, McLaren, Sauber y HRT
+  - Con 26
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - Del circuito de Albert Park
+  - "De la F\xF3rmula E"
+  - Sauber
+  - "10\xAA posici\xF3n"
+  - Narain Karthikeyan
+  - Es comentarista en Movistar F1
+  - Piloto probador en Ferrari
+  - 2010
+  - Con 9
+  - Que se cortara el pelo
+  - En 3
+  - 1969
+  - En Williams, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1987
+  - Con 25
+  - "Jefe de mec\xE1nicos"
+  - En Madrid
+  - 5
+  - Fue el director general
+  - 19
+  - HRT
+  - 3
+  - 2013, 2014, 2015 y 2016
+  - 3,83 km
+  - 1991
+  - Fernando Alonso
+  - 8
+  - 1:18.441
+  - Nigel Mansell
+  - 23
+  - En Madrid
+  - Nigel Mansell
+  - 1997
+  - Nico Rosberg
+  - 2013
+  - 4
+  - Felipe Massa
+  - 5
+  - "En la F\xF3rmula E"
+  - Toro Rosso
+  - "5\xAA posici\xF3n"
+  - "Nico H\xFClkenberg"
+  - 2014
+  - En 2
+  - Con 20
+  - En Toro Rosso y McLaren
+  - Con Daniil Kvyat
+  - "Con Marc Gen\xE9"
+  - 16
+  - 55
+  - Michael Schumacher
+  - "5\xBA"
+  - "De la F\xF3rmula E"
+  respuestasB:
+  - 13
+  - 3
+  - Paco Godia y Juan Jover
+  - 1947
+  - En el circuito de Pedralbes
+  - Fernando Alonso
+  - "El circuito de Montmel\xF3"
+  - Alfonso de Portago
+  - El circuito del Jarama y el circuito de Jerez
+  - "Por razones econ\xF3micas"
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - Iberia Airlines F1
+  - 1975
+  - El circuito del Jarama
+  - "Adri\xE1n Campos y Luis P\xE9rez-Sala"
+  - 1996
+  - Fernando Alonso y Pedro de la Rosa
+  - Con Prost GP en 2002
+  - Fue piloto titular en Minardi
+  - "Marc Gen\xE9"
+  - "Alonso fue 3\xBA, pero no subi\xF3 al podio por un accidente"
+  - En el Gran Premio de Brasil de 2003
+  - Fernando Alonso
+  - 2003 y 2004
+  - "En el Gran Premio de Espa\xF1a de 2006"
+  - 2012
+  - Lotus Racing
+  - Carlos Sainz y Roberto Merhi
+  - 2
+  - "Tatiana Calder\xF3n"
+  - "Adri\xE1n Campos"
+  - En Palencia
+  - En 2012
+  - Cossworth
+  - 2012
+  - 3
+  - Kamui Kobayashi y Narain Karthikeyan
+  - 2
+  - "15\xAA"
+  - Dani Clos
+  - Con la caja de cambios
+  - Con Pedro de la Rosa
+  - "En la 12\xAA posici\xF3n"
+  - Por desacuerdos con la FIA
+  - Con Red Bull
+  - 4,13 km
+  - 13
+  - Gran Premio
+  - En Valladolid
+  - 1956
+  - 1:16.44
+  - Ayrton Senna
+  - 1963
+  - Niki Lauda
+  - Jackie Stewart
+  - 7
+  - Williams
+  - Emilio de Villota
+  - Niki Lauda
+  - "13\xAA posici\xF3n"
+  - En 6
+  - 5
+  - 1
+  - En 6
+  - McLaren
+  - "En el Gran Premio de Gran Breta\xF1a"
+  - Con 20
+  - El Gran Premio de Argentina de 1958
+  - "Con una foto de su accidente en N\xFCrburgring"
+  - 2
+  - En las Mil Millas de Italia
+  - Con 36
+  - "Se baj\xF3 del coche a comer"
+  - 6
+  - 2
+  - 4
+  - En Madrid
+  - 1969
+  - 5 km
+  - 15
+  - Niki Lauda
+  - Jackie Stewart
+  - 1987
+  - 1:19.3
+  - Jochen Mass
+  - "Con el circuito de Montmel\xF3"
+  - Por desacuerdos con la FIA
+  - Jackie Stewart
+  - 4
+  - "Monta\xF1a m\xE1gica"
+  - 2003
+  - 1
+  - 3
+  - La bala dorada
+  - En Minardi, Jaguar, McLaren, Sauber y HRT
+  - Con 28
+  - En el Gran Premio de Australia de 1999
+  - "Del circuito de Montmel\xF3"
+  - De la Indy Car
+  - HRT
+  - "9\xAA posici\xF3n"
+  - "Marc Gen\xE9"
+  - Es comentarista en Antena 3
+  - Piloto probador en McLaren
+  - 2015
+  - Con 11
+  - "Que se cortar las u\xF1as"
+  - En 5
+  - 1995
+  - En Benetton, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1995
+  - Con 19
+  - Director general
+  - En Palencia
+  - 7
+  - Fue asesor
+  - 31
+  - Epsilon Euskadi
+  - 1
+  - 2014, 2015 y 2016
+  - 2,63 km
+  - 1996
+  - "Kimi R\xE4ikk\xF6nen"
+  - 12
+  - 1:21.670
+  - Niki Lauda
+  - 34
+  - En Barcelona
+  - Jackie Stewart
+  - 1991
+  - Max Verstappen
+  - 2012
+  - 6
+  - Sebastian Vettel
+  - 6
+  - En las World Series
+  - Minardi
+  - "7\xAA posici\xF3n"
+  - Daniil Kvyat
+  - 2016
+  - En 3
+  - Con 17
+  - En Toro Rosso, Renault y McLaren
+  - "Con Nico H\xFClkenberg"
+  - Con Roberto Merhi
+  - 22
+  - 44
+  - Ayrton Senna
+  - "9\xBA"
+  - De la F2
+  respuestasC:
+  - 11
+  - 6
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - 1963
+  - En el circuito de Jerez
+  - Pedro de la Rosa
+  - El circuito del Jarama
+  - Juan Jover
+  - "El circuito del Jarama y el circuito de Montmel\xF3"
+  - Por falta de seguridad
+  - "Emilio de Villota y Adri\xE1n Campos"
+  - Repsol F1 Team
+  - 1981
+  - El cirucito de Pedralbes
+  - "Marc Gen\xE9 y Luis P\xE9rez-Sala"
+  - 1994
+  - "Marc Gen\xE9 y Fernando Alonso"
+  - Con Minardi en 2001
+  - Fue piloto titular en Renault
+  - Pedro de la Rosa
+  - "Sufri\xF3 un accidente mientras lideraba la carrera"
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - Paco Godia
+  - 2006 y 2007
+  - "En el Gran Premio de Jap\xF3n de 2006"
+  - 2010
+  - HRT
+  - Pedro de la Rosa y Carlos Sainz
+  - 1
+  - "Carmen Jord\xE1"
+  - Pedro de la Rosa
+  - En Barcelona
+  - En 2009
+  - Renault
+  - 2013
+  - 1
+  - Pedro de la Rosa y Kamui Kobayashi
+  - 4
+  - "13\xAA"
+  - Pedro de la Rosa
+  - Con la radio
+  - Con Kamui Kobayashi
+  - "En la 14\xAA posici\xF3n"
+  - "Por razones econ\xF3micas"
+  - Con McLaren
+  - 2,63 km
+  - 14
+  - Test de pretemporada
+  - En Madrid
+  - 1973
+  - 1:23.04
+  - Graham Hill
+  - 1974
+  - Clay Regazzoni
+  - Gilles Villeneuve
+  - 9
+  - McLaren
+  - "Marc Gen\xE9"
+  - Gilles Villeneuve
+  - "16\xAA posici\xF3n"
+  - En 1
+  - 7
+  - 3
+  - En 4
+  - Williams
+  - En el Gran Premio de Gran Austria
+  - Con 19
+  - "En el Gran Premio de Espa\xF1a de 1958"
+  - "Con un billete de avi\xF3n a Maranello"
+  - 3
+  - "En el Gran Premio de M\xF3naco"
+  - Con 35
+  - "Se baj\xF3 del coche a repostar"
+  - 10
+  - 9
+  - 6
+  - En Murcia
+  - 1958
+  - 4,99 km
+  - 9
+  - Ronnie Peterson
+  - Niki Lauda
+  - 1982
+  - 1:28.6
+  - Niki Lauda
+  - Con el cirucito de Pedralbes
+  - Por falta de seguridad
+  - Emerson Fittipaldi
+  - 2
+  - "Monta\xF1a de platino"
+  - 2001
+  - 5
+  - 2
+  - Nippon Ichi
+  - En Arrows, Jaguar, McLaren y HRT
+  - Con 24
+  - "En el Gran Premio de Espa\xF1a de 2006"
+  - "Del circuito de Hungr\xEDa"
+  - De las World Series
+  - Ferrari
+  - "6\xAA posici\xF3n"
+  - Dani Clos
+  - Es piloto de pruebas de Ferrari
+  - Piloto probador en HRT
+  - 2012
+  - Con 5
+  - Que trabajara sin cobrar unos meses
+  - En 9
+  - 1973
+  - En McLaren, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1973
+  - Con 17
+  - Asesor
+  - En Barcelona
+  - 2
+  - "Fue el jefe de mec\xE1nicos"
+  - 22
+  - Campos Racing
+  - 4
+  - 2015 y 2016
+  - 4,62 km
+  - 2013
+  - Michael Schumacher
+  - 19
+  - 1:11.513
+  - Graham Hill
+  - 27
+  - En Mucia
+  - Michael Schumacher
+  - 1994
+  - Sebastian Vettel
+  - 2010
+  - 3
+  - Pastor Maldonado
+  - 3
+  - En la F2
+  - Red Bull
+  - "6\xAA posici\xF3n"
+  - Lando Norris
+  - 2013
+  - En 1
+  - Con 19
+  - En Minardi y Renault
+  - Con Max Verstappen
+  - Con Dani Clos
+  - 26
+  - 5
+  - Fernando Alonso
+  - "6\xBA"
+  - De la GP3
+  respuestasD:
+  - 4
+  - 8
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - 1951
+  - En el circuito del Jarama
+  - "Marc Gen\xE9"
+  - "El circuito de Montju\xEFc"
+  - Fernando Alonso
+  - El circuito del Jarama y el circuito de Pedralbes
+  - Porque los ciudadanos se quejaban del ruido
+  - Emilio de Villota y Emilio Zapico
+  - Epsilon Euskadi
+  - 1993
+  - "El circuito de Montmel\xF3"
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - 1991
+  - Carlos Sainz y Fernando Alonso
+  - Con Renault en 2003
+  - Fue piloto probador en McLaren
+  - Fernando Alonso
+  - "Una tuerca mal apretada durante la parada en boxes le oblig\xF3 a abandonar"
+  - "En el Gran Premio de Espa\xF1a de 2003"
+  - Juan Jover
+  - 2005 y 2006
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2011
+  - Iberia Airlines
+  - Pedro de la Rosa y Roberto Merhi
+  - 4
+  - "Mar\xEDa de Villota"
+  - Emilio de Villota
+  - En Murcia
+  - 2011
+  - Ferrari
+  - No se han retirado
+  - 2
+  - Pedro de la Rosa y Narain Karthikeyan
+  - 1
+  - "10\xAA"
+  - "Marc Gen\xE9"
+  - Con el KERS
+  - Con Dani Clos
+  - "En la 10\xAA posici\xF3n"
+  - Por falta de patrocinios
+  - Con Williams
+  - 6,44 km
+  - 6
+  - Test post-temporada
+  - En Murcia
+  - 1968
+  - 1:19.12
+  - Jackie Stewart
+  - 1981
+  - James Hunt
+  - Jacques Villeneuve
+  - 12
+  - Ferrari
+  - "Luis P\xE9rez-Sala"
+  - Jackie Stewart
+  - "10\xAA posici\xF3n"
+  - En 3
+  - 1
+  - 5
+  - En 5
+  - Tyrell
+  - "En el Gran Premio de Espa\xF1a"
+  - Con 23
+  - "En el Gran Premio de M\xF3naco de 1957"
+  - Con un contrato para que firmara en ese momento
+  - 1
+  - "En el Gran premio de B\xE9lgica"
+  - Con 40
+  - "Se baj\xF3 del coche a dar un beso a su novia"
+  - 6
+  - 10
+  - 2
+  - En Palencia
+  - 1971
+  - 3,79 km
+  - 18
+  - Damon Hill
+  - James Hunt
+  - 1975
+  - 1:16.1
+  - Ronnie Peterson
+  - Con el circuito de Cheste
+  - "Por razones econ\xF3micas"
+  - Jacques Villeneuve
+  - 3
+  - "Monta\xF1a de diamante"
+  - 1997
+  - 3
+  - 9
+  - La bala plateada
+  - En Arrows, Jaguar, McLaren, Sauber y HRT
+  - Con  32
+  - "En el Gran Premio de Hungr\xEDa de 2012"
+  - Del circuito de Bahrein
+  - De la NASCAR
+  - McLaren
+  - "5\xAA posici\xF3n"
+  - Ma Qing Hua
+  - Es piloto de pruebas de McLaren
+  - Piloto probador de Pirelli
+  - 2016
+  - Con 7
+  - Que arreglara sus asuntos legales
+  - En 6
+  - 1981
+  - En McLaren, Tyrell, Ferrari, Benetton y HRT
+  - 1967
+  - Con 20
+  - Presidente
+  - En Murcia
+  - 3
+  - "Fue parte del personal de direcci\xF3n"
+  - 28
+  - Williams
+  - 2
+  - 2015, 2016 y 2017
+  - 5,14 km
+  - 1987
+  - Daniel Ricciardo
+  - 16
+  - 1:24.870
+  - Jackie Stewart
+  - 32
+  - En Valencia
+  - Rubens Barrichello
+  - 187
+  - Lewis Hamilton
+  - 2014
+  - 7
+  - Fernando Alonso
+  - 7
+  - En la GP3
+  - Renault
+  - "4\xAA posici\xF3n"
+  - Daniel Ricciardo
+  - 2015
+  - En 4
+  - Con 21
+  - En Renault y McLaren
+  - Con Daniel Ricciardo
+  - Con Pedro de la Rosa
+  - 21
+  - 33
+  - Pedro de la Rosa
+  - "13\xBA"
+  - De las World Series
+--- !u!114 &3365623669557649669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Pilotos
+  nombreniveles:
+  - Schumacher
+  - Senna
+  - Prost
+  - Mansell
+  - Stewart
+  - Clark
+  - Fangio
+  - Piquet
+  - Lauda
+  - Alonso
+  Preguntas:
+  - "\xBFCu\xE1ntas temporadas ha estado compitiendo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales ha ganado?"
+  - "\xBFEn cu\xE1ntos equipos ha competido?"
+  - "\xBFEn cu\xE1ntos Grandes Premios ha participado?"
+  - "\xBFEn qu\xE9 equipos ha competido?"
+  - "\xBFCon cu\xE1ntos a\xF1os se retir\xF3 definitivamente?"
+  - "\xBFCu\xE1l es su apodo m\xE1s conocido?"
+  - "\xBFEn qu\xE9 equipo debut\xF3?"
+  - "\xBFCu\xE1ndo debut\xF3?"
+  - "\xBFPor qu\xE9 fue descalificado del mundial de 1997?"
+  - "\xBFCu\xE1ntos t\xEDtulos mundiales consecutivos gan\xF3 con Ferrari?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo?"
+  - "\xBFCu\xE1l es el n\xFAmero m\xE1ximo de victorias que consigui\xF3 en una temporada?"
+  - "\xBFCu\xE1ntos puntos ha sumado a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ndo debut\xF3?"
+  - "\xBFCu\xE1ntos mundiales gan\xF3 a lo largo de su carrera?"
+  - "\xBFEn qu\xE9 Gran Premio falleci\xF3?"
+  - "\xBFCu\xE1ntas victorias logr\xF3?"
+  - "\xBFCon qu\xE9 equipo debut\xF3?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3 en su carrera?"
+  - "\xBFEn qu\xE9 equipo consigui\xF3 todos sus mundiales?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFQui\xE9n fue su mayor rival?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFCu\xE1ntas poles logr\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios corri\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales gan\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntas poles ha conseguido?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su mayor rival?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1ntas victorias obtuvo?"
+  - "\xBFCon qu\xE9 equipo consigui\xF3 la mayor\xEDa de sus mundiales?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFPara qu\xE9 equipo trabaja ahora?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera?"
+  - "\xBFQu\xE9 equipo franc\xE9s dej\xF3 para irse a McLaren?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales consigui\xF3?"
+  - "\xBFEn cu\xE1ntos equipos estuvo?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos ha estado pilotando?"
+  - "\xBFQu\xE9 a\xF1o consigui\xF3 su primer mundial?"
+  - "\xBFCu\xE1ntas victorias logr\xF3 en la F\xF3rmula 1?"
+  - "\xBFPor qu\xE9 se le conoce?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFCu\xE1l fue el \xFAltimo equipo para el que pilot\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en el equipo Williams?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales consigui\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntos equipos estuvo?"
+  - "\xBFCu\xE1ntos puntos logr\xF3 a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos estuvo?"
+  - "\xBFCu\xE1ntas victorias consigui\xF3?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn qu\xE9 circuito logr\xF3 su \xFAltima victoria?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFEn qu\xE9 principio se basaba cuando corr\xEDa?"
+  - "\xBFQu\xE9 hecho le impidi\xF3 alcanzar su Gran Premio n\xBA 100?"
+  - "\xBFCu\xE1l fue su \xFAnica temporada sin ganar al menos una carrera?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCon qu\xE9 equipo consigui\xF3 sus dos \xFAltimos mundiales?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFEn qu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntos victorias logr\xF3?"
+  - "\xBFQu\xE9 equipo le ofreci\xF3 un proyecto en la F\xF3rmula 1 que rechaz\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1ntos puntos anot\xF3?"
+  - "\xBFCu\xE1ntas victorias consecutivas lleg\xF3 a obtener?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltima victoria y carrera?"
+  - "\xBFQu\xE9 pensaban sus rivales de \xE9l?"
+  - "\xBFD\xF3nde falleci\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFCu\xE1l es su frase m\xE1s c\xE9lebre?"
+  - "\xBFPor qu\xE9 era conocido antes de llegar a la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias logr\xF3?"
+  - "\xBFEn qu\xE9 equipos estuvo?"
+  - "\xBFCu\xE1ntos puntos obtuvo a lo largo de su carrera en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 ciudad tiene un museo dedicado hacia \xE9l?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntas carreras particip\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio gan\xF3 por \xFAltima vez?"
+  - "\xBFCu\xE1ntos campeonatos consecutivos logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os falleci\xF3?"
+  - "\xBFEn qu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la categor\xEDa reina?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFEn cu\xE1ntos equipos estuvo en su primera temporada?"
+  - "\xBFQui\xE9n fue su jefe de equipo cuando estuvo en Brabham?"
+  - "\xBFCu\xE1ntas poles logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFQu\xE9 temporada debut\xF3?"
+  - "\xBFCu\xE1ntas victorias consecutivas lleg\xF3 a conseguir?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 su \xFAltima victoria?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3?"
+  - "\xBFCu\xE1ntos mundiales logr\xF3?"
+  - "\xBFEn qu\xE9 circuito sufri\xF3 un accidente que casi le cuesta la vida?"
+  - "\xBFCu\xE1ntas victorias consigui\xF3?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival?"
+  - "\xBFCu\xE1l es una de sus frases m\xE1s c\xE9lebres?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3?"
+  - "\xBFEn cu\xE1ntos equipos pilot\xF3?"
+  - "\xBFCu\xE1ntas poles consigui\xF3?"
+  - "\xBFEn qu\xE9 equipo trabaja ahora?"
+  - "\xBFCu\xE1ntos podios logr\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntas temporadas estuvo en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos pilot\xF3?"
+  - "\xBFQu\xE9 hace en Mercedes ahora?"
+  - "\xBFEn qu\xE9 pa\xEDs naci\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos mundiales tiene?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1ntos subcampeonatos tiene?"
+  - "\xBFQui\xE9n fue su m\xE1ximo rival en 2007?"
+  - "\xBFCu\xE1ntos podios ha conseguido?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 su \xFAltima victoria en Ferrari?"
+  - "\xBFCu\xE1ntas victorias ha logrado?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo?"
+  - "\xBFQu\xE9 a\xF1o no gan\xF3 el t\xEDtulo de pilotos por un punto?"
+  - "\xBFQui\xE9n fue su \xFAltimo compa\xF1ero de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primera victoria?"
+  - "\xBFQu\xE9 a\xF1os consigui\xF3 sus dos primeros t\xEDtulos?"
+  RespuestasCorrectas:
+  - 19
+  - 7
+  - En 4
+  - 308
+  - Jordan, Benetton, Ferrari y Mercedes
+  - Con 43
+  - Kaiser
+  - Jordan
+  - 1991
+  - "Por chocar contra Jacques Villeneuve en la \xFAltima carrera"
+  - 5
+  - Mercedes
+  - 13
+  - 1566
+  - Alemania
+  - En el 1984
+  - 3
+  - En el Gran Premio de San Marino de 1994
+  - 41
+  - Toleman
+  - 614
+  - En McLaren-Honda
+  - Brasil
+  - Alain Prost
+  - Toleman, Lotus, McLaren y Williams
+  - 65
+  - Williams
+  - Con 24
+  - En 161 Grandes Premios
+  - "10 a\xF1os"
+  - 4
+  - En 4
+  - Francia
+  - 33
+  - 13
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 25 a\xF1os"
+  - Ayrton Senna
+  - En 200 Grandes Premios
+  - 51
+  - Con McLaren
+  - En el Gran Premio de Francia de 1981
+  - Renault
+  - 798,5
+  - Renault
+  - 59
+  - 1980
+  - 1
+  - 4
+  - "Gran Breta\xF1a"
+  - 15
+  - Lotus, Williams, Ferrari y McLaren
+  - 1992
+  - 31
+  - Por su bigote
+  - 32
+  - Gran Premio de Europa de 1985
+  - McLaren
+  - 7
+  - 482
+  - 3
+  - "Con 26 a\xF1os"
+  - En 3 equipos
+  - 360 puntos
+  - 9
+  - BRM, Matra y Tyrrell
+  - 27
+  - "Gran Breta\xF1a"
+  - "En N\xFCrburgring Nordschleife"
+  - En 99
+  - En ganar con la menor velocidad posible
+  - Su equipo se vio obligado a retirarse
+  - 1967
+  - 1965
+  - Tyrrell
+  - 9
+  - 33
+  - 2
+  - En 1
+  - En 1960
+  - 25
+  - Aston Martin
+  - En 72
+  - 274
+  - 6
+  - Con 24
+  - En Lotus
+  - "Gran Premio de Sud\xE1frica de 1968"
+  - "Que acabar detr\xE1s de \xE9l era lo mejor que pod\xEDan hacer"
+  - En una carrera de F2
+  - 5
+  - Hay que intentar ser el mejor pero nunca creerse el mejor
+  - Por sus buenos resultados en carreras de larga distancia
+  - 24
+  - Alfa Romeo, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 277,14
+  - En Balcarce
+  - Con 39
+  - En 51
+  - En el Gran Premio de Alemania de 1957
+  - 4
+  - Con 84
+  - En 1950
+  - 8
+  - Argentina
+  - 3
+  - 203
+  - En 3
+  - Bernie Ecclestone
+  - 24
+  - Con 26
+  - 14
+  - Brasil
+  - En 6
+  - 1978
+  - 2
+  - "Gran Premio de Canad\xE1 de 1991"
+  - Ensign, BS Fabrications, Brabham, Williams, Lotus y Benetton
+  - Nigel Mansell
+  - 485,5
+  - 3
+  - "En N\xFCrburgring Nordschleife"
+  - 25
+  - James Hunt
+  - Prefiero tener mi pie derecho bien que una bella cara
+  - 1971
+  - En 5
+  - 24
+  - En Mercedes
+  - 54
+  - Con 22
+  - 13
+  - March, BRM, Ferrari, Brabham y McLaren
+  - Es el director no ejecutivo
+  - En Austria
+  - En 4
+  - 2001
+  - 2
+  - En Minardi, Renault, McLaren y Ferrari
+  - Con 20
+  - 3
+  - Lewis Hamilton
+  - 97
+  - "En el Gran Premio de Espa\xF1a de 2013"
+  - 32
+  - McLaren
+  - En 2007
+  - Stoffel Vandoorne
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2005 y 2006
+  respuestasA:
+  - 19
+  - 8
+  - En 5
+  - 300
+  - Minardi, Benetton, Ferrari y Mercedes
+  - Con 43
+  - Schumi
+  - Toro Rosso
+  - 2000
+  - Por insultar al director de carrera
+  - 5
+  - Ferrari
+  - 11
+  - 1348
+  - Francia
+  - En el 1984
+  - 4
+  - En el Gran Premio de San Marino de 1990
+  - 32
+  - Toleman
+  - 865
+  - En Red Bull
+  - "Gran Breta\xF1a"
+  - Nigel Mansell
+  - Toleman, Lotus, McLaren y Williams
+  - 52
+  - Williams
+  - Con 22
+  - En 195 Grandes Premios
+  - "16 a\xF1os"
+  - 5
+  - En 3
+  - Francia
+  - 40
+  - 18
+  - Lotus, Renault, Ferrari y Williams
+  - "Con 23 a\xF1os"
+  - Ayrton Senna
+  - En 180 Grandes Premios
+  - 43
+  - Con Ferrari
+  - "En el Gran Premio de B\xE9lgica de 1979"
+  - Force India
+  - 798,5
+  - Ferrari
+  - 45
+  - 1989
+  - 2
+  - 6
+  - Italia
+  - 8
+  - Lotus, Williams, Ferrari y Mercedes
+  - 1992
+  - 28
+  - Por su pilotaje conservador
+  - 32
+  - Gran Premio de Australia de 1988
+  - Renault
+  - 2
+  - 350
+  - 3
+  - "Con 36 a\xF1os"
+  - En 5 equipos
+  - 360 puntos
+  - 4
+  - BRM, Matra, Tyrrell y McLaren
+  - 23
+  - "Gran Breta\xF1a"
+  - En Spa-Francorchamps
+  - En 182
+  - En ganar con la menor velocidad posible
+  - "Sufri\xF3 un accidente que le impidi\xF3 seguir compitiendo"
+  - 1973
+  - 1968
+  - Tyrrell
+  - 7
+  - 56
+  - 5
+  - En 5
+  - En 1962
+  - 25
+  - Lotus
+  - En 43
+  - 689
+  - 8
+  - Con 24
+  - En Lotus
+  - "Gran Premio de Espa\xF1a de 1969"
+  - "Que acabar delante de \xE9l era muy f\xE1cil"
+  - En una carrera de F2
+  - 6
+  - El segundo es el primero de los perdedores
+  - "Por su experiencia en la F\xF3rmula E"
+  - 24
+  - Alfa Romeo, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 295.2
+  - En Buenos Aires
+  - Con 23
+  - En 51
+  - En el Gran Premio de Italia de 2001
+  - 7
+  - Con 52
+  - En 1950
+  - 7
+  - Francia
+  - 5
+  - 203
+  - En 1
+  - Frank Williams
+  - 33
+  - Con 26
+  - 8
+  - "Gran Breta\xF1a"
+  - En 6
+  - 1984
+  - 2
+  - "Gran Premio de Espa\xF1a de 1993"
+  - Benetton, BS Fabrications, Ferrari, Williams, Lotus y Mercedes
+  - Jackie Stewart
+  - 485,5
+  - 4
+  - "En N\xFCrburgring Nordschleife"
+  - 20
+  - Michael Schumacher
+  - "El motor no razona, el piloto s\xED"
+  - 1968
+  - En 5
+  - 22
+  - En Renault
+  - 52
+  - Con 25
+  - 8
+  - BRM, Ferrari, Mercedes y McLaren
+  - Es presidente de honor
+  - En Alemania
+  - En 2
+  - 2002
+  - 1
+  - En Minardi, Renault, McLaren y Ferrari
+  - Con 19
+  - 2
+  - Lewis Hamilton
+  - 95
+  - "En el Gran Premio de Espa\xF1a de 2013"
+  - 31
+  - McLaren
+  - En 2004
+  - Jenson Button
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2004 y 2005
+  respuestasB:
+  - 15
+  - 6
+  - En 4
+  - 280
+  - Jordan, Benetton, Ferrari y Mercedes
+  - Con 48
+  - Kaiser
+  - Minardi
+  - 1991
+  - Por chocar contra el Safety Car
+  - 7
+  - McLaren
+  - 10
+  - 1806
+  - Alemania
+  - En el 1988
+  - 7
+  - "En el Gran Premio de B\xE9lgica de 1994"
+  - 41
+  - McLaren
+  - 614
+  - En Williams
+  - Francia
+  - Alain Prost
+  - Toleman, Lotus, McLaren y Ferrari
+  - 44
+  - Ferrari
+  - Con 24
+  - En 161 Grandes Premios
+  - "6 a\xF1os"
+  - 3
+  - En 4
+  - Italia
+  - 33
+  - 10
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 25 a\xF1os"
+  - Nigel Mansell
+  - En 200 Grandes Premios
+  - 32
+  - Con Williams
+  - En el Gran Premio de Italia de 1983
+  - Ferrari
+  - 903
+  - Williams
+  - 36
+  - 1980
+  - 1
+  - 3
+  - Brasil
+  - 15
+  - Lotus, Williams, Ferrari y McLaren
+  - 1988
+  - 31
+  - "Por su atareada vida fuera de la F\xF3rmula 1"
+  - 36
+  - Gran Premio de Francia de 1970
+  - McLaren
+  - 4
+  - 651
+  - 5
+  - "Con 21 a\xF1os"
+  - En 3 equipos
+  - 220 puntos
+  - 9
+  - McLaren, Matra y Ferrari
+  - 44
+  - "Espa\xF1a"
+  - "En N\xFCrburgring Nordschleife"
+  - En 106
+  - "En ir siempre al l\xEDmite"
+  - Su equipo se vio obligado a retirarse
+  - 1967
+  - 1994
+  - Williams
+  - 11
+  - 33
+  - 7
+  - En 4
+  - En 1973
+  - 32
+  - Aston Martin
+  - En 62
+  - 862
+  - 3
+  - Con 19
+  - En Ferrari y en Lotus
+  - "Gran Premio de Sud\xE1frica de 1968"
+  - "Que acabar detr\xE1s de \xE9l era complicado"
+  - "En un accidente en su \xFAltima carrera"
+  - 3
+  - Hay que intentar ser el mejor pero nunca creerse el mejor
+  - Por sus buenos resultados en los Rallys
+  - 26
+  - Alfa Romeo, Maserati, Mercedes, Ferrari y en su propio equipo
+  - 164
+  - En Balcarce
+  - Con 20
+  - En 130
+  - En el Gran Premio de Alemania de 1957
+  - 4
+  - Con 69
+  - En 1960
+  - 5
+  - Italia
+  - 1
+  - 320
+  - En 3
+  - Jean Todt
+  - 21
+  - Con 30
+  - 14
+  - Argentina
+  - En 3
+  - 1982
+  - 3
+  - "Gran Premio de Canad\xE1 de 1991"
+  - Ensign, Lotus, Ferrari, Williams, Renault y Benetton
+  - Ayrton Senna
+  - 360.1
+  - 2
+  - En Monza
+  - 25
+  - Mario Andretti
+  - Prefiero tener mi pie derecho bien que una bella cara
+  - 1978
+  - En 4
+  - 32
+  - En Mercedes
+  - 58
+  - Con 29
+  - 13
+  - March, BRM, Ferrari, Brabham y Mercedes
+  - Es el jefe de equipo
+  - En Austria
+  - En 6
+  - 2001
+  - 3
+  - En Minardi, Renault, McLaren y Red Bull
+  - Con 20
+  - 1
+  - "Kimi R\xE4ikk\xF6nen"
+  - 105
+  - "En el Gran Premio de Hungr\xEDa de 2014"
+  - 23
+  - Ferrari
+  - En 2007
+  - Felipe Massa
+  - En el Gran Premio de Malasia de 2003
+  - 2005 y 2006
+  respuestasC:
+  - 20
+  - 7
+  - En 1
+  - 380
+  - Jordan, Benetton, Ferrari y McLaren
+  - Con 36
+  - Magic
+  - Benetton
+  - 1989
+  - "Por chocar contra Jacques Villeneuve en la \xFAltima carrera"
+  - 3
+  - Mercedes
+  - 15
+  - 1566
+  - "Espa\xF1a"
+  - En el 1975
+  - 3
+  - En el Gran Premio de Italia de 1996
+  - 44
+  - Jordan
+  - 542
+  - En McLaren-Honda
+  - Alemania
+  - Juan Manuel Fangio
+  - Jordan, Lotus, McLaren y Renault
+  - 66
+  - Renault
+  - Con 32
+  - En 163 Grandes Premios
+  - "10 a\xF1os"
+  - 6
+  - En 5
+  - "Gran Breta\xF1a"
+  - 40
+  - 8
+  - McLaren, Renault, Ferrari y Williams
+  - "Con 32 a\xF1os"
+  - Jim Clark
+  - En 250 Grandes Premios
+  - 51
+  - Con Renault
+  - "En el Gran Premio de Espa\xF1a de 1988"
+  - Renault
+  - 655
+  - Mercedes
+  - 52
+  - 1988
+  - 6
+  - 4
+  - Francia
+  - 17
+  - Ferari, Williams, Renault y McLaren
+  - 1978
+  - 12
+  - Por su pilotaje agresivo
+  - 31
+  - Gran Premio de Italia de 1982
+  - Williams
+  - 5
+  - 482
+  - 8
+  - "Con 26 a\xF1os"
+  - En 9 equipos
+  - 435 puntos
+  - 7
+  - BRM, Matra y Tyrrell
+  - 36
+  - Italia
+  - En Monaco
+  - En 268
+  - En ser el mejor por encima de todo
+  - "Se cans\xF3 de la F\xF3rmula 1 y cambi\xF3 de categor\xEDa"
+  - 1983
+  - 1959
+  - Ferrari
+  - 9
+  - 44
+  - 2
+  - En 1
+  - En 1972
+  - 18
+  - Renault
+  - En 72
+  - 274
+  - 1
+  - Con 36
+  - En McLaren y en Ferrari
+  - Gran Premio de Italia de 1969
+  - "Que acabar detr\xE1s de \xE9l era lo mejor que pod\xEDan hacer"
+  - "En un accidente de tr\xE1fico"
+  - 5
+  - "El que no baja los brazos est\xE1 listo para levantar el trofeo"
+  - "Por sus \xE9xitos en el Karting"
+  - 32
+  - Renault, Maserati, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 277,14
+  - En Santa Rosa
+  - Con 36
+  - En 143
+  - "En el Gran Premio de Espa\xF1a de 1957"
+  - 6
+  - Con 84
+  - En 1953
+  - 8
+  - "Espa\xF1a"
+  - 3
+  - 209
+  - En 2
+  - Bernie Ecclestone
+  - 24
+  - Con 30
+  - 12
+  - "Espa\xF1a"
+  - En 2
+  - 1978
+  - 5
+  - "Gran Premio de B\xE9lgica de 1988"
+  - Ensign, BS Fabrications, Ferrari, Williams, Lotus y Benetton
+  - Niki Lauda
+  - 238
+  - 3
+  - En Spa-Francorchamps
+  - 33
+  - Clay Regazzoni
+  - "S\xF3lo viv\xED una sensaci\xF3n igual a la del accidente un d\xEDa que fum\xE9
+    Marihuana"
+  - 1971
+  - En 3
+  - 28
+  - En Ferrari
+  - 36
+  - Con 22
+  - 18
+  - March, BRM, Ferrari y Renault
+  - Es el director no ejecutivo
+  - En Italia
+  - En 4
+  - 2000
+  - 4
+  - En Toro Rosso, Renault, McLaren y Ferrari
+  - Con 21
+  - 3
+  - Felipe Massa
+  - 97
+  - "En el Gran Premio de Espa\xF1a de 2017"
+  - 38
+  - Renault
+  - En 2012
+  - "Kimi R\xE4ikk\xF6nen"
+  - En el Gran Premio de Brasil de 2003
+  - 2006 y 2007
+  respuestasD:
+  - 7
+  - 9
+  - En 3
+  - 308
+  - Benetton, Ferrari y Mercedes
+  - Con 50
+  - El doctor
+  - Jordan
+  - 1995
+  - Por haberse negado a asistir a una entrevista
+  - 2
+  - Lotus
+  - 13
+  - 1875
+  - "Gran Breta\xF1a"
+  - En el 1994
+  - 1
+  - En el Gran Premio de San Marino de 1994
+  - 48
+  - Ferrari
+  - 1302
+  - En Ferrari
+  - Brasil
+  - Jim Clark
+  - Toleman, Lotus, Ferrari y Williams
+  - 65
+  - Tyrrell
+  - Con 19
+  - En 306 Grandes Premios
+  - "13 a\xF1os"
+  - 4
+  - En 2
+  - Brasil
+  - 36
+  - 13
+  - Jordan, McLaren, Renault y Williams
+  - "Con 19 a\xF1os"
+  - Michael Schumacher
+  - En 400 Grandes Premios
+  - 62
+  - Con McLaren
+  - En el Gran Premio de Francia de 1981
+  - Mercedes
+  - 732.6
+  - Renault
+  - 59
+  - 1998
+  - 4
+  - 5
+  - "Gran Breta\xF1a"
+  - 12
+  - Lotus, Williams, Renault y McLaren
+  - 1995
+  - 20
+  - Por su bigote
+  - 44
+  - Gran Premio de Europa de 1985
+  - Ferrari
+  - 7
+  - 493
+  - 1
+  - "Con 30 a\xF1os"
+  - En 1 equipo
+  - 320.5 puntos
+  - 16
+  - BRM, Matra, Tyrrell y Ferrari
+  - 27
+  - Francia
+  - "En Montmel\xF3"
+  - En 99
+  - En no correr riesgos
+  - Le retiraron la superlicencia
+  - 1973
+  - 1965
+  - McLaren
+  - 5
+  - 28
+  - 6
+  - En 3
+  - En 1960
+  - 69
+  - Ferrari
+  - En 65
+  - 256.5
+  - 6
+  - Con 28
+  - En Aston Martin
+  - "Gran Premio de B\xE9lgica de 1967"
+  - "Que ganarle era algo que s\xF3lo se pod\xEDa conseguir con mucho esfuerzo"
+  - En su cama de manera natural
+  - 2
+  - No vale la pena arriesgar la vida por un poco de popularidad
+  - Por sus buenos resultados en carreras de larga distancia
+  - 30
+  - Alfa Romeo, Mercedes, Ferrari, Sud Americana y en su propio equipo
+  - 365
+  - En Santa Fe
+  - Con 39
+  - En 250
+  - En el Gran Premio de Alemania de 1977
+  - 2
+  - Con 90
+  - En 1949
+  - 10
+  - Argentina
+  - 2
+  - 103
+  - En 4
+  - Ross Brawn
+  - 44
+  - Con 37
+  - 18
+  - Brasil
+  - En 5
+  - 1972
+  - 7
+  - Gran Premio de Italia de 1985
+  - Ensign, BS Fabrications, Brabham, Williams, Lotus y Benetton
+  - Nigel Mansell
+  - 523
+  - 1
+  - "En M\xF3naco"
+  - 28
+  - James Hunt
+  - "Los F1 actuales los puede pilotar hasta un chimpanc\xE9"
+  - 1976
+  - En 6
+  - 24
+  - En McLaren
+  - 54
+  - Con 19
+  - 7
+  - March, BRM, Ferrari, Brabham y McLaren
+  - Es el asesor
+  - "En Gran Breta\xF1a"
+  - En 5
+  - 2003
+  - 2
+  - En Minardi, Renault, Mercedes y Ferrari
+  - Con 22
+  - 4
+  - Jenson Button
+  - 82
+  - "En el Gran Premio de Hungr\xEDa de 2014"
+  - 32
+  - Red Bull
+  - En 2010
+  - Stoffel Vandoorne
+  - "En el Gran Premio de Espa\xF1a de 2001"
+  - 2007 y 2008
+--- !u!114 &3365623669557649690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Equipos
+  nombreniveles:
+  - Ferrari
+  - McLaren
+  - Williams
+  - Renault
+  - Red Bull
+  - Lotus
+  - Benetton
+  - Tyrrell
+  - Sauber
+  - Mercedes
+  Preguntas:
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFCu\xE1ntas carreras consecutivas ha llegado a ganar?"
+  - "\xBFQui\xE9nes son sus pilotos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tiene?"
+  - "\xBFQui\xE9n es su presidente?"
+  - "\xBFCon qu\xE9 piloto gan\xF3 el primer t\xEDtulo de pilotos?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo campeonato de constructores?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo campeonato de pilotos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes son sus pilotos actualmente?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ndo se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQui\xE9n es su motorista actualmente?"
+  - "\xBFQu\xE9 a\xF1o empezaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tienen?"
+  - "\xBFQu\xE9 a\xF1o fueron descalificados del campeonato de constructores?"
+  - "\xBFCu\xE1l ha sido su dupla de pilotos m\xE1s famosa?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQu\xE9 a\xF1o lograron su primera victoria?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s victorias?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFQui\xE9n es su jefa de equipo?"
+  - "\xBFQu\xE9 a\xF1o consiguieron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto logr\xF3 su \xFAltima victoria?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1l es su dupla de pilotos actual?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Fernando Alonso como piloto titular?"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio consiguieron su \xFAltima victoria?"
+  - "\xBFQu\xE9 piloto logr\xF3 los t\xEDtulos de pilotos?"
+  - "\xBFQu\xE9 a\xF1o consiguieron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o fue su regreso a la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tienen?"
+  - "\xBFC\xF3mo hicieron su primera aparici\xF3n en la F\xF3rmula 1?"
+  - "\xBFDe qu\xE9 otro equipo es propietario?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQu\xE9 piloto les ha dado m\xE1s \xE9xitos?"
+  - "\xBFQui\xE9n es su propietario?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQu\xE9 piloto corri\xF3 con un brazo roto a finales de 2010?"
+  - "\xBFQui\xE9n es su ingeniero m\xE1s famoso?"
+  - "\xBFQu\xE9 a\xF1o ganaron su primer t\xEDtulo de constructores?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores lograron?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias consiguieron con Emerson Fittipaldi?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFEn qu\xE9 d\xE9cadas tuvo su mayor rendimiento?"
+  - "\xBFQu\xE9 piloto estuvo m\xE1s a\xF1os?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron sin ganar antes de retirarse?"
+  - "\xBFQu\xE9 piloto logr\xF3 la primera victoria de Lotus con una entrada privada?"
+  - "\xBFQu\xE9 ingeniero fue el responsable de que consiguieran su \xFAltimo t\xEDtulo
+    de constructores?"
+  - "\xBFCu\xE1ntas temporadas estuvieron en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores lograron?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFCon qu\xE9 motorista obtuvieron sus mejores resultados?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias consiguieron con Schumacher?"
+  - "\xBFQui\xE9n fue su jefe de equipo entre 1990 y 1997?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFC\xF3mo empezaron su aventura en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto les dio m\xE1s \xE9xitos?"
+  - "\xBFQu\xE9 monoplaza usaron como base en su temporada de debut?"
+  - "\xBFQu\xE9 piloto fue el \xFAltimo en acabar una carrera con ellos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos consiguieron?"
+  - "\xBFPor que equipo fueron comprados?"
+  - "\xBFCon qu\xE9 piloto consigui\xF3 su primera victoria?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores consigui\xF3?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntas ruedas ten\xEDa su monoplaza de 1976?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFQu\xE9 piloto gan\xF3 6 de 11 carreras en 1971?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntos campeonatos de pilotos ganaron?"
+  - "\xBFPor que equipo fueron comprados?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron sin ganar hasta su retirada?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFD\xF3nde estaba su sede?"
+  - "\xBFCon qu\xE9 piloto lograron su primera victoria?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias han conseguido? (hasta final 2018)"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCon qu\xE9 piloto lograron su primera victoria?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio de 2016 lograron puntuar?"
+  - "\xBFQu\xE9 piloto sustituy\xF3 a Wehrlein los primeros Grandes Premios de 2017?"
+  - "\xBFEn qu\xE9 posici\xF3n del campeonato de constructores finalizaron en 2018?"
+  - "\xBFCu\xE1ntos puntos consiguieron en la temporada 2018?"
+  - "\xBFQui\xE9n es su presidente?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2018)"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tienen?"
+  - "\xBFEn qu\xE9 posici\xF3n del mundial de constructores finalizaron en 2018?"
+  - "\xBFCu\xE1l es el puesto de Niki Lauda?"
+  - "\xBFC\xF3mo se conoce al equipo?"
+  - "\xBFQui\xE9n es el director t\xE9cnico?"
+  - "\xBFQu\xE9 pilotos estuvieron luchando por el t\xEDtulo de pilotos entre 2014
+    y 2016?"
+  - "\xBFA cu\xE1ntos equipos motoriza actualmente?"
+  RespuestasCorrectas:
+  - 1946
+  - En Maranello
+  - 16
+  - 69
+  - 236
+  - Mattia Binotto
+  - 14
+  - Sebastian Vettel y Charles Leclerc
+  - 15
+  - Sergio Marchionne
+  - Con Alberto Ascari
+  - Enzo Ferrari
+  - 2008
+  - Italia
+  - 2007
+  - 8
+  - Bruce McLaren
+  - En Woking
+  - 52
+  - Carlos Sainz y Lando Norris
+  - "Gran Breta\xF1a"
+  - En 1963
+  - 182
+  - Renault
+  - 1966
+  - Zak Brown
+  - 12
+  - 2007
+  - Ayrton Senna - Alain Prost
+  - 1998
+  - 1968
+  - "Gran Breta\xF1a"
+  - Mercedes
+  - 1979
+  - En Grove
+  - 9
+  - Nigel Mansell
+  - Frank Williams
+  - 113
+  - 1972
+  - George Russell y Robert Kubica
+  - Claire Williams
+  - 1997
+  - 45
+  - Pastor Maldonado
+  - 2
+  - Francia
+  - "Nico H\xFClkenberg y Daniel Ricciardo"
+  - 35
+  - 1977
+  - En Enstone
+  - 6
+  - 1977
+  - Cyril Abiteboul
+  - "En el Gran Premio de Jap\xF3n de 2008"
+  - Fernando Alonso
+  - 2006
+  - 21
+  - 2016
+  - 2
+  - Como patrocinador de Sauber
+  - De Toro Rosso
+  - 2005
+  - Max Verstappen y Pierre Gasly
+  - Austria
+  - 4
+  - Sebastian Vettel
+  - Dietrich Mateschitz
+  - 59
+  - Mark Webber
+  - Adrian Newey
+  - 2010
+  - Honda
+  - Christian Horner
+  - En Milton Keynes
+  - 1958
+  - 7
+  - "Gran Breta\xF1a"
+  - 77
+  - 1952
+  - 9
+  - Colin Chapman
+  - "En la d\xE9cada de los 60 y los 70"
+  - Jim Clark
+  - 7
+  - Stirling Moss
+  - Colin Chapman
+  - 37
+  - 1978
+  - 1994
+  - 1
+  - 1986
+  - 27
+  - Con Renault
+  - 16
+  - 19
+  - Flavio Briatore
+  - "Gran Breta\xF1a"
+  - Como patrocinadores
+  - Michael Schumacher
+  - "El Toleman del a\xF1o anterior"
+  - Jenson Button
+  - 2
+  - Por Renault
+  - Con Gerhard Berger
+  - 1
+  - "Gran Breta\xF1a"
+  - 6
+  - 1960
+  - Jackie Stewart
+  - 1970
+  - 2
+  - Por BAR
+  - 19
+  - Ken Tyrell
+  - 15
+  - 23
+  - En Ockham
+  - Con Jackie Stewart
+  - 1998
+  - 25
+  - 1
+  - Peter Sauber
+  - Suiza
+  - 1993
+  - "Kimi R\xE4ikk\xF6nen y Antonio Giovinazzi"
+  - En Hinwil
+  - Robert Kubica
+  - Ferrari
+  - "Fr\xE9d\xE9ric Vasseur"
+  - En el Gran Premio de Brasil
+  - Antonio Giovinazzi
+  - "En la 8\xAA posici\xF3n"
+  - 48
+  - Pascal Picci
+  - 5
+  - 11
+  - 1954
+  - 78
+  - Lewis Hamilton y Valtteri Bottas
+  - Alemania
+  - Toto Wolff
+  - En Brackley
+  - 5
+  - "En la 1\xAA posici\xF3n"
+  - Presidente no ejecutivo
+  - Como las flechas de plata
+  - James Allison
+  - Nico Rosberg y Lewis Hamilton
+  - A 3
+  respuestasA:
+  - 1950
+  - En Maranello
+  - 14
+  - 69
+  - 215
+  - Maurizio Arrivabene
+  - 10
+  - Sebastian Vettel y Charles Leclerc
+  - 12
+  - Luca Cordero di Montezemolo
+  - Con Michael Schumacher
+  - Sergio Marchionne
+  - 2015
+  - Italia
+  - 2001
+  - 8
+  - Enzo Ferrari
+  - En Maranello
+  - 52
+  - Fernando Alonso y Stoffel Vandoorne
+  - Italia
+  - En 1952
+  - 163
+  - Ferrari
+  - 1959
+  - Zak Brown
+  - 10
+  - 2005
+  - Ayrton Senna - Alain Prost
+  - 1998
+  - 1968
+  - Alemania
+  - Ferrari
+  - 1974
+  - En Grove
+  - 8
+  - Ayrton Senna
+  - Claire Williams
+  - 110
+  - 1970
+  - Sergey Sirotkin y Lance Stroll
+  - Claire Williams
+  - 1997
+  - 43
+  - Felipe Massa
+  - 1
+  - Francia
+  - "Nico H\xFClkenberg y Daniel Ricciardo"
+  - 38
+  - 1977
+  - En Brackley
+  - 5
+  - 1982
+  - Cyril Abiteboul
+  - "En el Gran Premio dem Espa\xF1a de 2006"
+  - Fernando Alonso
+  - 2005
+  - 21
+  - 2015
+  - 1
+  - "Como proveedor de neum\xE1ticos"
+  - De Red Bull y Toro Rosso
+  - 2004
+  - Daniel Ricciardo y Max Verstappen
+  - Italia
+  - 2
+  - Mark Webber
+  - Christian Horner
+  - 59
+  - Sebastian Vettel
+  - Paddy Lowe
+  - 2010
+  - Mercedes
+  - Dietrich Mateschitz
+  - En Woking
+  - 1958
+  - 6
+  - Alemania
+  - 77
+  - 1958
+  - 4
+  - Bruce McLaren
+  - "En la d\xE9cada de los 80"
+  - Jim Clark
+  - 4
+  - Damon Hill
+  - Niki Lauda
+  - 34
+  - 1978
+  - 1997
+  - 0
+  - 1994
+  - 18
+  - Con Ford
+  - 16
+  - 25
+  - Christian Horner
+  - Alemania
+  - Como patrocinadores
+  - Nigel Mansell
+  - "El Toleman del a\xF1o anterior"
+  - Giancarlo Fisichella
+  - 4
+  - Por Renault
+  - Con Jackie Stewart
+  - 0
+  - Austria
+  - 6
+  - 1954
+  - Nigel Mansell
+  - 1968
+  - 2
+  - Por Renault
+  - 18
+  - Bruce McLaren
+  - 15
+  - 14
+  - En Grove
+  - Con Alain Prost
+  - 1998
+  - 21
+  - 2
+  - Bruce McLaren
+  - Suiza
+  - 2010
+  - Charles Lecrerc y Marcus Ericsson
+  - En Grove
+  - Pedro de la Rosa
+  - Honda
+  - Monisha Kaltenborn
+  - En el Gran Premio de Abu Dhabi
+  - Antonio Giovinazzi
+  - "En la 10\xAA posici\xF3n"
+  - 1
+  - Pascal Picci
+  - 2
+  - 5
+  - 1949
+  - 67
+  - Nico Rosberg y Valtteri Bottas
+  - Austria
+  - Niki Lauda
+  - En Grove
+  - 5
+  - "En la 2\xAA posici\xF3n"
+  - Presidente no ejecutivo
+  - Como las flechas de oro
+  - Adrian Newey
+  - Nico Rosberg y Valtteri Bottas
+  - A 3
+  respuestasB:
+  - 1946
+  - En Brackley
+  - 12
+  - 54
+  - 236
+  - Mattia Binotto
+  - 12
+  - "Sebastian Vettel y Kimi R\xE4ikk\xF6nen"
+  - 18
+  - Enzo Ferrari
+  - Con Niki Lauda
+  - Maurizio Arrivabene
+  - 2007
+  - Alemania
+  - 2012
+  - 6
+  - Dietrich Mateschitz
+  - En Grove
+  - 56
+  - Fernando Alonso y Jenson Button
+  - "Gran Breta\xF1a"
+  - En 1972
+  - 182
+  - Renault
+  - 1950
+  - "\xC9ric Boullier y Zak Brown"
+  - 13
+  - 2007
+  - Fernando Alonso - Jenson Button
+  - 2007
+  - 1963
+  - Italia
+  - Mercedes
+  - 1983
+  - En Maranello
+  - 6
+  - Nigel Mansell
+  - Frank Williams
+  - 98
+  - 1978
+  - Felipe Massa y Lance Stroll
+  - Frank Williams
+  - 2002
+  - 32
+  - Valtteri Bottas
+  - 2
+  - "Gran Breta\xF1a"
+  - Daniel Ricciardo y Max Verstappen
+  - 35
+  - 1969
+  - En Maranello
+  - 8
+  - 1977
+  - "Fr\xE9d\xE9ric Vasseur"
+  - En el Gran Premio de Australia de 2013
+  - Giancarlo Fisichella
+  - 2007
+  - 18
+  - 2005
+  - 3
+  - Como patrocinador de Sauber
+  - De Red Bull y Sauber
+  - 2006
+  - Daniel Ricciardo y Daniil Kvyat
+  - Alemania
+  - 4
+  - Max Verstappen
+  - Dietrich Mateschitz
+  - 55
+  - Daniel Ricciardo
+  - James Allison
+  - 2011
+  - Renault
+  - Toto Wolff
+  - En Milton Keynes
+  - 1963
+  - 8
+  - Francia
+  - 84
+  - 1963
+  - 9
+  - Dietrich Mateschitz
+  - "En la d\xE9cada de los 60 y los 70"
+  - Damon Hill
+  - 6
+  - Michael Schumacher
+  - Colin Chapman
+  - 28
+  - 1982
+  - 1994
+  - 4
+  - 1982
+  - 22
+  - Con Renault
+  - 14
+  - 16
+  - Toto Wolff
+  - "Gran Breta\xF1a"
+  - "Como proveedores de neum\xE1ticos"
+  - Alain Prost
+  - "El Williams del a\xF1o anterior"
+  - Jenson Button
+  - 3
+  - Por Mercedes
+  - Con Juan Manuel Fangio
+  - 1
+  - Estados Unidos
+  - 4
+  - 1963
+  - Jackie Stewart
+  - 1964
+  - 3
+  - Por Red Bull
+  - 16
+  - Ken Tyrell
+  - 25
+  - 19
+  - En Ockham
+  - Con Ayrton Senna
+  - 1995
+  - 23
+  - 1
+  - "Fr\xE9d\xE9ric Vasseur"
+  - Suecia
+  - 1995
+  - Pascal Wehrlein y Felipe Nasr
+  - En Hinwil
+  - Felipe Massa
+  - Ferrari
+  - "Fr\xE9d\xE9ric Vasseur"
+  - "En el Gran Premio de Hungr\xEDa"
+  - Felipe Nasr
+  - "En la 9\xAA posici\xF3n"
+  - 165
+  - Peter Sauber
+  - 5
+  - 7
+  - 1962
+  - 60
+  - Lewis Hamilton y Nico Rosberg
+  - Alemania
+  - Paddy Lowe
+  - En Maranello
+  - 2
+  - "En la 3\xAA posici\xF3n"
+  - Jefe de equipo
+  - Como las flechas de plata
+  - Pat Fry
+  - Nico Rosberg y Lewis Hamilton
+  - A 2
+  respuestasC:
+  - 1948
+  - En Woking
+  - 20
+  - 79
+  - 224
+  - Jean Todt
+  - 8
+  - Lewis Hamilton y Sebastian Vettel
+  - 15
+  - Piero Ferrari
+  - Con Alberto Ascari
+  - Enzo Ferrari
+  - 2010
+  - Argentina
+  - 2015
+  - 5
+  - Bruce McLaren
+  - En Brackley
+  - 62
+  - Stoffel Vandoorne y Lando Norris
+  - Francia
+  - En 1963
+  - 196
+  - Mercedes
+  - 1966
+  - Maurizio Arrivabene
+  - 14
+  - 2009
+  - Fernando Alonso - Lewis Hamilt
+  - 1988
+  - 1972
+  - "Gran Breta\xF1a"
+  - Renault
+  - 1979
+  - En Wooking
+  - 5
+  - Alain Prost
+  - Zak Brown
+  - 113
+  - 1968
+  - George Russell y Robert Kubica
+  - Maurizio Arrivabene
+  - 1994
+  - 58
+  - Pastor Maldonado
+  - 4
+  - Italia
+  - "Nico H\xFClkenberg y Carlos Sainz"
+  - 28
+  - 1985
+  - En Enstone
+  - 6
+  - 1994
+  - Flavio Briatore
+  - "En el Gran Premio de Jap\xF3n de 2008"
+  - "Nico H\xFClkenberg"
+  - 2006
+  - 16
+  - 2013
+  - 2
+  - Como equipo constructor
+  - De Toro Rosso
+  - 2007
+  - Max Verstappen y Pierre Gasly
+  - Austria
+  - 3
+  - Daniel Ricciardo
+  - Sergio Marchionne
+  - 67
+  - Mark Webber
+  - Pat Fry
+  - 2009
+  - Ferrari
+  - Christian Horner
+  - En Brackley
+  - 1972
+  - 5
+  - "Gran Breta\xF1a"
+  - 72
+  - 1952
+  - 7
+  - Cyril Abiteboul
+  - "En la d\xE9cada de los 80 y los 90"
+  - Alain Prost
+  - 7
+  - Alain Prost
+  - Ayrton Senna
+  - 37
+  - 1973
+  - 2000
+  - 2
+  - 1986
+  - 24
+  - Con Ferrari
+  - 13
+  - 19
+  - Jean Todt
+  - Austria
+  - Como proveedores de champagne
+  - Michael Schumacher
+  - "El Ferrari de dos a\xF1os antes"
+  - Pedro de la Rosa
+  - 2
+  - Por Honda
+  - Con Nigel Mansell
+  - 3
+  - "Gran Breta\xF1a"
+  - 2
+  - 1947
+  - Niki Lauda
+  - 1970
+  - 1
+  - Por BAR
+  - 12
+  - Enzo Ferrari
+  - 36
+  - 23
+  - En Woking
+  - Con Nigel Mansell
+  - 1997
+  - 25
+  - 0
+  - Monisha Kaltenborn
+  - Austria
+  - 1993
+  - "Kimi R\xE4ikk\xF6nen y Antonio Giovinazzi"
+  - En Woking
+  - Marcus Ericsson
+  - Renault
+  - Peter Sauber
+  - En el Gran Premio de Brasil
+  - Marcus Ericsson
+  - "En la 8\xAA posici\xF3n"
+  - 316
+  - Monisha Kaltenborn
+  - 4
+  - 11
+  - 1959
+  - 78
+  - Lewis Hamilton y Valtteri Bottas
+  - "Gran Breta\xF1a"
+  - James Allison
+  - En Brackley
+  - 4
+  - "En la 1\xAA posici\xF3n"
+  - Asesor
+  - Como las flechas de bronce
+  - James Allison
+  - Lewis Hamilton y Valtteri Bottas
+  - A 6
+  respuestasD:
+  - 1954
+  - En Grove
+  - 16
+  - 57
+  - 229
+  - Stefano Domenicali
+  - 14
+  - Fernando Alonso y Sebastian Vettel
+  - 16
+  - Sergio Marchionne
+  - Con Juan Manuel Fangio
+  - Piero Ferrari
+  - 2008
+  - Francia
+  - 2007
+  - 9
+  - Bernie Ecclestone
+  - En Woking
+  - 38
+  - Carlos Sainz y Lando Norris
+  - Estados Unidos
+  - En 1947
+  - 134
+  - Honda
+  - 1961
+  - Ron Dennis
+  - 12
+  - 2003
+  - Jenson Button - Stoffel Vandoorne
+  - 2003
+  - 1954
+  - Francia
+  - Honda
+  - 1962
+  - En Brackley
+  - 9
+  - Juan Manuel Fangio
+  - Bernie Ecclestone
+  - 138
+  - 1972
+  - Lance Stroll y Robert Kubica
+  - "\xC9ric Boullier"
+  - 1987
+  - 45
+  - Lance Stroll
+  - 5
+  - Alemania
+  - "Nico H\xFClkenberg y Jolyon Palmer"
+  - 32
+  - 2016
+  - En Maranello
+  - 4
+  - 1962
+  - Bob Bell
+  - En el Gran Premio de Singapur de 2008
+  - Robert Kubica
+  - 2008
+  - 19
+  - 2016
+  - 4
+  - Como motorista
+  - De Red Bull y Renault
+  - 2005
+  - Max Verstappen y Carlos Sainz
+  - Francia
+  - 5
+  - Sebastian Vettel
+  - Toto Wolff
+  - 38
+  - Daniil Kvyat
+  - Adrian Newey
+  - 2013
+  - Honda
+  - Maurizio Arrivabene
+  - En Grove
+  - 1949
+  - 7
+  - Italia
+  - 63
+  - 1967
+  - 12
+  - Colin Chapman
+  - "En la d\xE9cada de los 90"
+  - Clay Regazzoni
+  - 5
+  - Stirling Moss
+  - Jim Clark
+  - 41
+  - 1986
+  - 1999
+  - 1
+  - 1997
+  - 27
+  - Con Honda
+  - 19
+  - 23
+  - Flavio Briatore
+  - Estados Unidos
+  - Como proveedores de frenos
+  - Rubens Barrichello
+  - "El McLaren del a\xF1o anterior"
+  - Michael Schumacher
+  - 5
+  - Por Ferrari
+  - Con Gerhard Berger
+  - 2
+  - Francia
+  - 3
+  - 1960
+  - Alain Prost
+  - 1975
+  - 0
+  - Por McLaren
+  - 19
+  - Dietrich Mateschitz
+  - 12
+  - 26
+  - En Brackley
+  - Con Jackie Stewart
+  - 2000
+  - 29
+  - 3
+  - Peter Sauber
+  - Alemania
+  - 2002
+  - Pascal Wehrlein y Marcus Ericsson
+  - En Brackley
+  - Robert Kubica
+  - Mercedes
+  - Cyril Abiteboul
+  - "En el Gran Premio de M\xF3naco"
+  - Pedro de la Rosa
+  - "En la 11\xAA posici\xF3n"
+  - 48
+  - "Fr\xE9d\xE9ric Vasseur"
+  - 3
+  - 14
+  - 1954
+  - 54
+  - Fernando Alonso y Lewis Hamilton
+  - "Espa\xF1a"
+  - Toto Wolff
+  - En Woking
+  - 7
+  - "En la 4\xAA posici\xF3n"
+  - "Jefe de mec\xE1nicos"
+  - Como las flechas de diamante
+  - Paddy Lowe
+  - Fernando Alonso y Lewis Hamilton
+  - A 4
+--- !u!114 &3365623669557649691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Circuitos
+  nombreniveles:
+  - "M\xF3naco"
+  - Spa
+  - Silverstone
+  - Suzuka
+  - Monza
+  - Montreal
+  - Hockenheim
+  - Interlagos
+  - "N\xFCrburgring"
+  - Hungaroring
+  Preguntas:
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en el calendario de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en este trazado?"
+  - "\xBFQu\xE9 piloto tiene el record de vuelta?"
+  - "\xBFCu\xE1l es la velocidad media m\xE1xima alcanzada en un Gran Premio de M\xF3naco?"
+  - "\xBFCu\xE1ntas veces gan\xF3 Ayrton Senna en este circuito?"
+  - "\xBFQui\xE9n ha sido el ganador del \xFAltimo Gran Premio de M\xF3naco?"
+  - "\xBFQu\xE9 piloto ha sido el \xFAltimo en ganar tres veces seguidas en este trazado?"
+  - "\xBFQu\xE9 a\xF1o fue la \xFAltima victoria de McLaren en el Gran Premio de M\xF3naco?"
+  - "\xBFCu\xE1l es record de vuelta en este circuito?"
+  - "\xBFQu\xE9 piloto logr\xF3 la mayor velocidad media en un Gran Premio de M\xF3naco?"
+  - "\xBFC\xF3mo se llama la \xFAltima curva de este circuito?"
+  - "\xBFCu\xE1l es la curva m\xE1s famosa de este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 Gran Premio se celebra en este circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces de forma consecutiva en este circuito?"
+  - "\xBFQui\xE9n fue el ganador del Gran Premio de B\xE9lgica en 2018?"
+  - "\xBFCu\xE1l era la longitud del trazado original?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 equipo logr\xF3 meter sus 4 coches en las 4 primeras posiciones del
+    Gran Premio de B\xE9lgica de 1961?"
+  - "\xBFC\xF3mo se llama la primera curva del circuito?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 pilotos han ganado m\xE1s veces en este trazado?"
+  - "\xBFQui\xE9n fue el ganador en 2018 en este circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces seguidas aqu\xED?"
+  - "\xBFCu\xE1ntas veces ha ganado Alain Prost en este circuito?"
+  - "Antes de ser un circuito de carreras, \xBFqu\xE9 era Silverstone?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 el circuito en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue el margen m\xE1s grande entre el primer y el segundo clasificado?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 Gran Premio se celebra en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFQu\xE9 equipos han ganado m\xE1s veces?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas veces han ganado Ferrari y McLaren en este trazado?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue el \xFAltimo piloto Japon\xE9s en estar en el podio de este
+    circuito?"
+  - "\xBFQu\xE9 equipo tiene la vuelta r\xE1pida?"
+  - "\xBFQui\xE9n gan\xF3 en la edici\xF3n de 2018 del Gran Premio de Jap\xF3n?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 Gran Premio acoge?"
+  - "\xBFCu\xE1ntas veces ha ganado aqu\xED Schumacher?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 la edici\xF3n del 2018?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s victorias seguidas en este circuito?"
+  - "\xBFDe que famosa curva de este circuito se alfast\xF3 la escapatoria?"
+  - "\xBFCu\xE1ntas victorias seguidas lleg\xF3 a lograr Fangio?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es su vuelta r\xE1pida?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 Gran Premio acoge este circuito?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFQu\xE9 piloto ha ganado la edici\xF3n de 2018 del Gran Premio de Canad\xE1?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1l es el nombre del circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher?"
+  - "\xBFCu\xE1l es el muro m\xE1s famoso de este circuito?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o se corri\xF3 por \xFAltima vez en este circuito en F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 piloto tiene el record de victorias?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces aqu\xED?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado presente en el calendario de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 Gran Premio alberga?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 en este circuito en 2018?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces seguidas en este circuito?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto tiene m\xE1s victorias en este trazado?"
+  - "\xBFCu\xE1ntas veces ha ganado aqu\xED Ferrari?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 famoso piloto brasile\xF1o no ha ganado nunca en este circuito?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFCu\xE1l ha sido la distancia m\xE1s peque\xF1a entre el primero y el segundo
+    en este circuito?"
+  - "\xBFCu\xE1l era la longitud del trazado original?"
+  - "\xBFQui\xE9n gan\xF3 en este circuito en 2018?"
+  - "\xBFCu\xE1ntos pilotos han ganado tres veces seguidas en este circuito?"
+  - "\xBFA qui\xE9n est\xE1 dedicada la primera curva de este circuito?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o se inaugur\xF3?"
+  - "\xBFC\xF3mo es conocido el trazado original?"
+  - "\xBFQu\xE9 a\xF1o se corri\xF3 por \xFAltima vez en \xE9l en F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 famoso piloto austriaco tuvo en el circuito original un accidente
+    que casi le cuesta la vida?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este trazado?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n tiene la vuelta r\xE1pida?"
+  - "\xBFCu\xE1ntas veces ha ganado Ferrari en este circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este trazado?"
+  - "\xBFCu\xE1ntas curvas ten\xEDa el trazado original?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntos a\xF1os lleva en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto ha logrado m\xE1s victorias en este trazado?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida en carrera?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l es la vuelta r\xE1pida en clasificaci\xF3n?"
+  - "\xBFQui\xE9n ha sido el ganador de la edici\xF3n 2018 del Gran Premio de Hungr\xEDa?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1ntas victorias ha conseguido Hamilton en este circuito?"
+  - "\xBFQu\xE9 piloto logr\xF3 la vuelta r\xE1pida en carrera?"
+  - "\xBFQu\xE9 equipo ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 piloto tiene la vuelta r\xE1pida en clasificaci\xF3n?"
+  - "\xBFQu\xE9 equipo ha sido el ganador de la edici\xF3n 2018 del Gran Premio de
+    Hungr\xEDa?"
+  - "\xBFQu\xE9 piloto logr\xF3 la vuelta r\xE1pida de la carrera en la edici\xF3n
+    2017 del Gran Premio de Hungr\xEDa?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en este trazado?"
+  RespuestasCorrectas:
+  - 3,33 km
+  - McLaren
+  - 19
+  - Ayrton Senna
+  - 65
+  - 15
+  - Max Verstappen
+  - 155,55 km/h
+  - 6
+  - Daniel Ricciardo
+  - Nico Rosberg
+  - 2008
+  - 1:14.260
+  - Fernando Alonso
+  - La Rascasse
+  - Eau Rouge
+  - 19
+  - Ferrari
+  - 54
+  - 7,003 km
+  - Michael Schumacher
+  - Valtteri Bottas
+  - "El Gran Premio de B\xE9lgica"
+  - 6
+  - McLaren
+  - Sebastian Vettel
+  - 14,120 km
+  - 1924
+  - Ferrari
+  - La Source
+  - 51
+  - 5,88 km
+  - Lewis Hamilton
+  - 18
+  - 1948
+  - Ferrari
+  - 1:30.621
+  - Alain Prost y Lewis Hamilton
+  - Sebastian Vettel
+  - 17
+  - Lewis Hamilton
+  - 5
+  - "Un aer\xF3dromo"
+  - 1950
+  - Una vuelta entera
+  - 5,80 km
+  - "El Gran Premio de Jap\xF3n"
+  - 18
+  - Michael Schumacher
+  - 1:31.540
+  - Ferrari y McLaren
+  - 1962
+  - "Kimi R\xE4ikk\xF6nen"
+  - 7
+  - 30
+  - 6
+  - 1987
+  - Kamui Kobayashi
+  - McLaren
+  - Lewis Hamilton
+  - 1950
+  - 11
+  - 5,79 km
+  - Michael Schumacher
+  - 71
+  - Rubens Barrichello
+  - 1922
+  - El Gran Premio de Italia
+  - 5
+  - 1:21.046
+  - 18
+  - Lewis Hamilton
+  - Juan Manuel Fangio
+  - De la Parabolica
+  - 3
+  - 1978
+  - 4,36 km
+  - 41
+  - 14
+  - 1:13.622
+  - Michael Schumacher
+  - "El Gran Premio de Canad\xE1"
+  - Ferrari
+  - 1978
+  - Sebastian Vettel
+  - 11
+  - Rubens Barrichello
+  - Circuito de Gilles Villeneuve
+  - 7
+  - El muro de los campeones
+  - 1929
+  - 4,57 km
+  - 2018
+  - Michael Schumacher
+  - 1:13.780
+  - Ferrari
+  - 36
+  - El Gran Premio de Alemania
+  - 4
+  - "Kimi R\xE4ikk\xF6nen"
+  - 17
+  - 10
+  - Lewis Hamilton
+  - 1970
+  - Ayrton Senna
+  - 4,29 km
+  - Valtteri Bottas
+  - Ferrari
+  - 15
+  - 1973
+  - Michael Schumacher
+  - 8
+  - 37
+  - Rubens Barrichello
+  - 1:10.540
+  - 0,588
+  - 7,96 km
+  - Lewis Hamilton
+  - 0
+  - A Ayrton Senna
+  - 5,14 km
+  - 1926
+  - Como el infierno verde
+  - 2013
+  - 15
+  - Michael Schumacher
+  - Niki Lauda
+  - Ferrari
+  - 1:29.468
+  - 40
+  - Michael Schumacher
+  - 14
+  - 1951
+  - 5
+  - 73
+  - 4,38 km
+  - 34
+  - Lewis Hamilton
+  - 1:19.071
+  - 1986
+  - 1:16.276
+  - Lewis Hamilton
+  - 15
+  - 6
+  - Michael Schumacher
+  - McLaren
+  - Sebastian Vettel
+  - Mercedes
+  - Fernando Alonso
+  - 11
+  respuestasA:
+  - 4,48 km
+  - Ferrari
+  - 23
+  - Ayrton Senna
+  - 69
+  - 16
+  - Max Verstappen
+  - 155,55 km/h
+  - 8
+  - Daniel Ricciardo
+  - Nico Rosberg
+  - 2009
+  - 1:16.481
+  - Sebastian Vettel
+  - La Rascasse
+  - La Source
+  - 7
+  - Ferrari
+  - 54
+  - 9,035 km
+  - Michael Schumacher
+  - Niki Lauda
+  - El Gran Premio de Spa-Francorchamps
+  - 6
+  - Lotus
+  - Max Verstappen
+  - 17,586 km
+  - 1924
+  - McLaren
+  - Raidillon
+  - 68
+  - 4,62 km
+  - Fernando Alonso
+  - 21
+  - 1952
+  - Ferrari
+  - 1:32.357
+  - Alain Prost y Ayrton Senna
+  - Lewis Hamilton
+  - 10
+  - Sebastian Vettel
+  - 5
+  - El aeropuerto de Silverstone
+  - 1950
+  - 30 segundos
+  - 4,62 km
+  - El Gran Premio de China
+  - 15
+  - Sebastian Vettel
+  - 1:31.540
+  - McLaren y Red Bull
+  - 1984
+  - "Kimi R\xE4ikk\xF6nen"
+  - 4
+  - 35
+  - 4
+  - 1963
+  - Sakon Yamamoto
+  - Williams
+  - Nico Rosberg
+  - 1971
+  - 9
+  - 2,86 km
+  - Michael Schumacher
+  - 41
+  - Michael Schumacher
+  - 1933
+  - El Gran Premio de Europa
+  - 1
+  - 1:20.648
+  - 18
+  - Lewis Hamilton
+  - Ayrton Senna
+  - De la primera variante
+  - 2
+  - 1967
+  - 4,54 km
+  - 36
+  - 12
+  - 1:14.480
+  - Michael Schumacher
+  - El Gran Premio de Gilles Villeneuve
+  - McLaren
+  - 1978
+  - Lewis Hamilton
+  - 8
+  - Gilles Villeneuve
+  - Circuito de Jacques Villeneuve
+  - 7
+  - El muro de los vencedores
+  - 1932
+  - 5,33 km
+  - 2015
+  - Michael Schumacher
+  - 1:12.168
+  - Williams
+  - 36
+  - El Gran Premio de Alemania
+  - 3
+  - Michael Schumacher
+  - 17
+  - 9
+  - Nico Rosberg
+  - 1963
+  - Ayrton Senna
+  - 5,89 km
+  - Valtteri Bottas
+  - McLaren
+  - 12
+  - 1973
+  - Felipe Massa
+  - 6
+  - 22
+  - Felipe Massa
+  - 1:11.473
+  - 0,369
+  - 7,96 km
+  - Michael Schumacher
+  - 2
+  - A Ayrton Senna
+  - 4,44 km
+  - 1935
+  - Como el infierno azul
+  - 2016
+  - 15
+  - Nico Rosberg
+  - Helmut Marko
+  - Williams
+  - 1:29.468
+  - 34
+  - Sebastian Vettel
+  - 12
+  - 1951
+  - 6
+  - 65
+  - 3,32 km
+  - 34
+  - Sebastian Vettel
+  - 1:21.659
+  - 1986
+  - 1:18.649
+  - Lewis Hamilton
+  - 7
+  - 5
+  - Lewis Hamilton
+  - Williams
+  - Lewis Hamilton
+  - Ferrari
+  - "Kimi R\xE4ikk\xF6nen"
+  - 11
+  respuestasB:
+  - 2,60 km
+  - McLaren
+  - 34
+  - Alain Prost
+  - 65
+  - 14
+  - Fernando Alonso
+  - 168,42 km/h
+  - 6
+  - Nico Rosberg
+  - Lewis Hamilton
+  - 2008
+  - 1:09.132
+  - Lewis Hamilton
+  - Santa Devota
+  - Les Combes
+  - 19
+  - Alfa Romeo
+  - 67
+  - 7,003 km
+  - Ayrton Senna
+  - Michael Schumacher
+  - "El Gran Premio de B\xE9lgica"
+  - 4
+  - Ferrari
+  - Sebastian Vettel
+  - 7,68 km
+  - 1931
+  - Williams
+  - Les Combes
+  - 51
+  - 4,31 km
+  - Lewis Hamilton
+  - 14
+  - 1948
+  - McLaren
+  - 1:27.643
+  - Mark Webber y Lewis Hamilton
+  - Nico Rosberg
+  - 9
+  - Lewis Hamilton
+  - 2
+  - Una base militar
+  - 1948
+  - Una vuelta entera
+  - 5,80 km
+  - "El Gran Premio de Jap\xF3n"
+  - 16
+  - Michael Schumacher
+  - 1:30.584
+  - Williams y Ferrari
+  - 1962
+  - Sebastian Vettel
+  - 7
+  - 19
+  - 2
+  - 1995
+  - Kamui Kobayashi
+  - McLaren
+  - Lewis Hamilton
+  - 1963
+  - 11
+  - 4,49 km
+  - Fernando Alonso
+  - 59
+  - Sebastian Vettel
+  - 1922
+  - El Gran Premio de Ferrari
+  - 4
+  - 1:21.046
+  - 16
+  - Sebastian Vettel
+  - Juan Manuel Fangio
+  - De la variante Ascari
+  - 3
+  - 1978
+  - 5,44 km
+  - 41
+  - 14
+  - 1:09.358
+  - Lewis Hamilton
+  - "El Gran Premio de Canad\xE1"
+  - Williams
+  - 1983
+  - Nico Rosberg
+  - 7
+  - Rubens Barrichello
+  - "Circuito internacional de Canad\xE1"
+  - 9
+  - El muro de los campeones
+  - 1929
+  - 4,4 km
+  - 2014
+  - Sebastian Vettel
+  - 1:14.917
+  - McLaren
+  - 43
+  - El Gran Premio de Hockenheim
+  - 4
+  - Lewis Hamilton
+  - 19
+  - 6
+  - Daniel Ricciardo
+  - 1970
+  - Michael Schumacher
+  - 4,29 km
+  - Ayrton Senna
+  - Ferrari
+  - 19
+  - 1979
+  - Rubens Barrichello
+  - 4
+  - 37
+  - Rubens Barrichello
+  - 1:13.375
+  - 0,588
+  - 8,33 km
+  - Fernando Alonso
+  - 0
+  - A Rubens Barrichello
+  - 5,91 km
+  - 1926
+  - Como el infierno verde
+  - 2011
+  - 12
+  - Lewis Hamitlon
+  - Niki Lauda
+  - Ferrari
+  - 1:10.348
+  - 40
+  - Lewis Hamilton
+  - 14
+  - 1942
+  - 1
+  - 73
+  - 4,38 km
+  - 44
+  - Michael Schumacher
+  - 1:19.071
+  - 1997
+  - 1:17.499
+  - Sebastian Vettel
+  - 12
+  - 3
+  - Michael Schumacher
+  - Ferrari
+  - Sebastian Vettel
+  - Red Bull
+  - Lewis Hamilton
+  - 14
+  respuestasC:
+  - 3,33 km
+  - Williams
+  - 12
+  - Fernando Alonso
+  - 50
+  - 20
+  - "Kimi R\xE4ikk\xF6nen"
+  - 124,55 km/h
+  - 4
+  - Sebastian Vettel
+  - Sebastian Vettel
+  - 2012
+  - 1:14.260
+  - Fernando Alonso
+  - Loews
+  - Eau Rouge
+  - 14
+  - Williams
+  - 43
+  - 8,14 km
+  - Niki Lauda
+  - Sebastian Vettel
+  - El Gran Premio de Francia
+  - 8
+  - Williams
+  - Lewis Hamilton
+  - 14,120 km
+  - 1950
+  - Renault
+  - La Source
+  - 48
+  - 5,88 km
+  - Sebastian Vettel
+  - 23
+  - 1950
+  - Williams
+  - 1:29.921
+  - Alain Prost y Lewis Hamilton
+  - Valtteri Bottas
+  - 12
+  - Alain Prost
+  - 6
+  - "Un aer\xF3dromo"
+  - 1936
+  - 1 minuto
+  - 3,23 km
+  - El Gran Premio de Asia
+  - 13
+  - Fernando Alonso
+  - 1:32:651
+  - Ferrari y Renault
+  - 1973
+  - Michael Schumacher
+  - 3
+  - 30
+  - 9
+  - 1987
+  - Takuma Sato
+  - Ferrari
+  - Sebastian Vettel
+  - 1954
+  - 16
+  - 6,63 km
+  - Lewis Hamilton
+  - 71
+  - Rubens Barrichello
+  - 1950
+  - El Gran Premio de Italia
+  - 3
+  - 1:23.984
+  - 23
+  - Nico Rosberg
+  - Michael Schumacher
+  - De la Parabolica
+  - 6
+  - 1985
+  - 3,62 km
+  - 31
+  - 17
+  - 1:13.622
+  - Daniel Ricciardo
+  - El Gran Premio de Lance Stroll
+  - Red Bull
+  - 1996
+  - Daniel Ricciardo
+  - 11
+  - Michael Schumacher
+  - Circuito de Gilles Villeneuve
+  - 5
+  - El muro de los novatos
+  - 1935
+  - 4,57 km
+  - 2018
+  - Nico Rosberg
+  - 1:15.658
+  - Red Bull
+  - 39
+  - El Gran Premio de Europa
+  - 7
+  - Sebastian Vettel
+  - 14
+  - 10
+  - Sebastian Vettel
+  - 1944
+  - Lewis Hamilton
+  - 3,87 km
+  - Felipe Massa
+  - Red Bull
+  - 15
+  - 1966
+  - Michael Schumacher
+  - 10
+  - 17
+  - Ayrton Senna
+  - 1:12.588
+  - 0,471
+  - 22,81 km
+  - Lewis Hamilton
+  - 3
+  - A Emerson Fittipaldi
+  - 6,95 km
+  - 1986
+  - Como el infierno rojo
+  - 2013
+  - 16
+  - Sebastian Vettel
+  - Gerhard Berger
+  - Red Bull
+  - 1:27.756
+  - 46
+  - Michael Schumacher
+  - 16
+  - 1950
+  - 3
+  - 79
+  - 6,48 km
+  - 27
+  - Lewis Hamilton
+  - 1:14.587
+  - 1968
+  - 1:16.276
+  - "Kimi R\xE4ikk\xF6nen"
+  - 21
+  - 7
+  - Sebastian Vettel
+  - Red Bull
+  - Michael Schumacher
+  - McLaren
+  - Fernando Alonso
+  - 9
+  respuestasD:
+  - 1,5 km
+  - Red Bull
+  - 19
+  - Michael Schumacher
+  - 72
+  - 15
+  - Lewis Hamilton
+  - 173,34 km/h
+  - 10
+  - Lewis Hamilton
+  - Michael Schumacher
+  - 2010
+  - 1:12.178
+  - Ayrton Senna
+  - Eau Rouge
+  - Blanchimont
+  - 23
+  - McLaren
+  - 50
+  - 6,78 km
+  - Felipe Massa
+  - Valtteri Bottas
+  - El Gran Premio de Europa
+  - 7
+  - McLaren
+  - Daniel Ricciardo
+  - 15,143 km
+  - 1963
+  - Ferrari
+  - Blanchimont
+  - 53
+  - 6,4 km
+  - Michael Schumacher
+  - 18
+  - 1962
+  - Benetton
+  - 1:30.621
+  - Alain Prost y Fernando Alonso
+  - Sebastian Vettel
+  - 17
+  - Ayrton Senna
+  - 2
+  - Una pista de pruebas de hidroaviones
+  - 1922
+  - 2 vueltas
+  - 4,21 km
+  - El Gran Premio de Tailandia
+  - 18
+  - Rubens Barichello
+  - 1:29.218
+  - Ferrari y McLaren
+  - 1978
+  - Lewis Hamilton
+  - 5
+  - 43
+  - 6
+  - 1975
+  - Yuji Ide
+  - Tyrell
+  - Daniel Ricciardo
+  - 1950
+  - 14
+  - 5,79 km
+  - Sebastian Vettel
+  - 63
+  - Lewis Hamilton
+  - 1984
+  - "El Gran Premio de Canad\xE1"
+  - 5
+  - 1:19.508
+  - 21
+  - Max Verstappen
+  - Lewis Hamilton
+  - De la curva Biassono
+  - 4
+  - 1963
+  - 4,36 km
+  - 29
+  - 20
+  - 1:16.355
+  - Sebastian Vettel
+  - El Gran Premio de Montreal
+  - Ferrari
+  - 1967
+  - Sebastian Vettel
+  - 14
+  - Fernando Alonso
+  - Circuito de Lance Stroll
+  - 3
+  - El muro Maldonado
+  - 1943
+  - 6,10 km
+  - 2016
+  - Lewis Hamilton
+  - 1:13.780
+  - Ferrari
+  - 21
+  - El Gran Premio de Berlin
+  - 10
+  - "Kimi R\xE4ikk\xF6nen"
+  - 12
+  - 13
+  - Lewis Hamilton
+  - 1979
+  - Fernando Alonso
+  - 3,18 km
+  - Lewis Hamilton
+  - Williams
+  - 21
+  - 1981
+  - Ayrton Senna
+  - 8
+  - 29
+  - Bruno Senna
+  - 1:10.540
+  - 0,698
+  - 5,47 km
+  - Sebastian Vettel
+  - 1
+  - A Felipe Massa
+  - 5,14 km
+  - 1950
+  - Como el circuito temido
+  - 2015
+  - 10
+  - Michael Schumacher
+  - Dieter Quester
+  - Benetton
+  - 1:34.287
+  - 24
+  - Fernando Alonso
+  - 17
+  - 1963
+  - 5
+  - 46
+  - 5,19 km
+  - 18
+  - Daniel Ricciardo
+  - 1:22.547
+  - 1973
+  - 1:19.489
+  - Max Verstappen
+  - 15
+  - 6
+  - Ayrton Senna
+  - McLaren
+  - Nico Rosberg
+  - Mercedes
+  - Sebastian Vettel
+  - 16
+--- !u!114 &3365623669557649688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8ddff115813a54c84c32989c188da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interstitialAdsButton: {fileID: 0}
+  rewardedAdsButton: {fileID: 0}
+  Tema: 
+  RespuestaAs:
+  - {fileID: 0}
+  - {fileID: 0}
+  Respuestas: 00000000000000000000000000000000
+  textoniveles: {fileID: 0}
+  Pregunta: {fileID: 0}
+  Puntuacion: {fileID: 0}
+  "N\xBAPregunta": {fileID: 0}
+  respuestaA: {fileID: 0}
+  respuestaB: {fileID: 0}
+  respuestaC: {fileID: 0}
+  respuestaD: {fileID: 0}
+  LedNormales:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LedRojos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LedVerdesMoco:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  idNivell: 0
+  idPregunta: 0
+  Intentos: 0
+  Aciertos: 0
+  BotonesRespuestas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Temas:
+  - {fileID: 3365623669557649671}
+  - {fileID: 3365623669557649668}
+  - {fileID: 3365623669557649669}
+  - {fileID: 3365623669557649690}
+  - {fileID: 3365623669557649691}
+--- !u!114 &3365623669557649664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: F1 in general
+  nombreniveles:
+  - Level 1
+  - Level 2
+  - Level 3
+  - Level 4
+  - Level 5
+  - Level 6
+  - Level 7
+  - Level 8
+  - Level 9
+  - Level 10
+  Preguntas:
+  - What is the official tyre supplier in F1?
+  - Who turned Formula 1 into a business?
+  - mios hay actualmente en el calendario?te en el calendario?
+  - "\xBFQu\xE9 piloto de F\xF3rmula 1 tiene m\xE1s mundiales?"
+  - "\xBFCu\xE1l es el circuito que m\xE1s kil\xF3metros tiene del calendario actual?"
+  - "\xBFQui\xE9n es el piloto m\xE1s joven en ganar una carrera de F1?"
+  - "\xBFQui\xE9n es el presidente actual de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 el primer mundial de F\xF3rmula 1 moderna?"
+  - "\xBFCu\xE1ntas escuder\xEDas hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es la duraci\xF3n m\xE1xima de una carrera?"
+  - "\xBFCu\xE1ntos pilotos hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es el m\xEDnimo de kil\xF3metros que tiene una carrera?"
+  - "\xBFCu\xE1ntos neum\xE1ticos hay en total?"
+  - "\xBFQu\xE9 motor se utiliza actualmente en la F1?"
+  - "\xBFQu\xE9 piloto fue el campe\xF3n del mundo en el comienzo de la era h\xEDbrida
+    (2014)?"
+  - "\xBFCu\xE1ntas marchas tiene un monoplaza de F1?"
+  - "\xBFQu\xE9 equipo domin\xF3 la era h\xEDbrida en sus comienzos?"
+  - "\xBFCu\xE1ntas rondas de clasificaci\xF3n hay?"
+  - "\xBFQu\xE9 pilotos punt\xFAan al finalizar una carrera?"
+  - "\xBFQu\xE9 ocurre cuando hay bandera roja?"
+  - "\xBFQui\xE9n fue el primer campe\xF3n del mundo de la historia?"
+  - "\xBFQu\xE9 sistema de salida se usa en la F1?"
+  - "\xBFCu\xE1ntos kg de combustible se pueden usar cada carrera?"
+  - "\xBFPara qu\xE9 sirve el DRS?"
+  - "\xBFCu\xE1l es el m\xE1ximo de RPM que tiene un motor?"
+  - "\xBFQu\xE9 significa la bandera azul?"
+  - "\xBFCu\xE1l es el m\xE1ximo de motores sin sanci\xF3n que puede usar un piloto
+    por temporada?"
+  - "\xBFCu\xE1ntos puntos se llevan, respectivamente, los 10 primeros de cada carrera?"
+  - "\xBFQu\xE9 piloto gan\xF3 el primer GP de la F\xF3rmula 1 moderna?"
+  - "\xBFCu\xE1nto mide de ancho un F1?"
+  - "\xBFEn qu\xE9 consiste un 'drive-through'?"
+  - "\xBFCu\xE1l es el peso m\xEDnimo que tiene que tener un F1?"
+  - "\xBFQu\xE9 tipo de cambio utiliza un F1?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s pole positions?"
+  - "\xBFQu\xE9 persona ha realizado un servicio m\xE1s largo a la F1?"
+  - "\xBFEn qu\xE9 consiste el Parc Ferm\xE9?"
+  - "\xBFQu\xE9 piloto ha disputado m\xE1s Grandes Premios?"
+  - "\xBFQu\xE9 es el ERS?"
+  - "\xBFQu\xE9 pa\xEDs tiene m\xE1s victorias?"
+  - "\xBFD\xF3nde se puede activar el DRS?"
+  - "\xBFCu\xE1ntos Grandes Premios nocturnos en su totalidad hay actualmente?"
+  - "\xBFQu\xE9 significa la bandera negra?"
+  - "\xBFCu\xE1ntos caballos de potencia extra genera el ERS?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay?"
+  - "\xBFQu\xE9 piloto ha competido con m\xE1s a\xF1os?"
+  - "\xBFCu\xE1nto tiempo por vuelta se puede usar el ERS?"
+  - "\xBFPara qui\xE9n est\xE1 reservado el dorsal n\xBA 1?"
+  - "\xBFQu\xE9 edad ten\xEDa Eitel Cantoni en su \xFAltimo GP?"
+  - "\xBFQui\xE9n ha sido el piloto m\xE1s joven de la historia en participar en un
+    GP?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s Grandes Premios antes de ser campe\xF3n del
+    mundo?"
+  - "\xBFQu\xE9 edad ten\xEDa Max Verstappen cuando disput\xF3 su primer Gran Premio?"
+  - "\xBFCu\xE1nto pesa aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l es el intervalo de temperatura para el \xF3ptimo funcionamiento de
+    los neum\xE1ticos?"
+  - "\xBFCu\xE1nto peso puede llegar a perder un piloto durante una carrera?"
+  - "\xBFCu\xE1ndo sale el Safety Car?"
+  - "\xBFQu\xE9 a\xF1o regres\xF3 la dupla McLaren-Honda?"
+  - "\xBFQui\xE9n es el piloto del Safety Car?"
+  - "\xBFCu\xE1ntos a\xF1os dura el dorsal que elijas?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de seco de Pirelli?"
+  - "\xBFQui\xE9n es el director de carrera?"
+  - "\xBFCu\xE1l es el patrocinador oficial de la F1?"
+  - "\xBFCu\xE1ntos compuestos de seco lleva Pirelli a cada GP?"
+  - "\xBFQu\xE9 papel desempe\xF1a actualmente Bernie Ecclestone en la F1?"
+  - "\xBFCu\xE1l es el desarrollador de los videojuegos oficiales de la F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 significa la bandera verde?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay que montar como m\xEDnimo en cada carrera
+    de clima seco?"
+  - "\xBFQu\xE9 apodo tiene Kimi R\xE4ikk\xF6nen?"
+  - "\xBFQu\xE9 tipo de tracci\xF3n usa un F1?"
+  - "\xBFCu\xE1l es el promedio de cambios de marcha en una carrera?"
+  - "\xBFCu\xE1ntos botones tiene aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l ha sido la m\xE1xima velocidad punta que ha alcanzado un F1?"
+  - "\xBFCu\xE1nto dur\xF3 el pitstop m\xE1s r\xE1pido de la historia?"
+  - "\xBFC\xF3mo se engrana la marcha atr\xE1s?"
+  - "\xBFQu\xE9 piloto cobra m\xE1s actualmente?"
+  - "\xBFQu\xE9 temperatura puede alcanzar el cockpit?"
+  - "\xBFCu\xE1ntos litros de agua por segundo desplazan los neum\xE1ticos de lluvia?"
+  - "\xBFCu\xE1nta distancia separa al fondo plano del suelo?"
+  - "\xBFCu\xE1ntas piezas componen un F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces usa de promedio un piloto la radio por vuelta?"
+  - "\xBFCada cu\xE1nto tiempo se cambia la marcha de promedio?"
+  - "\xBFQu\xE9 marca proporciona el champagne que se bebe en el podio?"
+  - "\xBFQui\xE9n fue el \xFAltimo piloto en fallecer por las secuelas de un accidente
+    en F1?"
+  - "\xBFQu\xE9 pilotos suben al podio al finalizar la carrera?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de lluvia de Pirelli?"
+  - "\xBFCu\xE1l es el equipo m\xE1s longevo de la F1?"
+  - "\xBFQu\xE9 significa la bandera a cuadros?"
+  - "\xBFCu\xE1l ha sido la distancia m\xE1s peque\xF1a entre el primero y el segundo
+    en un Gran Premio?"
+  - "\xBFQu\xE9 piloto ha logrado m\xE1s vueltas r\xE1pidas?"
+  - "\xBFCu\xE1l es el circuito en el que m\xE1s veces se ha corrido?"
+  - "\xBFQu\xE9 piloto ha conseguido anotar m\xE1s puntos?"
+  - "\xBFCu\xE1nto cuesta aproximadamente un F1?"
+  - "\xBFCu\xE1l es la edad m\xEDnima para obtener la superlicencia?"
+  - "\xBFCu\xE1ntos pilotos puede usar un equipo cada temporada?"
+  - "\xBFEn qu\xE9 carreras est\xE1 permitido el ABS?"
+  - "\xBFQu\xE9 significa la bandera blanca y negra?"
+  - "\xBFPara qu\xE9 sirve el Hans?"
+  - "\xBFCu\xE1ntos pilotos han logrado puntuar a lo largo de la historia de la F1?"
+  - "\xBFCu\xE1ntos coches de repuesto pueden tener los equipos?"
+  - "\xBFPuede usarse l\xEDquido para refrigerar los frenos?"
+  - "\xBFCu\xE1ntos pilotos han logrado la vuelta r\xE1pida en su debut?"
+  - "\xBFQu\xE9 circuito es conocido por su peligrosidad?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en M\xF3naco?"
+  - "\xBFCu\xE1l fue el Gran Premio en el que participaron menos pilotos?"
+  - "\xBFCu\xE1l es el circuito m\xE1s largo que ha estado en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto en activo lleva m\xE1s tiempo en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 hizo Nelson Piquet Jr en el Gran Premio de Singapur 2008?"
+  - "\xBFCu\xE1l es el santo m\xE1s formulero?"
+  - "\xBFQu\xE9 sistema de seguridad se ha introducido en 2018?"
+  - "\xBFCu\xE1l fue la carrera m\xE1s larga de la historia?"
+  - "\xBFPara qu\xE9 sirve la bandera negra con un c\xEDrculo naranja?"
+  - "\xBFEst\xE1n permitidas las \xF3rdenes de equipo?"
+  - "\xBFQui\xE9n ha sido el \xFAltimo piloto en debutar en un Gran Premio?"
+  - "\xBFCu\xE1ntos pilotos corrieron en el Gran Premio de Estados Unidos de 2005?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Ron Dennis liderando el equipo McLaren?"
+  - "\xBFCu\xE1nto dur\xF3 el pit stop m\xE1s r\xE1pido de la temporada 2017?"
+  - "\xBFCu\xE1ntos cambios de direcci\xF3n se pueden hacer en una recta para defender
+    la posici\xF3n?"
+  - "\xBFQu\xE9 piloto consigui\xF3 m\xE1s victorias en 2017?"
+  - "\xBFCu\xE1nto dur\xF3 el Gran Premio de Canad\xE1 de 2011 incluyendo parones?"
+  - "\xBFQu\xE9 pilotos en activo tienen m\xE1s t\xEDtulos mundiales?"
+  - "\xBFCu\xE1ntos pilotos acabaron el primer GP de M\xF3naco de la historia? Participaron
+    19"
+  - "\xBFQu\xE9 equipo hizo el pit stop m\xE1s r\xE1pido de la temporada 2017?"
+  - "\xBFQu\xE9 significa la bandera blanca?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en M\xF3naco?"
+  - "\xBFEn qu\xE9 Gran Premio naci\xF3 San Ganchao?"
+  - "\xBFQui\xE9n es el director deportivo de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 equipo ha sido el campe\xF3n del mundo en 2017?"
+  - "\xBFEn qu\xE9 circuito se obtiene la menor velocidad media?"
+  - "\xBFCu\xE1l es la longitud del circuito de Pescara?"
+  - "\xBFCu\xE1ntas veces han ganado los pilotos brit\xE1nicos el Gran Premio de Gran
+    Breta\xF1a?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en el circuito de Monza?"
+  - "\xBFQu\xE9 piloto gan\xF3 el mundial con el mayor margen de puntos y en qu\xE9
+    a\xF1o?"
+  - "\xBFQui\xE9n es el ingeniero que m\xE1s renombre tiene?"
+  - "\xBFQu\xE9 piloto ha sido el \xFAnico en conseguir un mundial de F\xF3rmula 1
+    y otro de MotoGP?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en Spa-Francorchamps?"
+  - "\xBFQu\xE9 pa\xEDs ha alojado m\xE1s Grandes Premios?"
+  - "\xBFCu\xE1ntos circuitos de F\xF3rmula 1 hay en Europa?"
+  - "\xBFEn qu\xE9 circuito se ha alcanzado la mayor velocidad media en una vuelta
+    en carrera?"
+  - "\xBFQu\xE9 piloto ha sido el campe\xF3n del mundo en 2017?"
+  - "\xBFQu\xE9 proveedor de neum\xE1ticos ha estado en m\xE1s carreras?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Monza?"
+  - "\xBFQu\xE9 piloto ha estado m\xE1s a\xF1os en F\xF3rmula 1?"
+  - "\xBFQu\xE9 significa la bandera a rayas amarillas y rojas?"
+  - "\xBFEn qu\xE9 Gran Premio fue la \xFAltima victoria de Jenson Button?"
+  - "\xBFCu\xE1ntos puntos sac\xF3 Sebastian Vettel a Fernando Alonso en 2013?"
+  - "\xBFCu\xE1ntas veces gan\xF3 Senna en M\xF3naco?"
+  - "\xBFCu\xE1ntos Grandes Premios ha alojado Italia?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Spa-Franchorchamps?"
+  - "\xBFEn cu\xE1ntas carreras ha estado Goodyear?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Barrichello en F\xF3rmula 1?"
+  - "\xBFQu\xE9 velocidad media se alcanz\xF3 en la vuelta m\xE1s r\xE1pida dada en
+    Monza en carrera?"
+  RespuestasCorrectas:
+  - Pirelli
+  - Bernie Ecclestone
+  - 21
+  - Michael Schumacher
+  - Spa-Francorchamps
+  - Max Verstappen
+  - Chase Carey
+  - 1950
+  - 10
+  - 2 hours
+  - 20
+  - "305 (except M\xF3naco)"
+  - 9
+  - "V6 Turbo H\xEDbrido"
+  - Lewis Hamilton
+  - 8
+  - Mercedes
+  - 3
+  - The very first ten drivers
+  - Session get stopped
+  - Nino Farina
+  - Semaphore start method
+  - Hasta 105 kg
+  - Para ganar velocidad punta
+  - 15.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 3
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Nino Farina
+  - 2 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 734 kg
+  - "Semiautom\xE1tico con levas"
+  - Lewis Hamilton
+  - Bernie Ecclestone
+  - En no poder realizar cambios importantes en el coche
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Gran Breta\xF1a"
+  - En las zonas marcadas por la FIA
+  - 2
+  - El piloto al que se le muestra queda expulsado
+  - 163
+  - 7
+  - Eitel Cantoni
+  - 33.3 segundos
+  - "Para el vigente campe\xF3n"
+  - "55 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Nico Rosberg
+  - "17 a\xF1os y 166 d\xEDas"
+  - 2kg
+  - "80\xBAC y 100\xBAC"
+  - 3kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Bernd Mayl\xE4nder"
+  - "Todos los que permanezcas en la categor\xEDa"
+  - P-Zero
+  - Charlie Whiting
+  - Heineken
+  - 3
+  - Presidente de honor
+  - Codemasters
+  - No hay peligro
+  - 2
+  - Iceman
+  - Trasera
+  - 2750
+  - 41
+  - 378km/h
+  - 1,9 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Fernando Alonso
+  - "50\xBAC"
+  - 90 litros por segundo
+  - Entre 10 y 50 mm
+  - 80.000
+  - 1
+  - Cada 1,3 segundos
+  - Carbon
+  - Jules Bianchi
+  - Los 3 primeros
+  - Cinturato
+  - Scuderia Ferrari
+  - La carrera ha terminado
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monza
+  - Lewis Hamilton
+  - "8.438.000\u20AC"
+  - "18 a\xF1os"
+  - 4
+  - "No est\xE1 permitido el ABS"
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 289
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Indianapolis de 2005
+  - Pescara
+  - Fernando Alonso
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Ganchao
+  - El Halo
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xED"
+  - Charles Leclerc
+  - 5
+  - 36
+  - 2,17 segundos
+  - 1
+  - Lewis Hamilton
+  - 4 horas, 4 minutos y 39 segundos
+  - Lewis Hamilton y Sebastian Vettel
+  - 7
+  - Williams
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 15
+  - En el Gran Premio de China 2007
+  - Ross Brawn
+  - Mercedes
+  - "En M\xF3naco"
+  - 25,57 km
+  - 21 veces
+  - Ferrari
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - John Surtees
+  - Ferrari
+  - Italia
+  - 37
+  - En Monza
+  - Lewis Hamilton
+  - Goodyear
+  - 18
+  - Rubens Barrichello
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - Gran Premio de Brasil de 2012
+  - 155
+  - 6
+  - 91
+  - 12
+  - En 358
+  - 18
+  - 257,34 km/h
+  respuestasA:
+  - Pirelli
+  - Max Mosley
+  - 19
+  - Juan Manuel Fangio
+  - Monaco
+  - Carlos Sainz
+  - Chase Carey
+  - 2000
+  - 9
+  - 1h y 30min
+  - 20
+  - 275
+  - 5
+  - "V8 Atmosf\xE9rico"
+  - Lewis Hamilton
+  - 6
+  - Ferrari
+  - 3
+  - "Los diez \xFAltimos"
+  - No se puede adelantar
+  - Juan Manuel Fangio
+  - Salida lanzada
+  - Hasta 105 kg
+  - Para frenar mejor
+  - 15.000
+  - No hay peligro
+  - 3
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Michael Schumacher
+  - 4 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 734 kg
+  - "Autom\xE1tico"
+  - Sebastian Vettel
+  - Ron Dennis
+  - "En juntar todos los coches despu\xE9s de la clasificaci\xF3n"
+  - Michael Schumacher
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Espa\xF1a"
+  - En todo el circuito
+  - 1
+  - No se puede adelantar
+  - 150
+  - 5
+  - Michael Schumacher
+  - 7,12 segundos
+  - "Para el vigente campe\xF3n"
+  - "45 a\xF1os y 332 d\xEDas"
+  - Fernando Alonso
+  - Lewis Hamilton
+  - "18 a\xF1os y 23 d\xEDas"
+  - 2kg
+  - "130\xBAC y 140\xBAC"
+  - 3kg
+  - Siempre que llueve
+  - 2013
+  - Carlos Sainz
+  - "Todos los que permanezcas en la categor\xEDa"
+  - Cinturato
+  - Bernie Ecclestone
+  - Heineken
+  - 2
+  - Director ejecutivo de la FOM
+  - EA Sports
+  - "Se para la sesi\xF3n"
+  - 1
+  - Iceman
+  - Integral
+  - 2200
+  - 50
+  - 372km/h
+  - 1,9 segundos
+  - "Poniendo el punto muerto y manteniendo pulsado el embrague durante m\xE1s de
+    medio segundo"
+  - "Kimi R\xE4ikk\xF6nen"
+  - "80\xBAC"
+  - 90 litros por segundo
+  - Entre 40 y 80 mm
+  - 1.000.000
+  - 2
+  - Cada 1 segundo
+  - Mumm
+  - Maria de Villota
+  - "S\xF3lo el primero"
+  - Cinturato
+  - McLaren
+  - No hay peligro
+  - 0.100 segundos
+  - "Kimi R\xE4ikk\xF6nen"
+  - Spa-Francorchamps
+  - Fernando Alonso
+  - "13.438.000\u20AC"
+  - "No hay edad m\xEDnima"
+  - 3
+  - En todas
+  - El piloto al que se le muestra queda descalificado
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 300
+  - 3
+  - "S\xF3lo en las que la temperatura es excesiva"
+  - 3
+  - Spa-Francorchamps
+  - Ferrari
+  - Gran Premio de Indianapolis de 2005
+  - "N\xFCrburgring Nordschleife"
+  - Felipe Massa
+  - "Gan\xF3 su primera carrera"
+  - San Michael
+  - El 'shield'
+  - "El Gran Premio de Gran Breta\xF1a de 2016"
+  - Para avisar de que no hay peligro
+  - No
+  - Pierre Gasly
+  - 4
+  - 34
+  - 2,17 segundos
+  - 2
+  - Lewis Hamilton
+  - 4 horas, 39 minutos y 39 segundos
+  - Lewis Hamilton y Daniel Ricciardo
+  - 5
+  - Ferrari
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 12
+  - "En el Gran Premio de Hungr\xEDa 2007"
+  - Sean Bratches
+  - Williams
+  - "En M\xF3naco"
+  - 23,25 km
+  - 26 veces
+  - Renault
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - Angel Nieto
+  - Williams
+  - "M\xF3naco"
+  - 35
+  - En Spa-Francorchamps
+  - "Kimi R\xE4ikk\xF6nen"
+  - Pirelli
+  - 16
+  - Fernando Alonso
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - "Gran Premio de M\xF3naco de 2017"
+  - 143
+  - 6
+  - 90
+  - 10
+  - En 285
+  - 18
+  - 277,34 km/h
+  respuestasB:
+  - Michelin
+  - Chase Carey
+  - 20
+  - Fernando Alonso
+  - Monza
+  - Max Verstappen
+  - Bernie Ecclestone
+  - 1949
+  - 11
+  - 2 horas
+  - 18
+  - 350
+  - 7
+  - V8 Turbo
+  - Sebastian Vettel
+  - 7
+  - Mercedes
+  - 4
+  - Los tres primeros
+  - "Se para la sesi\xF3n"
+  - Michael Schumacher
+  - Salida por bandera
+  - Al menos 105 kg
+  - Para ganar velocidad en curva
+  - "No hay l\xEDmite"
+  - "Se para la sesi\xF3n"
+  - "No hay l\xEDmite"
+  - 1, 2, 3, 6, 8, 10, 12, 15, 18, 25
+  - Nino Farina
+  - 1,6 metros
+  - "En perder 5 segundos la pr\xF3xima vez que pares en boxes"
+  - 800 kg
+  - "Semiautom\xE1tico con levas"
+  - Ayrton Senna
+  - Michael Schumacher
+  - En no poder realizar cambios importantes en el coche
+  - Juan Manuel Fangio
+  - "Es el sistema de gesti\xF3n de combustible"
+  - "Gran Breta\xF1a"
+  - "S\xF3lo en las curvas"
+  - 3
+  - El piloto al que se le muestra queda expulsado
+  - 200
+  - 6
+  - Max Verstappen
+  - 33.3 segundos
+  - Para el que se lo pida primero
+  - "55 a\xF1os y 337 d\xEDas"
+  - Carlos Sainz
+  - Nico Rosberg
+  - "19 a\xF1os y 98 d\xEDas"
+  - 4kg
+  - "40\xBAC y 50\xBAC"
+  - 5kg
+  - Cuando hay que remolcar a un monoplaza
+  - 2014
+  - "Bernd Mayl\xE4nder"
+  - 2 temporadas
+  - "Los F1 no utilizan neum\xE1ticos Pirelli"
+  - Charlie Whiting
+  - Rolex
+  - 5
+  - Presidente de honor
+  - Nintendo
+  - No hay peligro
+  - 3
+  - Aquaman
+  - Delantera
+  - 2750
+  - 30
+  - 378km/h
+  - 2,2 segundos
+  - Igual que una marcha normal
+  - Sebastian Vettel
+  - "50\xBAC"
+  - 80 litros por segundo
+  - Entre 30 y 50 mm
+  - 80.000
+  - 0.5
+  - Cada 1,6 segundos
+  - Chandom
+  - Gilles Villeneuve
+  - "Los 3 \xFAltimos"
+  - P-Zero
+  - Scuderia Ferrari
+  - Prohibido adelantar
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monaco
+  - Lewis Hamilton
+  - "9.438.000\u20AC"
+  - "16 a\xF1os"
+  - 2
+  - "No est\xE1 permitido el ABS"
+  - La carrera ha acabado
+  - Para que no ocurran acccidentes
+  - 280
+  - 10
+  - Siempre
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Italia de 2003
+  - Spa-Francorchamps
+  - Jenson Button
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Senna
+  - "Un casco con una visera m\xE1s resistente"
+  - "El Gran Premio de M\xF3naco de 2013"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xF3lo cuando la FIA lo decide"
+  - Lance Stroll
+  - 5
+  - 35
+  - 3,04 segundos
+  - 1
+  - Sebastian Vettel
+  - 5 horas, 4 minutos y 39 segundos
+  - "Fernando Alonso y Kimi R\xE4ikk\xF6nen"
+  - 4
+  - McLaren
+  - Advierte a un piloto de que ha sido descalificado
+  - 15
+  - En el Gran Premio de China 2008
+  - Ross Brawn
+  - Ferrari
+  - En Spa-Francorchamps
+  - 25,57 km
+  - 30 veces
+  - Williams
+  - Fernando Alonso en 2005
+  - Paddy Lowe
+  - John Surtees
+  - Lotus
+  - "B\xE9lgica"
+  - 34
+  - En Monza
+  - Lewis Hamilton
+  - Goodyear
+  - 15
+  - Jenson Button
+  - "Advierte a los pilotos de un veh\xEDculo lento en la pista en la pista"
+  - "Gran Premio de Canad\xE1 de 2011"
+  - 155
+  - 4
+  - 85
+  - 12
+  - En 340
+  - 16
+  - 257,34 km/h
+  respuestasC:
+  - Bridgestone
+  - Bernie Ecclestone
+  - 18
+  - Ayrton Senna
+  - Spa-Francorchamps
+  - Sebastian Vettel
+  - Jean Todt
+  - 1951
+  - 10
+  - "No hay l\xEDmite"
+  - 22
+  - 305 (en todos)
+  - 6
+  - "V6 Turbo H\xEDbrido"
+  - Fernando Alonso
+  - 8
+  - McLaren
+  - 2
+  - Los diez primeros
+  - No hay peligro
+  - Fernando Alonso
+  - "Salida lanzada detr\xE1s del Safety Car"
+  - Hasta 400 kg
+  - Para ganar velocidad punta
+  - 18.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 4
+  - 16, 8, 7, 5, 4, 3, 2.5, 2, 1, 0.5
+  - Leslie Johnson
+  - 1,8 metros
+  - En recibir una advertencia por saltarte varias curvas
+  - 702 kg
+  - Manual
+  - Lewis Hamilton
+  - Bernie Ecclestone
+  - "En dejar los coches juntos despu\xE9s de la clasificaci\xF3in para que los vean
+    los espectadores"
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de aerodin\xE1mica"
+  - Alemania
+  - En las zonas marcadas por la FIA
+  - Ninguno
+  - Hay peligro
+  - 163
+  - 7
+  - Eitel Cantoni
+  - 40 segundos
+  - "Para el \xFAltimo del a\xF1o pasado"
+  - "48 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Michael Schumacher
+  - "17 a\xF1os y 347 d\xEDas"
+  - 3kg
+  - "90\xBAC y 110\xBAC"
+  - 2,5kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Matthias Ekstr\xF6m"
+  - Siempre hasta que consigas ganar el campeonato
+  - P7
+  - Chase Carey
+  - LG
+  - 3
+  - Presidente
+  - Ubisoft
+  - "Hay un monoplaza con problemas mec\xE1nicos"
+  - 2
+  - Fireman
+  - Total
+  - 3100
+  - 41
+  - 384km/h
+  - 1,7 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Lewis Hamilton
+  - "45\xBAC"
+  - 60 litros por segundo
+  - Entre 10 y 50 mm
+  - 500.000
+  - 4
+  - Cada 1,3 segundos
+  - Carbon
+  - Ayrton Senna
+  - Los 3 primeros
+  - Sottozero
+  - Williams
+  - La carrera ha terminado
+  - 0.110 segundos
+  - Lewis Hamilton
+  - Monza
+  - Sebastian Vettel
+  - "20.438.000\u20AC"
+  - "18 a\xF1os"
+  - 5
+  - En las 5 que cada equipo seleccione
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - Para frenar mejor
+  - 289
+  - 6
+  - En las que marque la FIA
+  - 1
+  - Monza
+  - Williams
+  - Gran Premio de San Marino de 2005
+  - Pescara
+  - "Kimi R\xE4ikkonen"
+  - "Agredi\xF3 a su compa\xF1ero de equipo"
+  - San Ganchao
+  - El Aeroscreen
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - Para advertir de que no se puede adelantar
+  - "S\xF3lo en 5 Grandes Premios por temporada"
+  - Antonio Giovinazzi
+  - 3
+  - 26
+  - 1,99 segundos
+  - 3
+  - "Kimi R\xE4ikk\xF6nen"
+  - 4 horas, 4 minutos y 39 segundos
+  - Lewis Hamilton
+  - 7
+  - Mercedes
+  - Advierte de que el Safety Car ha sido desplegado
+  - 20
+  - En el Gran Premio de Australia 2008
+  - Chase Carey
+  - Mercedes
+  - En Singapur
+  - 19,8 km
+  - 21 veces
+  - Mercedes
+  - Michael Schumacher en 2004
+  - James Allison
+  - Michael Schumacher
+  - Red Bull
+  - Italia
+  - 29
+  - En Silverstone
+  - Fernando Alonso
+  - Michelin
+  - 18
+  - Michael Schumacher
+  - Avisa a los pilotos de que la carrera ha finalizado
+  - Gran Premio de Brasil de 2012
+  - 130
+  - 2
+  - 91
+  - 9
+  - En 372
+  - 14
+  - 267,54 km/h
+  respuestasD:
+  - Goodyear
+  - Jean Todt
+  - 21
+  - Michael Schumacher
+  - "Canad\xE1"
+  - Lewis Hamilton
+  - Maurizio Arrivabene
+  - 1950
+  - 12
+  - 3 horas
+  - 19
+  - "305 (menos en M\xF3naco)"
+  - 9
+  - V10
+  - Nico Rosberg
+  - 9
+  - Red Bull
+  - 1
+  - Los cinco primeros
+  - Han expulsado a un piloto de la carrera
+  - Nino Farina
+  - "Salida por sem\xE1foro"
+  - "No hay ning\xFAn m\xEDnimo ni ning\xFAn l\xEDmite"
+  - Para que no llueva
+  - 10.000
+  - No se puede adelantar
+  - 8
+  - 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+  - Ninguna es correcta
+  - 2 metros
+  - "En perder 10 segundos la pr\xF3xima vez que pares en boxes"
+  - 722 kg
+  - Manual con levas
+  - Michael Schumacher
+  - Stefano Domenicali
+  - En tener que pasar obligatoriamente por boxes
+  - Nigel Mansell
+  - "Es el sistema de calentamiento de neum\xE1ticos"
+  - Brasil
+  - En el pit lane
+  - 2
+  - "Se suspende la sesi\xF3n"
+  - 1007
+  - 4
+  - Juan Manuel Fangio
+  - 20,12 segundos
+  - "Para el que haya ganado m\xE1s veces el a\xF1o anterior"
+  - "53 a\xF1os y 337 d\xEDas"
+  - Michael Schumacher
+  - Jenson Button
+  - "17 a\xF1os y 166 d\xEDas"
+  - 1kg
+  - "80\xBAC y 100\xBAC"
+  - 1kg
+  - Cuando se va a dar la salida
+  - 2017
+  - Tom Blomqvist
+  - 10 temporadas
+  - P-Zero
+  - Jo Bauer
+  - Pirelli
+  - 7
+  - Director no ejecutivo de la FOM
+  - Codemasters
+  - La carrera ha acabado
+  - 4
+  - Snowman
+  - Trasera
+  - 5000
+  - 13
+  - 396km/h
+  - 1,85 segundos
+  - "Los F1 no tienen marcha atr\xE1s"
+  - Fernando Alonso
+  - "55\xBAC"
+  - 75 litros por segundo
+  - Entre 20 y 60 mm
+  - 700.00
+  - 1
+  - Cada 1,2 segundos
+  - Freixenet
+  - Jules Bianchi
+  - Los diez primeros
+  - P7
+  - Mercedes
+  - "Se para la sesi\xF3n"
+  - 0.011 segundos
+  - Alain Prost
+  - Silverstone
+  - Michael Schumacher
+  - "8.438.000\u20AC"
+  - "20 a\xF1os"
+  - 4
+  - En las que determine la FIA
+  - "Se para la sesi\xF3n"
+  - Para ganar velocidad punta
+  - 310
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 2
+  - Monaco
+  - Renault
+  - "Gran Premio de Espa\xF1a de 1963"
+  - Silverstone
+  - Fernando Alonso
+  - Tuvo que abandonar antes de comenzar la carrera
+  - San Fernado
+  - El Halo
+  - El Gran Premio de EEUU de 2005
+  - "Para avisar de que se ha parado la sesi\xF3n"
+  - "S\xED"
+  - Charles Leclerc
+  - 6
+  - 36
+  - 2,45 segundos
+  - 4
+  - Valtteri Bottas
+  - 3 horas, 39 minutos y 39 segundos
+  - Lewis Hamilton y Sebastian Vettel
+  - 3
+  - Williams
+  - Avisa del final de la carrera
+  - 17
+  - En el Gran Premio de China 2007
+  - Bernie Ecclestone
+  - Red Bull
+  - "En Bak\xFA"
+  - 7,25 km
+  - 18 veces
+  - Ferrari
+  - Sebastian Vettel en 2011
+  - Ross Brawn
+  - Valentino Rossi
+  - Ferrari
+  - "Gran Breta\xF1a"
+  - 37
+  - "En Bak\xFA"
+  - Sebastian Vettel
+  - Bridgestone
+  - 20
+  - Rubens Barrichello
+  - "Avisa a los pilotos de que la sesi\xF3n se ha parado"
+  - Gran Premio de Australia de 2014
+  - 172
+  - 7
+  - 103
+  - 8
+  - En 358
+  - 15
+  - 231,34 km/h
+--- !u!114 &75431139968569752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1205a251415e2a845ad7029479ed08d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3396868834355633936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365623669557649689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0ee7376e9a944429631f06bd677281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,985 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1525711633884650}
+  m_IsPrefabAsset: 1
+--- !u!1 &1525711633884650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755019650362764}
+  - component: {fileID: 114369687103395346}
+  m_Layer: 0
+  m_Name: "PreguntillasF1Espa\xF1ola"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755019650362764
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1525711633884650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114369687103395346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1525711633884650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: "F1 espa\xF1ola"
+  nombreniveles:
+  - General 1
+  - General 2
+  - HRT
+  - Jarama
+  - De Portago
+  - "Montj\xFCic"
+  - De la Rosa
+  - Villadelprat
+  - "Montmel\xF3"
+  - Sainz
+  Preguntas:
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles han participado en alg\xFAn Gran Premio?
+    (incluidos los no clasificados)"
+  - "\xBFCu\xE1ntos circuitos espa\xF1oles ha habido en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes fueron los primeros pilotos espa\xF1oles en participar en un Gran
+    Premio?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 el primer Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 circuito se celebr\xF3 el primer GP de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto espa\xF1ol fue el primero en debutar en Ferrari?"
+  - "\xBFCu\xE1l fue el segundo circuito que acogi\xF3 el Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto logr\xF3 el primer podio de la historia para Espa\xF1a?"
+  - "\xBFQu\xE9 circuitos se alternaron el Gran Premio de Espa\xF1a?"
+  - "\xBFPor qu\xE9 se dej\xF3 de correr en el circuito de Montju\xEFc?"
+  - "\xBFQu\xE9 pilotos debutaron en el Gran Premio de Espa\xF1a de 1976?"
+  - "\xBFCu\xE1l fue la primera escuder\xEDa espa\xF1ola?"
+  - "\xBFQu\xE9 a\xF1o se dej\xF3 de correr en el Jarama?"
+  - "\xBFQu\xE9 circuito debut\xF3 en el Gran Premio de Espa\xF1a de 1986?"
+  - "\xBFQui\xE9nes formaron la \xFAnica dupla de pilotos espa\xF1ola?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 el circuito de Montmel\xF3 en el Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 dos pilotos espa\xF1oles debutaron en el Gran Premio de Australia
+    de 1999?"
+  - "\xBFCon qu\xE9 equipo y en qu\xE9 a\xF1o debut\xF3 Fernando Alonso?"
+  - "\xBFQu\xE9 papel tuvo Alonso en la temporada 2002?"
+  - "\xBFQui\xE9n consigui\xF3 la primera victoria de un piloto espa\xF1ol en F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 ocurri\xF3 en el Gran Premio de Brasil de 2003 con Alonso?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 Alonso su primera victoria?"
+  - "\xBFQui\xE9n consigui\xF3 el primer t\xEDtulo de pilotos para Espa\xF1a?"
+  - "\xBFQu\xE9 a\xF1os consigui\xF3 Alonso sus dos primeros t\xEDtulos de pilotos?"
+  - "\xBFEn qu\xE9 Gran Premio consigui\xF3 Pedro de la Rosa su primer podio?"
+  - "\xBFQu\xE9 a\xF1o se convirti\xF3 Alonso en el segundo piloto espa\xF1ol en Ferrari?"
+  - "\xBFQu\xE9 escuder\xEDa espa\xF1ola debut\xF3 en 2010?"
+  - "\xBFQu\xE9 pilotos espa\xF1oles debutaron en 2015?"
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles hay en la parrilla actualmente?"
+  - "\xBFQui\xE9n fue la piloto mujer que m\xE1s cerca estuvo de la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFD\xF3nde se encontraba su sede?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su motorista?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos pilotos espa\xF1oles tuvo en sus filas?"
+  - "\xBFQui\xE9nes formaron su \xFAltima dupla de pilotos?"
+  - "\xBFCu\xE1ntos puntos lograron?"
+  - "\xBFCu\xE1l fue su mejor posici\xF3n?"
+  - "\xBFQu\xE9 otro espa\xF1ol fue su tercer piloto en 2012?"
+  - "En desventaja con el resto de equipos, \xBFcon qu\xE9 dispositivo no contaron?"
+  - "\xBFCon qu\xE9 piloto disputaron m\xE1s Grandes Premios?"
+  - "\xBFEn qu\xE9 posici\xF3n acabaron en la temporada 2012?"
+  - "\xBFPor qu\xE9 se vieron obligados a retirarse?"
+  - "\xBFCon qu\xE9 equipo ten\xEDan un acuerdo de transferencia de tecnolog\xEDa?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 tipo de prueba fue en F\xF3rmula 1 el a\xF1o 1967?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1?"
+  - "\xBFQu\xE9 a\xF1o alberg\xF3 por primera vez el Gran Premio de Espa\xF1a puntuable?"
+  - "\xBFCu\xE1l es el record del trazado?"
+  - "\xBFQui\xE9n gan\xF3 el primer Gran Premio de Espa\xF1a que acogieron?"
+  - "\xBFQu\xE9 a\xF1o fueron por \xFAltima vez la sede del Gran Premio de Espa\xF1a?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFQui\xE9n tiene el record de vuelta?"
+  - "\xBFCu\xE1ntos metros de ancho tiene?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en este circuito?"
+  - "\xBFQu\xE9 piloto espa\xF1ol logr\xF3 la mejor posici\xF3n en el GP de Espa\xF1a
+    en este trazado?"
+  - "\xBFQui\xE9n fue el \xFAltimo ganador del Gran Premio de Espa\xF1a en este circuito?"
+  - "\xBFCu\xE1l fue la mejor posici\xF3n de Emilio de Villota en este trazado?"
+  - "\xBFEn cu\xE1ntos equipos corri\xF3?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFEn cu\xE1ntos Grandes Premios particip\xF3?"
+  - "\xBFCu\xE1l fue su primer equipo?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su \xFAltimo podio?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFCu\xE1l fue su \xFAltimo Gran Premio?"
+  - "\xBFC\xF3mo le respondi\xF3 Enzo Ferrari a su solicitud de un asiento en Ferrari?"
+  - "\xBFCu\xE1ntos puntos consigui\xF3?"
+  - "\xBFEn qu\xE9 carrera falleci\xF3?"
+  - "\xBFCon cu\xE1ntos a\xF1os quer\xEDa dejar de correr?"
+  - "\xBFQu\xE9 hizo en la mitad de las Mil Millas?"
+  - "\xBFCu\xE1ntas personas fallecieron en su accidente de las Mil Millas?"
+  - "\xBFCu\xE1ntos Grandes Premios logr\xF3 acabar?"
+  - "\xBFCu\xE1ntas veces alberg\xF3 el Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1 situado?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l era su longitud?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFQu\xE9 piloto tiene el record de vuelta?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este trazado?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 la \xFAltima edici\xF3n del Gran Premio de Espa\xF1a
+    en este circuito?"
+  - "\xBFCu\xE1l es el record de vuelta?"
+  - "\xBFQui\xE9n gan\xF3 el \xFAltimo Gran Premio celebrado en este trazado?"
+  - "\xBFCon qu\xE9 circuito se altern\xF3 como sede del Gran Premio de Espa\xF1a?"
+  - "\xBFPor qu\xE9 se dej\xF3 de correr en este circuito?"
+  - "\xBFQui\xE9n se neg\xF3 a empezar la \xFAltima carrera en este trazado?"
+  - "\xBFCu\xE1ntos pilotos finalizaron en la primera edici\xF3n del Gran Premio de
+    Espa\xF1a en este circuito?"
+  - "\xBFComo se denominaba a la monta\xF1a donde se encontraba el circuito?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3?"
+  - "\xBFEn cu\xE1ntos equipos ha corrido como piloto titular?"
+  - "\xBFCu\xE1ntos podios consigui\xF3?"
+  - "\xBFCu\xE1l es su apodo en Jap\xF3n?"
+  - "\xBFEn qu\xE9 equipos ha corrido?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 Gran Premio logr\xF3 su primer podio?"
+  - "\xBFDe qu\xE9 circuito tiene el r\xE9cord?"
+  - "\xBFDe qu\xE9 categor\xEDa es el \xFAltimo monoplaza que ha probado?"
+  - "\xBFCu\xE1l fue su \xFAltimo equipo en el que estuvo como titular?"
+  - "\xBFCu\xE1l fue su posici\xF3n en su Gran Premio de debut?"
+  - "\xBFQui\xE9n fue su compa\xF1ero de equipo en 2012?"
+  - "\xBFCu\xE1l es su trabajo actual?"
+  - "\xBFCu\xE1l fue su \xFAltimo trabajo en la F\xF3rmula 1 y con qu\xE9 equipo fue?"
+  - "\xBFQu\xE9 a\xF1o se retir\xF3 de la competici\xF3n?"
+  - "\xBFCon cu\xE1ntos campeones del mundo ha estado?"
+  - "\xBFQu\xE9 le pidi\xF3 Ron Dennis justo antes de contratarle?"
+  - "\xBFEn cu\xE1ntos equipos trabaj\xF3?"
+  - "\xBFQu\xE9 a\xF1o empez\xF3 a trabajar en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 equipos trabaj\xF3?"
+  - "\xBFQu\xE9 a\xF1o se convirti\xF3 en el primer jefe de mec\xE1nicos no italiano
+    de la historia de Ferrari?"
+  - "\xBFCon cu\xE1ntos a\xF1os empez\xF3 a trabajar en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 papel tuvo en Prost Grand Prix?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola naci\xF3?"
+  - "\xBFCu\xE1ntos campeonatos del mundo de pilotos acumul\xF3 en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue su papel en Benetton?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo trabajando en la F\xF3rmula 1?"
+  - "\xBFCu\xE1l fue el \xFAltimo equipo para el que trabaj\xF3 fuera de la F\xF3rmula
+    1?"
+  - "\xBFCu\xE1ntos campeonatos del mundo de constructores acumul\xF3 en la F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 a\xF1os estuvo como comentarista de Movistar F1?"
+  - "\xBFCu\xE1l es su longitud?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 como sede del Gran Premio de Espa\xF1a?"
+  - "\xBFQui\xE9n tiene el record de vuelta?"
+  - "\xBFCu\xE1ntas curvas tiene?"
+  - "\xBFCu\xE1l es el record de vuelta en el trazado actual?"
+  - "\xBFQui\xE9n gan\xF3 la primera edici\xF3n del Gran Premio de Espa\xF1a en este
+    circuito?"
+  - "\xBFCu\xE1ntas veces ha albergado el Gran Premio de Espa\xF1a?"
+  - "\xBFEn qu\xE9 ciudad espa\xF1ola est\xE1 situado?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s veces en este circuito?"
+  - "\xBFQu\xE9 a\xF1o se termin\xF3 el circuito?"
+  - "\xBFQu\xE9 piloto gan\xF3 este a\xF1o?"
+  - "\xBFQu\xE9 a\xF1o gan\xF3 por \xFAltima vez un piloto espa\xF1ol en este circuito?"
+  - "\xBFCu\xE1ntas veces ha ganado Schumacher en este circuito?"
+  - "\xBFQui\xE9n gan\xF3 en este trazado en el a\xF1o 2012?"
+  - "\xBFCu\xE1ntas veces se ha modificado el circuito?"
+  - "\xBFEn qu\xE9 categor\xEDa gan\xF3 el t\xEDtulo que le catapult\xF3 a la F\xF3rmula
+    1?"
+  - "\xBFCu\xE1l es su equipo actual?"
+  - "\xBFCu\xE1l ha sido su mejor posici\xF3n en la F\xF3rmula 1? (hasta final 2016)"
+  - "\xBFQui\xE9n es su compa\xF1ero de equipo?"
+  - "\xBFQu\xE9 a\xF1o debut\xF3 en la F\xF3rmula 1?"
+  - "\xBFEn cu\xE1ntos equipos ha estado?"
+  - "\xBFCon cu\xE1ntos a\xF1os debut\xF3?"
+  - "\xBFEn qu\xE9 equipos ha estado?"
+  - "\xBFCon qu\xE9 piloto mantuvo una gran rivalidad su primer a\xF1o en F\xF3rmula
+    1?"
+  - "\xBFCon qu\xE9 otro piloto espa\xF1ol debut\xF3 en el Gran Premio de Australia
+    de 2015?"
+  - "\xBFCu\xE1ntos puntos le sac\xF3 de ventaja a su compa\xF1ero de equipo en 2016?"
+  - "\xBFQu\xE9 n\xFAmero lleva en su monoplaza?"
+  - "\xBFQui\xE9n ha sido desde siempre su \xEDdolo?"
+  - "\xBFCu\xE1l fue su resultado en su Gran Premio de debut (Australia 2015)?"
+  - "\xBFDe que categor\xEDa es el ganador m\xE1s joven de la historia?"
+  RespuestasCorrectas:
+  - 15
+  - 6
+  - Paco Godia y Juan Jover
+  - 1951
+  - En el circuito de Pedralbes
+  - Alfonso de Portago
+  - El circuito del Jarama
+  - Alfonso de Portago
+  - "El circuito del Jarama y el circuito de Montju\xEFc"
+  - Por falta de seguridad
+  - Emilio de Villota y Emilio Zapico
+  - Iberia Airlines F1
+  - 1981
+  - El circuito de Jerez
+  - "Adri\xE1n Campos y Luis P\xE9rez-Sala"
+  - 1991
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - Con Minardi en 2001
+  - Fue piloto probador en Renault
+  - Fernando Alonso
+  - "Alonso fue 3\xBA, pero no subi\xF3 al podio por un accidente"
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - Fernando Alonso
+  - 2005 y 2006
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - 2010
+  - HRT
+  - Carlos Sainz y Roberto Merhi
+  - 2
+  - "Mar\xEDa de Villota"
+  - "Adri\xE1n Campos"
+  - En Murcia
+  - En 2010
+  - Cossworth
+  - 2012
+  - 1
+  - Pedro de la Rosa y Narain Karthikeyan
+  - 0
+  - "13\xAA"
+  - Dani Clos
+  - Con el KERS
+  - Con Narain Karthikeyan
+  - "En la 12\xAA posici\xF3n"
+  - "Por razones econ\xF3micas"
+  - Con Williams
+  - 3,85 km
+  - 13
+  - No puntuable
+  - En Madrid
+  - 1968
+  - 1:16.44
+  - Graham Hill
+  - 1981
+  - Mario Andretti
+  - Gilles Villeneuve
+  - 12
+  - Lotus
+  - Emilio de Villota
+  - Gilles Villeneuve
+  - "13\xAA posici\xF3n"
+  - En 1
+  - 2
+  - 1
+  - En 5
+  - Ferrari
+  - "En el Gran Premio de Gran Breta\xF1a"
+  - Con 27
+  - El Gran Premio de Argentina de 1958
+  - "Con una foto de su accidente en N\xFCrburgring"
+  - 4
+  - En las Mil Millas de Italia
+  - Con 35
+  - "Se baj\xF3 del coche a dar un beso a su novia"
+  - 12
+  - 2
+  - 4
+  - En Barcelona
+  - 1969
+  - 3,79 km
+  - 12
+  - Ronnie Peterson
+  - Jackie Stewart
+  - 1975
+  - 1:23.8
+  - Jochen Mass
+  - Con el circuito del Jarama
+  - Por falta de seguridad
+  - Emerson Fittipaldi
+  - 5
+  - "Monta\xF1a m\xE1gica"
+  - 1999
+  - 5
+  - 1
+  - Nippon Ichi
+  - En Arrows, Jaguar, McLaren, Sauber y HRT
+  - Con 28
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - Del circuito de Bahrein
+  - "De la F\xF3rmula E"
+  - HRT
+  - "6\xAA posici\xF3n"
+  - Narain Karthikeyan
+  - Es comentarista en Movistar F1
+  - Piloto probador en Ferrari
+  - 2012
+  - Con 9
+  - Que se cortara el pelo
+  - En 5
+  - 1981
+  - En McLaren, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1987
+  - Con 20
+  - Director general
+  - En Barcelona
+  - 5
+  - "Fue parte del personal de direcci\xF3n"
+  - 22
+  - Epsilon Euskadi
+  - 3
+  - 2014, 2015 y 2016
+  - 4,62 km
+  - 1991
+  - "Kimi R\xE4ikk\xF6nen"
+  - 16
+  - 1:21.670
+  - Nigel Mansell
+  - 27
+  - En Barcelona
+  - Michael Schumacher
+  - 1991
+  - Lewis Hamilton
+  - 2013
+  - 6
+  - Pastor Maldonado
+  - 7
+  - En las World Series
+  - Toro Rosso
+  - "6\xAA posici\xF3n"
+  - Daniil Kvyat
+  - 2015
+  - En 1
+  - Con 20
+  - En Toro Rosso
+  - Con Max Verstappen
+  - Con Roberto Merhi
+  - 21
+  - 55
+  - Fernando Alonso
+  - "9\xBA"
+  - De las World Series
+  respuestasA:
+  - 15
+  - 1
+  - Paco Godia y Alfonso de Portago
+  - 1965
+  - "En el circuito de Montmel\xF3"
+  - Alfonso de Portago
+  - El circuito de Pedralbes
+  - Paco Godia
+  - "El circuito del Jarama y el circuito de Montju\xEFc"
+  - "Porque se acab\xF3 el contrato con la FIA"
+  - "Adri\xE1n Campos y Emilio Zapico"
+  - HRT
+  - 1964
+  - El circuito de Jerez
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - 1999
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - Con Renault en 2001
+  - Fue piloto probador en Renault
+  - Carlos Sainz
+  - "Alonso consigui\xF3 su primera victoria"
+  - En el Gran Premio de Malasia de 2003
+  - Alfonso de Portago
+  - 2012 y 2013
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - 2013
+  - Virgin Racing
+  - Jaime Alguersuari y Carlos Sainz
+  - 3
+  - "Marta Garc\xEDa"
+  - "Luis P\xE9rez-Sala"
+  - En Madrid
+  - En 2010
+  - Mercedes
+  - 2011
+  - 0
+  - Roberto Merhi y Pedro de la Rosa
+  - 0
+  - "4\xAA"
+  - Jaime Alguersuari
+  - Con el ERS
+  - Con Narain Karthikeyan
+  - "En la 13\xAA posici\xF3n"
+  - Por incumplimiento de su contrato con la FOM
+  - Con Ferrari
+  - 3,85 km
+  - 11
+  - No puntuable
+  - En Barcelona
+  - 1985
+  - 1:11.66
+  - Alain Prost
+  - 1958
+  - Mario Andretti
+  - Niki Lauda
+  - 14
+  - Lotus
+  - Emilio Zapico
+  - Graham Hill
+  - "8\xAA posici\xF3n"
+  - En 0
+  - 2
+  - 2
+  - En 3
+  - Ferrari
+  - En el Gran Premio de Australia
+  - Con 26
+  - En el Gran Premio de Australia de 1958
+  - Con un rotundo no
+  - 4
+  - En el Gran Premio de Italia
+  - Con 28
+  - "Se baj\xF3 del coche a dormir un rato"
+  - 12
+  - 3
+  - 1
+  - En Barcelona
+  - 1973
+  - 2,81 km
+  - 12
+  - Jackie Stewart
+  - Graham Hill
+  - 1963
+  - 1:23.8
+  - Stirling Moss
+  - Con el circuito del Jarama
+  - "Porque se acab\xF3 el contrato con la FOM"
+  - Niki Lauda
+  - 5
+  - "Monta\xF1a de oro"
+  - 1999
+  - 2
+  - 1
+  - El profesor chiflado
+  - En Minardi, Jordan, McLaren, Sauber y HRT
+  - Con 26
+  - "En el Gran Premio de Hungr\xEDa de 2006"
+  - Del circuito de Albert Park
+  - "De la F\xF3rmula E"
+  - Sauber
+  - "10\xAA posici\xF3n"
+  - Narain Karthikeyan
+  - Es comentarista en Movistar F1
+  - Piloto probador en Ferrari
+  - 2010
+  - Con 9
+  - Que se cortara el pelo
+  - En 3
+  - 1969
+  - En Williams, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1987
+  - Con 25
+  - "Jefe de mec\xE1nicos"
+  - En Madrid
+  - 5
+  - Fue el director general
+  - 19
+  - HRT
+  - 3
+  - 2013, 2014, 2015 y 2016
+  - 3,83 km
+  - 1991
+  - Fernando Alonso
+  - 8
+  - 1:20.423
+  - Nigel Mansell
+  - 23
+  - En Madrid
+  - Nigel Mansell
+  - 1997
+  - Nico Rosberg
+  - 2013
+  - 4
+  - Felipe Massa
+  - 5
+  - "En la F\xF3rmula E"
+  - Toro Rosso
+  - "5\xAA posici\xF3n"
+  - Max Verstappen
+  - 2014
+  - En 2
+  - Con 20
+  - En Red Bull
+  - Con Daniil Kvyat
+  - "Con Marc Gen\xE9"
+  - 18
+  - 55
+  - Michael Schumacher
+  - "5\xBA"
+  - "De la F\xF3rmula E"
+  respuestasB:
+  - 13
+  - 3
+  - Paco Godia y Juan Jover
+  - 1947
+  - En el circuito de Pedralbes
+  - Fernando Alonso
+  - "El circuito de Montmel\xF3"
+  - Alfonso de Portago
+  - El circuito del Jarama y el circuito de Jerez
+  - "Por razones econ\xF3micas"
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - Iberia Airlines F1
+  - 1975
+  - El circuito del Jarama
+  - "Adri\xE1n Campos y Luis P\xE9rez-Sala"
+  - 1996
+  - Fernando Alonso y Pedro de la Rosa
+  - Con Prost GP en 2002
+  - Fue piloto titular en Minardi
+  - "Marc Gen\xE9"
+  - "Alonso fue 3\xBA, pero no subi\xF3 al podio por un accidente"
+  - En el Gran Premio de Brasil de 2003
+  - Fernando Alonso
+  - 2003 y 2004
+  - "En el Gran Premio de Espa\xF1a de 2006"
+  - 2012
+  - Lotus Racing
+  - Carlos Sainz y Roberto Merhi
+  - 2
+  - "Tatiana Calder\xF3n"
+  - "Adri\xE1n Campos"
+  - En Palencia
+  - En 2012
+  - Cossworth
+  - 2012
+  - 3
+  - Kamui Kobayashi y Narain Karthikeyan
+  - 2
+  - "15\xAA"
+  - Dani Clos
+  - Con la caja de cambios
+  - Con Pedro de la Rosa
+  - "En la 12\xAA posici\xF3n"
+  - Por desacuerdos con la FIA
+  - Con Red Bull
+  - 4,13 km
+  - 13
+  - Gran Premio
+  - En Valladolid
+  - 1956
+  - 1:16.44
+  - Ayrton Senna
+  - 1963
+  - Niki Lauda
+  - Jackie Stewart
+  - 7
+  - Williams
+  - Emilio de Villota
+  - Niki Lauda
+  - "13\xAA posici\xF3n"
+  - En 6
+  - 5
+  - 1
+  - En 6
+  - McLaren
+  - "En el Gran Premio de Gran Breta\xF1a"
+  - Con 20
+  - El Gran Premio de Argentina de 1958
+  - "Con una foto de su accidente en N\xFCrburgring"
+  - 2
+  - En las Mil Millas de Italia
+  - Con 36
+  - "Se baj\xF3 del coche a comer"
+  - 6
+  - 2
+  - 4
+  - En Madrid
+  - 1969
+  - 5 km
+  - 15
+  - Niki Lauda
+  - Jackie Stewart
+  - 1987
+  - 1:19.3
+  - Jochen Mass
+  - "Con el circuito de Montmel\xF3"
+  - Por desacuerdos con la FIA
+  - Jackie Stewart
+  - 4
+  - "Monta\xF1a m\xE1gica"
+  - 2003
+  - 1
+  - 3
+  - La bala dorada
+  - En Minardi, Jaguar, McLaren, Sauber y HRT
+  - Con 28
+  - En el Gran Premio de Australia de 1999
+  - "Del circuito de Montmel\xF3"
+  - De la Indy Car
+  - HRT
+  - "9\xAA posici\xF3n"
+  - "Marc Gen\xE9"
+  - Es comentarista en Antena 3
+  - Piloto probador en McLaren
+  - 2015
+  - Con 11
+  - "Que se cortar las u\xF1as"
+  - En 5
+  - 1995
+  - En Benetton, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1995
+  - Con 19
+  - Director general
+  - En Palencia
+  - 7
+  - Fue asesor
+  - 31
+  - Epsilon Euskadi
+  - 1
+  - 2014, 2015 y 2016
+  - 2,63 km
+  - 1996
+  - "Kimi R\xE4ikk\xF6nen"
+  - 12
+  - 1:21.670
+  - Niki Lauda
+  - 34
+  - En Barcelona
+  - Jackie Stewart
+  - 1991
+  - Max Verstappen
+  - 2012
+  - 6
+  - Sebastian Vettel
+  - 6
+  - En las World Series
+  - Minardi
+  - "7\xAA posici\xF3n"
+  - Daniil Kvyat
+  - 2016
+  - En 3
+  - Con 17
+  - En Toro Rosso
+  - "Con Nico H\xFClkenberg"
+  - Con Roberto Merhi
+  - 22
+  - 44
+  - Ayrton Senna
+  - "9\xBA"
+  - De la F2
+  respuestasC:
+  - 11
+  - 6
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - 1963
+  - En el circuito de Jerez
+  - Pedro de la Rosa
+  - El circuito del Jarama
+  - Juan Jover
+  - "El circuito del Jarama y el circuito de Montmel\xF3"
+  - Por falta de seguridad
+  - "Emilio de Villota y Adri\xE1n Campos"
+  - Repsol F1 Team
+  - 1981
+  - El cirucito de Pedralbes
+  - "Marc Gen\xE9 y Luis P\xE9rez-Sala"
+  - 1994
+  - "Marc Gen\xE9 y Fernando Alonso"
+  - Con Minardi en 2001
+  - Fue piloto titular en Renault
+  - Pedro de la Rosa
+  - "Sufri\xF3 un accidente mientras lideraba la carrera"
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - Paco Godia
+  - 2006 y 2007
+  - "En el Gran Premio de Jap\xF3n de 2006"
+  - 2010
+  - HRT
+  - Pedro de la Rosa y Carlos Sainz
+  - 1
+  - "Carmen Jord\xE1"
+  - Pedro de la Rosa
+  - En Barcelona
+  - En 2009
+  - Renault
+  - 2013
+  - 1
+  - Pedro de la Rosa y Kamui Kobayashi
+  - 4
+  - "13\xAA"
+  - Pedro de la Rosa
+  - Con la radio
+  - Con Kamui Kobayashi
+  - "En la 14\xAA posici\xF3n"
+  - "Por razones econ\xF3micas"
+  - Con McLaren
+  - 2,63 km
+  - 14
+  - Test de pretemporada
+  - En Madrid
+  - 1973
+  - 1:23.04
+  - Graham Hill
+  - 1974
+  - Clay Regazzoni
+  - Gilles Villeneuve
+  - 9
+  - McLaren
+  - "Marc Gen\xE9"
+  - Gilles Villeneuve
+  - "16\xAA posici\xF3n"
+  - En 1
+  - 7
+  - 3
+  - En 4
+  - Williams
+  - En el Gran Premio de Gran Austria
+  - Con 19
+  - "En el Gran Premio de Espa\xF1a de 1958"
+  - "Con un billete de avi\xF3n a Maranello"
+  - 3
+  - "En el Gran Premio de M\xF3naco"
+  - Con 35
+  - "Se baj\xF3 del coche a repostar"
+  - 10
+  - 9
+  - 6
+  - En Murcia
+  - 1958
+  - 4,99 km
+  - 9
+  - Ronnie Peterson
+  - Niki Lauda
+  - 1982
+  - 1:28.6
+  - Niki Lauda
+  - Con el cirucito de Pedralbes
+  - Por falta de seguridad
+  - Emerson Fittipaldi
+  - 2
+  - "Monta\xF1a de platino"
+  - 2001
+  - 5
+  - 2
+  - Nippon Ichi
+  - En Arrows, Jaguar, McLaren y HRT
+  - Con 24
+  - "En el Gran Premio de Espa\xF1a de 2006"
+  - "Del circuito de Hungr\xEDa"
+  - De las World Series
+  - Ferrari
+  - "6\xAA posici\xF3n"
+  - Dani Clos
+  - Es piloto de pruebas de Ferrari
+  - Piloto probador en HRT
+  - 2012
+  - Con 5
+  - Que trabajara sin cobrar unos meses
+  - En 9
+  - 1973
+  - En McLaren, Tyrell, Ferrari, Benetton y Prost Grand Prix
+  - 1973
+  - Con 17
+  - Asesor
+  - En Barcelona
+  - 2
+  - "Fue el jefe de mec\xE1nicos"
+  - 22
+  - Campos Racing
+  - 4
+  - 2015 y 2016
+  - 4,62 km
+  - 2013
+  - Michael Schumacher
+  - 19
+  - 1:11.513
+  - Graham Hill
+  - 2
+  - En Mucia
+  - Michael Schumacher
+  - 1994
+  - Sebastian Vettel
+  - 2010
+  - 3
+  - Pastor Maldonado
+  - 3
+  - En la F2
+  - Red Bull
+  - "6\xAA posici\xF3n"
+  - Pierre Gasly
+  - 2013
+  - En 1
+  - Con 19
+  - En Minardi
+  - Con Max Verstappen
+  - Con Dani Clos
+  - 26
+  - 5
+  - Fernando Alonso
+  - "6\xBA"
+  - De la GP3
+  respuestasD:
+  - 4
+  - 8
+  - "Adri\xE1n Campos y Marc Gen\xE9"
+  - 1951
+  - En el circuito del Jarama
+  - "Marc Gen\xE9"
+  - "El circuito de Montju\xEFc"
+  - Fernando Alonso
+  - El circuito del Jarama y el circuito de Pedralbes
+  - Porque los ciudadanos se quejaban del ruido
+  - Emilio de Villota y Emilio Zapico
+  - Epsilon Euskadi
+  - 1993
+  - "El circuito de Montmel\xF3"
+  - "Pedro de la Rosa y Marc Gen\xE9"
+  - 1991
+  - Carlos Sainz y Fernando Alonso
+  - Con Renault en 2003
+  - Fue piloto probador en McLaren
+  - Fernando Alonso
+  - "Una tuerca mal apretada durante la parada en boxes le oblig\xF3 a abandonar"
+  - "En el Gran Premio de Espa\xF1a de 2003"
+  - Juan Jover
+  - 2005 y 2006
+  - "En el Gran Premio de Hungr\xEDa de 2003"
+  - 2011
+  - Iberia Airlines
+  - Pedro de la Rosa y Roberto Merhi
+  - 4
+  - "Mar\xEDa de Villota"
+  - Emilio de Villota
+  - En Murcia
+  - 2011
+  - Ferrari
+  - No se han retirado
+  - 2
+  - Pedro de la Rosa y Narain Karthikeyan
+  - 1
+  - "10\xAA"
+  - "Marc Gen\xE9"
+  - Con el KERS
+  - Con Dani Clos
+  - "En la 10\xAA posici\xF3n"
+  - Por falta de patrocinios
+  - Con Williams
+  - 6,44 km
+  - 6
+  - Test post-temporada
+  - En Murcia
+  - 1968
+  - 1:19.12
+  - Jackie Stewart
+  - 1981
+  - James Hunt
+  - Jacques Villeneuve
+  - 12
+  - Ferrari
+  - "Luis P\xE9rez-Sala"
+  - Jackie Stewart
+  - "10\xAA posici\xF3n"
+  - En 3
+  - 1
+  - 5
+  - En 5
+  - Tyrell
+  - "an Premio de Espa\xF1a"
+  - Con 23
+  - "En el Gran Premio de M\xF3naco de 1957"
+  - Con un contrato para que firmara en ese momento
+  - 1
+  - "En el Gran premio de B\xE9lgica"
+  - Con 40
+  - "Se baj\xF3 del coche a dar un beso a su novia"
+  - 6
+  - 10
+  - 2
+  - En Palencia
+  - 1971
+  - 3,79 km
+  - 18
+  - Damon Hill
+  - James Hunt
+  - 1975
+  - 1:16.1
+  - Ronnie Peterson
+  - Con el circuito de Cheste
+  - "Por razones econ\xF3micas"
+  - Jacques Villeneuve
+  - 3
+  - "Monta\xF1a de diamante"
+  - 1997
+  - 3
+  - 9
+  - La bala plateada
+  - En Arrows, Jaguar, McLaren, Sauber y HRT
+  - Con  32
+  - "En el Gran Premio de Hungr\xEDa de 2012"
+  - Del circuito de Bahrein
+  - De la NASCAR
+  - McLaren
+  - "5\xAA posici\xF3n"
+  - Ma Qing Hua
+  - Es piloto de pruebas de McLaren
+  - Piloto probador de Pirelli
+  - 2016
+  - Con 7
+  - Que arreglara sus asuntos legales
+  - En 6
+  - 1981
+  - En McLaren, Tyrell, Ferrari, Benetton y HRT
+  - 1967
+  - Con 20
+  - Presidente
+  - En Murcia
+  - 3
+  - "Fue parte del personal de direcci\xF3n"
+  - 28
+  - Williams
+  - 2
+  - 2015, 2016 y 2017
+  - 5,14 km
+  - 1987
+  - Pedro de la Rosa
+  - 16
+  - 1:24.870
+  - Jackie Stewart
+  - 32
+  - En Valencia
+  - Rubens Barrichello
+  - 187
+  - Lewis Hamilton
+  - 2014
+  - 7
+  - Fernando Alonso
+  - 7
+  - En la GP3
+  - Renault
+  - "3\xAA posici\xF3n"
+  - Daniel Ricciardo
+  - 2015
+  - En 4
+  - Con 21
+  - En Renault
+  - Con Daniel Ricciardo
+  - Con Pedro de la Rosa
+  - 21
+  - 33
+  - Pedro de la Rosa
+  - "13\xBA"
+  - De las World Series

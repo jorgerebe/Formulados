@@ -1,0 +1,989 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1267367563982292}
+  m_IsPrefabAsset: 1
+--- !u!1 &1267367563982292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4179595999869148}
+  - component: {fileID: 114021160499946196}
+  m_Layer: 0
+  m_Name: PreguntillasF1EnGeneral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4179595999869148
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267367563982292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114021160499946196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267367563982292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: F1 en general
+  nombreniveles:
+  - Nivel 1
+  - Nivel 2
+  - Nivel 3
+  - Nivel 4
+  - Nivel 5
+  - Nivel 6
+  - Nivel 7
+  - Nivel 8
+  - Nivel 9
+  - Nivel 10
+  Preguntas:
+  - "\xBFCu\xE1l es el proveedor oficial de neum\xE1ticos de la F\xF3rmula 1?"
+  - "\xBFQui\xE9n convirti\xF3 la F\xF3rmula 1 en un negocio?"
+  - "\xBFCu\xE1ntos Grandes Premios hay actualmente en el calendario?"
+  - "\xBFQu\xE9 piloto de F\xF3rmula 1 tiene m\xE1s mundiales?"
+  - "\xBFCu\xE1l es el circuito que m\xE1s kil\xF3metros tiene del calendario actual?"
+  - "\xBFQui\xE9n es el piloto m\xE1s joven en ganar una carrera de F1?"
+  - "\xBFQui\xE9n es el presidente actual de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o se celebr\xF3 el primer mundial de F\xF3rmula 1 moderna?"
+  - "\xBFCu\xE1ntas escuder\xEDas hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es la duraci\xF3n m\xE1xima de una carrera?"
+  - "\xBFCu\xE1ntos pilotos hay actualmente en la parrilla?"
+  - "\xBFCu\xE1l es el m\xEDnimo de kil\xF3metros que tiene una carrera?"
+  - "\xBFCu\xE1ntos neum\xE1ticos hay en total?"
+  - "\xBFQu\xE9 motor se utiliza actualmente en la F1?"
+  - "\xBFQu\xE9 piloto fue el campe\xF3n del mundo en el comienzo de la era h\xEDbrida
+    (2014)?"
+  - "\xBFCu\xE1ntas marchas tiene un monoplaza de F1?"
+  - "\xBFQu\xE9 equipo domin\xF3 la era h\xEDbrida en sus comienzos?"
+  - "\xBFCu\xE1ntas rondas de clasificaci\xF3n hay?"
+  - "\xBFQu\xE9 pilotos punt\xFAan al finalizar una carrera?"
+  - "\xBFQu\xE9 ocurre cuando hay bandera roja?"
+  - "\xBFQui\xE9n fue el primer campe\xF3n del mundo de la historia?"
+  - "\xBFQu\xE9 sistema de salida se usa en la F1?"
+  - "\xBFCu\xE1ntos kg de combustible se pueden usar cada carrera?"
+  - "\xBFPara qu\xE9 sirve el DRS?"
+  - "\xBFCu\xE1l es el m\xE1ximo de RPM que tiene un motor?"
+  - "\xBFQu\xE9 significa la bandera azul?"
+  - "\xBFCu\xE1l es el m\xE1ximo de motores sin sanci\xF3n que puede usar un piloto
+    por temporada?"
+  - "\xBFCu\xE1ntos puntos se llevan, respectivamente, los 10 primeros de cada carrera?"
+  - "\xBFQu\xE9 piloto gan\xF3 el primer GP de la F\xF3rmula 1 moderna?"
+  - de ancho un F1? largo un F1?
+  - "\xBFEn qu\xE9 consiste un 'drive-through'?"
+  - "\xBFCu\xE1l es el peso m\xEDnimo que tiene que tener un F1?"
+  - "\xBFQu\xE9 tipo de cambio utiliza un F1?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s pole positions?"
+  - "\xBFQu\xE9 persona ha realizado un servicio m\xE1s largo a la F1?"
+  - "\xBFEn qu\xE9 consiste el Parc Ferm\xE9?"
+  - "\xBFQu\xE9 piloto ha disputado m\xE1s Grandes Premios?"
+  - "\xBFQu\xE9 es el ERS?"
+  - "\xBFQu\xE9 pa\xEDs tiene m\xE1s victorias?"
+  - "\xBFD\xF3nde se puede activar el DRS?"
+  - "\xBFCu\xE1ntos Grandes Premios nocturnos en su totalidad hay actualmente?"
+  - "\xBFQu\xE9 significa la bandera negra?"
+  - "\xBFCu\xE1ntos caballos de potencia extra genera el ERS?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay?"
+  - "\xBFQu\xE9 piloto ha competido con m\xE1s a\xF1os?"
+  - "\xBFCu\xE1nto tiempo por vuelta se puede usar el ERS?"
+  - "\xBFPara qui\xE9n est\xE1 reservado el dorsal n\xBA 1?"
+  - "\xBFQu\xE9 edad ten\xEDa Eitel Cantoni en su \xFAltimo GP?"
+  - "\xBFQui\xE9n ha sido el piloto m\xE1s joven de la historia en participar en un
+    GP?"
+  - "\xBFQu\xE9 piloto ha ganado m\xE1s Grandes Premios antes de ser campe\xF3n del
+    mundo?"
+  - "\xBFQu\xE9 edad ten\xEDa Max Verstappen cuando disput\xF3 su primer Gran Premio?"
+  - "\xBFCu\xE1nto pesa aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l es el intervalo de temperatura para el \xF3ptimo funcionamiento de
+    los neum\xE1ticos?"
+  - "\xBFCu\xE1nto peso puede llegar a perder un piloto durante una carrera?"
+  - "\xBFCu\xE1ndo sale el Safety Car?"
+  - "\xBFQu\xE9 a\xF1o regres\xF3 la dupla McLaren-Honda?"
+  - "\xBFQui\xE9n es el piloto del Safety Car?"
+  - "\xBFCu\xE1ntos a\xF1os dura el dorsal que elijas?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de seco de Pirelli?"
+  - "\xBFQui\xE9n es el director de carrera?"
+  - "\xBFCu\xE1l es el patrocinador oficial de la F1?"
+  - "\xBFCu\xE1ntos compuestos de seco lleva Pirelli a cada GP?"
+  - "\xBFQu\xE9 papel desempe\xF1a actualmente Bernie Ecclestone en la F1?"
+  - "\xBFCu\xE1l es el desarrollador de los videojuegos oficiales de la F\xF3rmula
+    1?"
+  - "\xBFQu\xE9 significa la bandera verde?"
+  - "\xBFCu\xE1ntos neum\xE1ticos de seco hay que montar como m\xEDnimo en cada carrera
+    de clima seco?"
+  - "\xBFQu\xE9 apodo tiene Kimi R\xE4ikk\xF6nen?"
+  - "\xBFQu\xE9 tipo de tracci\xF3n usa un F1?"
+  - "\xBFCu\xE1l es el promedio de cambios de marcha en una carrera?"
+  - "\xBFCu\xE1ntos botones tiene aproximadamente un volante de F1?"
+  - "\xBFCu\xE1l ha sido la m\xE1xima velocidad punta que ha alcanzado un F1?"
+  - "\xBFCu\xE1nto dur\xF3 el pitstop m\xE1s r\xE1pido de la historia?"
+  - "\xBFC\xF3mo se engrana la marcha atr\xE1s?"
+  - "\xBFQu\xE9 piloto cobra m\xE1s actualmente?"
+  - "\xBFQu\xE9 temperatura puede alcanzar el cockpit?"
+  - "\xBFCu\xE1ntos litros de agua por segundo desplazan los neum\xE1ticos de lluvia?"
+  - "\xBFCu\xE1nta distancia separa al fondo plano del suelo?"
+  - "\xBFCu\xE1ntas piezas componen un F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas veces usa de promedio un piloto la radio por vuelta?"
+  - "\xBFCada cu\xE1nto tiempo se cambia la marcha de promedio?"
+  - "\xBFQu\xE9 marca proporciona el champagne que se bebe en el podio?"
+  - "\xBFQui\xE9n fue el \xFAltimo piloto en fallecer por las secuelas de un accidente
+    en F1?"
+  - "\xBFQu\xE9 pilotos suben al podio al finalizar la carrera?"
+  - "\xBFC\xF3mo se llama la gama de neum\xE1ticos de lluvia de Pirelli?"
+  - "\xBFCu\xE1l es el equipo m\xE1s longevo de la F1?"
+  - "\xBFQu\xE9 significa la bandera a cuadros?"
+  - "\xBFCu\xE1l ha sido la distancia m\xE1s peque\xF1a entre el primero y el segundo
+    en un Gran Premio?"
+  - "\xBFQu\xE9 piloto ha logrado m\xE1s vueltas r\xE1pidas?"
+  - "\xBFCu\xE1l es el circuito en el que m\xE1s veces se ha corrido?"
+  - "\xBFQu\xE9 piloto ha conseguido anotar m\xE1s puntos?"
+  - "\xBFCu\xE1nto cuesta aproximadamente un F1?"
+  - "\xBFCu\xE1l es la edad m\xEDnima para obtener la superlicencia?"
+  - "\xBFCu\xE1ntos pilotos puede usar un equipo cada temporada?"
+  - "\xBFEn qu\xE9 carreras est\xE1 permitido el ABS?"
+  - "\xBFQu\xE9 significa la bandera blanca y negra?"
+  - "\xBFPara qu\xE9 sirve el Hans?"
+  - "\xBFCu\xE1ntos pilotos han logrado puntuar a lo largo de la historia de la F1?"
+  - "\xBFCu\xE1ntos coches de repuesto pueden tener los equipos?"
+  - "\xBFPuede usarse l\xEDquido para refrigerar los frenos?"
+  - "\xBFCu\xE1ntos pilotos han logrado la vuelta r\xE1pida en su debut?"
+  - "\xBFQu\xE9 circuito es conocido por su peligrosidad?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en M\xF3naco?"
+  - "\xBFCu\xE1l fue el Gran Premio en el que participaron menos pilotos?"
+  - "\xBFCu\xE1l es el circuito m\xE1s largo que ha estado en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto en activo lleva m\xE1s tiempo en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 hizo Nelson Piquet Jr en el Gran Premio de Singapur 2008?"
+  - "\xBFCu\xE1l es el santo m\xE1s formulero?"
+  - "\xBFCu\xE1l es el cargo actual de Bernie Ecclestone?"
+  - "\xBFCu\xE1l fue la carrera m\xE1s larga de la historia?"
+  - "\xBFPara qu\xE9 sirve la bandera negra con un c\xEDrculo naranja?"
+  - "\xBFEst\xE1n permitidas las \xF3rdenes de equipo?"
+  - "\xBFQui\xE9n ha sido el \xFAltimo piloto en debutar en un Gran Premio?"
+  - "\xBFCu\xE1ntos pilotos corrieron en el Gran Premio de Estados Unidos de 2005?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Ron Dennis liderando el equipo McLaren?"
+  - "\xBFCu\xE1nto dur\xF3 el pit stop m\xE1s r\xE1pido de esta temporada 2017?"
+  - "\xBFCu\xE1ntos cambios de direcci\xF3n se pueden hacer en una recta para defender
+    la posici\xF3n?"
+  - "\xBFQu\xE9 piloto lleva m\xE1s victorias este 2017?"
+  - "\xBFCu\xE1nto dur\xF3 el Gran Premio de Canad\xE1 de 2011 incluyendo parones?"
+  - "\xBFQu\xE9 piloto en activo tiene m\xE1s t\xEDtulos mundiales?"
+  - "\xBFCu\xE1ntos pilotos acabaron el primer GP de M\xF3naco de la historia? Participaron
+    19"
+  - "\xBFQu\xE9 equipo hizo el pit stop m\xE1s r\xE1pido de esta temporada 2017?"
+  - "\xBFQu\xE9 significa la bandera blanca?"
+  - "\xBFCu\xE1ntas veces ha ganado McLaren en M\xF3naco?"
+  - "\xBFEn qu\xE9 Gran Premio naci\xF3 San Ganchao?"
+  - "\xBFQui\xE9n es el director deportivo de la F\xF3rmula 1?"
+  - "\xBFQu\xE9 equipo lidera actualmente el mundial de constructores?"
+  - "\xBFEn qu\xE9 circuito se obtiene la menor velocidad media?"
+  - "\xBFCu\xE1l es la longitud del circuito de Pescara?"
+  - "\xBFCu\xE1ntas veces han ganado los pilotos brit\xE1nicos el Gran Premio de Gran
+    Breta\xF1a?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en el circuito de Monza?"
+  - "\xBFQu\xE9 piloto gan\xF3 el mundial con el mayor margen de puntos y en qu\xE9
+    a\xF1o?"
+  - "\xBFQui\xE9n es el ingeniero que m\xE1s renombre tiene?"
+  - "\xBFQu\xE9 piloto ha sido el \xFAnico en conseguir un mundial de F\xF3rmula 1
+    y otro de MotoGP?"
+  - "\xBFQu\xE9 equipo tiene m\xE1s victorias en Spa-Francorchamps?"
+  - "\xBFQu\xE9 pa\xEDs ha alojado m\xE1s Grandes Premios?"
+  - "\xBFCu\xE1ntos circuitos de F\xF3rmula 1 hay en Europa?"
+  - "\xBFEn qu\xE9 circuito se ha alcanzado la mayor velocidad media en una vuelta
+    en carrera?"
+  - "\xBFQu\xE9 piloto lidera actualmente el campeonato de pilotos?"
+  - "\xBFQu\xE9 proveedor de neum\xE1ticos ha estado en m\xE1s carreras?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Monza?"
+  - "\xBFQu\xE9 piloto ha estado m\xE1s a\xF1os en F\xF3rmula 1?"
+  - "\xBFQu\xE9 significa la bandera a rayas amarillas y rojas?"
+  - "\xBFEn qu\xE9 Gran Premio fue la \xFAltima victoria de Jenson Button?"
+  - "\xBFCu\xE1ntos puntos sac\xF3 Sebastian Vettel a Fernando Alonso en 2013?"
+  - "\xBFCu\xE1ntas veces gan\xF3 Senna en M\xF3naco?"
+  - "\xBFCu\xE1ntos Grandes Premios ha alojado Italia?"
+  - "\xBFCu\xE1ntas victorias tiene Ferrari en Spa-Franchorchamps?"
+  - "\xBFEn cu\xE1ntas carreras ha estado Goodyear?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo Barrichello en F\xF3rmula 1?"
+  - "\xBFQu\xE9 velocidad media se alcanz\xF3 en la vuelta m\xE1s r\xE1pida dada en
+    Monza en carrera?"
+  RespuestasCorrectas:
+  - Pirelli
+  - Bernie Ecclestone
+  - 20
+  - Michael Schumacher
+  - Spa-Francorchamps
+  - Max Verstappen
+  - Chase Carey
+  - 1950
+  - 10
+  - 2 horas
+  - 20
+  - "305 (menos en M\xF3naco)"
+  - 7
+  - "V6 Turbo H\xEDbrido"
+  - Lewis Hamilton
+  - 8
+  - Mercedes
+  - 3
+  - Los diez primeros
+  - "Se para la sesi\xF3n"
+  - Nino Farina
+  - "Salida por sem\xE1foro"
+  - Hasta 105 kg
+  - Para ganar velocidad punta
+  - 15.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 4
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Nino Farina
+  - 2 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 722 kg
+  - "Semiautom\xE1tico con levas"
+  - Michael Schumacher
+  - Bernie Ecclestone
+  - En no poder realizar cambios importantes en el coche
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Gran Breta\xF1a"
+  - En las zonas marcadas por la FIA
+  - 2
+  - El piloto al que se le muestra queda expulsado
+  - 163
+  - 5
+  - Eitel Cantoni
+  - 33.3 segundos
+  - "Para el vigente campe\xF3n"
+  - "55 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Nico Rosberg
+  - "17 a\xF1os y 166 d\xEDas"
+  - 2kg
+  - "80\xBAC y 100\xBAC"
+  - 3kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Bernd Mayl\xE4nder"
+  - "Todos los que permanezcas en la categor\xEDa"
+  - P-Zero
+  - Charlie Whiting
+  - Heineken
+  - 3
+  - Presidente de honor
+  - Codemasters
+  - No hay peligro
+  - 2
+  - Iceman
+  - Trasera
+  - 2750
+  - 41
+  - 378km/h
+  - 1,9 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Fernando Alonso
+  - "50\xBAC"
+  - 90 litros por segundo
+  - Entre 10 y 50 mm
+  - 80.000
+  - 1
+  - Cada 1,3 segundos
+  - Carbon
+  - Jules Bianchi
+  - Los 3 primeros
+  - Cinturato
+  - Scuderia Ferrari
+  - La carrera ha terminado
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monza
+  - Sebastian Vettel
+  - "8.438.000\u20AC"
+  - "18 a\xF1os"
+  - 4
+  - "No est\xE1 permitido el ABS"
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 289
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Indianapolis de 2005
+  - Pescara
+  - Fernando Alonso
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Ganchao
+  - "Presidente de honor de la F\xF3rmula 1"
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xED"
+  - Antonio Giovinazzi
+  - 5
+  - 36
+  - 2,17 segundos
+  - 1
+  - Sebastian Vettel
+  - 4 horas, 4 minutos y 39 segundos
+  - Sebastian Vettel
+  - 7
+  - Williams
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 15
+  - En el Gran Premio de China 2007
+  - Ross Brawn
+  - Mercedes
+  - "En M\xF3naco"
+  - 25,57 km
+  - 21 veces
+  - Ferrari
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - John Surtees
+  - Ferrari
+  - Italia
+  - 37
+  - En Monza
+  - Sebastian Vettel
+  - Goodyear
+  - 18
+  - Rubens Barrichello
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - Gran Premio de Brasil de 2012
+  - 155
+  - 6
+  - 91
+  - 12
+  - En 358
+  - 18
+  - 257,34 km/h
+  respuestasA:
+  - Pirelli
+  - Max Mosley
+  - 19
+  - Juan Manuel Fangio
+  - Monaco
+  - Carlos Sainz
+  - Chase Carey
+  - 2000
+  - 9
+  - 1h y 30min
+  - 20
+  - 275
+  - 5
+  - "V8 Atmosf\xE9rico"
+  - Lewis Hamilton
+  - 6
+  - Ferrari
+  - 3
+  - "Los diez \xFAltimos"
+  - No se puede adelantar
+  - Juan Manuel Fangio
+  - Salida lanzada
+  - Hasta 105 kg
+  - Para frenar mejor
+  - 15.000
+  - No hay peligro
+  - 5
+  - 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+  - Michael Schumacher
+  - 4 metros
+  - "En pasar por el pit-lane una vez sin cambiar neum\xE1ticos"
+  - 732 kg
+  - "Autom\xE1tico"
+  - Sebastian Vettel
+  - Ron Dennis
+  - "En juntar todos los coches despu\xE9s de la clasificaci\xF3n"
+  - Michael Schumacher
+  - "Es el sistema de recuperaci\xF3n de energ\xEDa"
+  - "Espa\xF1a"
+  - En todo el circuito
+  - 1
+  - No se puede adelantar
+  - 150
+  - 5
+  - Michael Schumacher
+  - 7,12 segundos
+  - "Para el vigente campe\xF3n"
+  - "45 a\xF1os y 332 d\xEDas"
+  - Fernando Alonso
+  - Lewis Hamilton
+  - "18 a\xF1os y 23 d\xEDas"
+  - 2kg
+  - "130\xBAC y 140\xBAC"
+  - 3kg
+  - Siempre que llueve
+  - 2013
+  - Carlos Sainz
+  - "Todos los que permanezcas en la categor\xEDa"
+  - Cinturato
+  - Bernie Ecclestone
+  - Heineken
+  - 2
+  - Director ejecutivo de la FOM
+  - EA Sports
+  - "Se para la sesi\xF3n"
+  - 1
+  - Iceman
+  - Integral
+  - 2200
+  - 50
+  - 372km/h
+  - 1,9 segundos
+  - "Poniendo el punto muerto y manteniendo pulsado el embrague durante m\xE1s de
+    medio segundo"
+  - "Kimi R\xE4ikk\xF6nen"
+  - "80\xBAC"
+  - 90 litros por segundo
+  - Entre 40 y 80 mm
+  - 1.000.000
+  - 2
+  - Cada 1 segundo
+  - Mumm
+  - Maria de Villota
+  - "S\xF3lo el primero"
+  - Cinturato
+  - McLaren
+  - No hay peligro
+  - 0.100 segundos
+  - "Kimi R\xE4ikk\xF6nen"
+  - Spa-Francorchamps
+  - Fernando Alonso
+  - "13.438.000\u20AC"
+  - "No hay edad m\xEDnima"
+  - 3
+  - En todas
+  - El piloto al que se le muestra queda descalificado
+  - "Para evitar el estiramiento de las v\xE9rtebras del cuello en un accidente"
+  - 300
+  - 3
+  - "S\xF3lo en las que la temperatura es excesiva"
+  - 3
+  - Spa-Francorchamps
+  - Ferrari
+  - Gran Premio de Indianapolis de 2005
+  - "N\xFCrburgring Nordschleife"
+  - Felipe Massa
+  - "Gan\xF3 su primera carrera"
+  - San Michael
+  - "Presidente de honor de la F\xF3rmula 1"
+  - "El Gran Premio de Gran Breta\xF1a de 2016"
+  - Para avisar de que no hay peligro
+  - No
+  - Max Verstappen
+  - 4
+  - 34
+  - 2,17 segundos
+  - 2
+  - Lewis Hamilton
+  - 4 horas, 39 minutos y 39 segundos
+  - "Kimi R\xE4ikk\xF6nen"
+  - 5
+  - Ferrari
+  - "Advierte de la presencia de un veh\xEDculo lento en la pista"
+  - 12
+  - "En el Gran Premio de Hungr\xEDa 2007"
+  - Sean Bratches
+  - Williams
+  - "En M\xF3naco"
+  - 23,25 km
+  - 26 veces
+  - Renault
+  - Sebastian Vettel en 2013
+  - Adrian Newey
+  - Angel Nieto
+  - Williams
+  - "M\xF3naco"
+  - 35
+  - En Spa-Francorchamps
+  - "Kimi R\xE4ikk\xF6nen"
+  - Pirelli
+  - 16
+  - Fernando Alonso
+  - Advierte a los pilotos de una superficie deslizante en la pista
+  - "Gran Premio de M\xF3naco de 2017"
+  - 143
+  - 6
+  - 90
+  - 10
+  - En 285
+  - 18
+  - 277,34 km/h
+  respuestasB:
+  - Michelin
+  - Chase Carey
+  - 20
+  - Fernando Alonso
+  - Monza
+  - Max Verstappen
+  - Bernie Ecclestone
+  - 1949
+  - 11
+  - 2 horas
+  - 18
+  - 350
+  - 7
+  - V8 Turbo
+  - Sebastian Vettel
+  - 7
+  - Mercedes
+  - 4
+  - Los tres primeros
+  - "Se para la sesi\xF3n"
+  - Michael Schumacher
+  - Salida por bandera
+  - Al menos 105 kg
+  - Para ganar velocidad en curva
+  - "No hay l\xEDmite"
+  - "Se para la sesi\xF3n"
+  - "No hay l\xEDmite"
+  - 1, 2, 4, 6, 8, 10, 12, 15, 18, 25
+  - Nino Farina
+  - 1,6 metros
+  - "En perder 5 segundos la pr\xF3xima vez que pares en boxes"
+  - 800 kg
+  - "Semiautom\xE1tico con levas"
+  - Ayrton Senna
+  - Michael Schumacher
+  - En no poder realizar cambios importantes en el coche
+  - Juan Manuel Fangio
+  - "Es el sistema de gesti\xF3n de combustible"
+  - "Gran Breta\xF1a"
+  - "S\xF3lo en las curvas"
+  - 3
+  - El piloto al que se le muestra queda expulsado
+  - 200
+  - 6
+  - Max Verstappen
+  - 33.3 segundos
+  - Para el que se lo pida primero
+  - "55 a\xF1os y 337 d\xEDas"
+  - Carlos Sainz
+  - Nico Rosberg
+  - "19 a\xF1os y 98 d\xEDas"
+  - 4kg
+  - "40\xBAC y 50\xBAC"
+  - 5kg
+  - Cuando hay que remolcar a un monoplaza
+  - 2014
+  - "Bernd Mayl\xE4nder"
+  - 2 temporadas
+  - "Los F1 no utilizan neum\xE1ticos Pirelli"
+  - Charlie Whiting
+  - Rolex
+  - 5
+  - Presidente de honor
+  - Nintendo
+  - No hay peligro
+  - 3
+  - Aquaman
+  - Delantera
+  - 2750
+  - 30
+  - 378km/h
+  - 2,2 segundos
+  - Igual que una marcha normal
+  - Sebastian Vettel
+  - "50\xBAC"
+  - 80 litros por segundo
+  - Entre 30 y 50 mm
+  - 80.000
+  - 0.5
+  - Cada 1,6 segundos
+  - Chandom
+  - Gilles Villeneuve
+  - "Los 3 \xFAltimos"
+  - P-Zero
+  - Scuderia Ferrari
+  - Prohibido adelantar
+  - 0.010 segundos
+  - Michael Schumacher
+  - Monaco
+  - Lewis Hamilton
+  - "9.438.000\u20AC"
+  - "16 a\xF1os"
+  - 2
+  - "No est\xE1 permitido el ABS"
+  - La carrera ha acabado
+  - Para que no ocurran acccidentes
+  - 280
+  - 10
+  - Siempre
+  - 4
+  - "N\xFCrburgring Nordschleife"
+  - McLaren
+  - Gran Premio de Italia de 2003
+  - Spa-Francorchamps
+  - Jenson Button
+  - "Se choc\xF3 a prop\xF3sito para favorecer a su compa\xF1ero de equipo"
+  - San Senna
+  - Director ejecutivo de la FOM
+  - "El Gran Premio de M\xF3naco de 2013"
+  - "Para advertir a un piloto de que tiene un problema mec\xE1nico"
+  - "S\xF3lo cuando la FIA lo decide"
+  - Lance Stroll
+  - 5
+  - 35
+  - 3,04 segundos
+  - 1
+  - Sebastian Vettel
+  - 5 horas, 4 minutos y 39 segundos
+  - Sebastian Vettel
+  - 4
+  - McLaren
+  - Advierte a un piloto de que ha sido descalificado
+  - 15
+  - En el Gran Premio de China 2008
+  - Ross Brawn
+  - Ferrari
+  - En Spa-Francorchamps
+  - 25,57 km
+  - 30 veces
+  - Williams
+  - Fernando Alonso en 2005
+  - Paddy Lowe
+  - John Surtees
+  - Lotus
+  - "B\xE9lgica"
+  - 34
+  - En Monza
+  - Lewis Hamilton
+  - Goodyear
+  - 15
+  - Jenson Button
+  - "Advierte a los pilotos de un veh\xEDculo lento en la pista en la pista"
+  - "Gran Premio de Canad\xE1 de 2011"
+  - 155
+  - 4
+  - 85
+  - 12
+  - En 340
+  - 16
+  - 257,34 km/h
+  respuestasC:
+  - Bridgestone
+  - Bernie Ecclestone
+  - 18
+  - Ayrton Senna
+  - Spa-Francorchamps
+  - Sebastian Vettel
+  - Jean Todt
+  - 1951
+  - 10
+  - "No hay l\xEDmite"
+  - 22
+  - 305 (en todos)
+  - 6
+  - "V6 Turbo H\xEDbrido"
+  - Fernando Alonso
+  - 8
+  - McLaren
+  - 2
+  - Los diez primeros
+  - No hay peligro
+  - Fernando Alonso
+  - "Salida lanzada detr\xE1s del Safety Car"
+  - Hasta 400 kg
+  - Para ganar velocidad punta
+  - 18.000
+  - "Tienes que dejar pasar a los coches de detr\xE1s"
+  - 4
+  - 16, 8, 7, 5, 4, 3, 2.5, 2, 1, 0.5
+  - Leslie Johnson
+  - 1,8 metros
+  - En recibir una advertencia por saltarte varias curvas
+  - 702 kg
+  - Manual
+  - Fernando Alonso
+  - Bernie Ecclestone
+  - "En dejar los coches juntos despu\xE9s de la clasificaci\xF3in para que los vean
+    los espectadores"
+  - Rubens Barrichello
+  - "Es el sistema de recuperaci\xF3n de aerodin\xE1mica"
+  - Alemania
+  - En las zonas marcadas por la FIA
+  - Ninguno
+  - Hay peligro
+  - 163
+  - 7
+  - Eitel Cantoni
+  - 40 segundos
+  - "Para el \xFAltimo del a\xF1o pasado"
+  - "48 a\xF1os y 337 d\xEDas"
+  - Max Verstappen
+  - Michael Schumacher
+  - "17 a\xF1os y 347 d\xEDas"
+  - 3kg
+  - "90\xBAC y 110\xBAC"
+  - 2,5kg
+  - Cuando hay condiciones peligrosas
+  - 2015
+  - "Matthias Ekstr\xF6m"
+  - Siempre hasta que consigas ganar el campeonato
+  - P7
+  - Chase Carey
+  - LG
+  - 3
+  - Presidente
+  - Ubisoft
+  - "Hay un monoplaza con problemas mec\xE1nicos"
+  - 2
+  - Fireman
+  - Total
+  - 3100
+  - 41
+  - 384km/h
+  - 1,7 segundos
+  - "Con un bot\xF3n que est\xE1 en un lateral del cockpit"
+  - Lewis Hamilton
+  - "45\xBAC"
+  - 60 litros por segundo
+  - Entre 10 y 50 mm
+  - 500.000
+  - 4
+  - Cada 1,3 segundos
+  - Carbon
+  - Ayrton Senna
+  - Los 3 primeros
+  - Sottozero
+  - Williams
+  - La carrera ha terminado
+  - 0.110 segundos
+  - Lewis Hamilton
+  - Monza
+  - Sebastian Vettel
+  - "20.438.000\u20AC"
+  - "18 a\xF1os"
+  - 5
+  - En las 5 que cada equipo seleccione
+  - "El piloto al que se le muestra ha cometido una infracci\xF3n"
+  - Para frenar mejor
+  - 289
+  - 6
+  - En las que marque la FIA
+  - 1
+  - Monza
+  - Williams
+  - Gran Premio de San Marino de 2005
+  - Pescara
+  - "Kimi R\xE4ikkonen"
+  - "Agredi\xF3 a su compa\xF1ero de equipo"
+  - San Ganchao
+  - Director deportivo
+  - "El Gran Premio de Canad\xE1 de 2011"
+  - Para advertir de que no se puede adelantar
+  - "S\xF3lo en 5 Grandes Premios por temporada"
+  - Antonio Giovinazzi
+  - 3
+  - 26
+  - 1,99 segundos
+  - 3
+  - "Kimi R\xE4ikk\xF6nen"
+  - 4 horas, 4 minutos y 39 segundos
+  - Lewis Hamilton
+  - 7
+  - Mercedes
+  - Advierte de que el Safety Car ha sido desplegado
+  - 20
+  - En el Gran Premio de Australia 2008
+  - Chase Carey
+  - Mercedes
+  - En Singapur
+  - 19,8 km
+  - 21 veces
+  - Mercedes
+  - Michael Schumacher en 2004
+  - James Allison
+  - Michael Schumacher
+  - Red Bull
+  - Italia
+  - 29
+  - En Silverstone
+  - Fernando Alonso
+  - Michelin
+  - 18
+  - Michael Schumacher
+  - Avisa a los pilotos de que la carrera ha finalizado
+  - Gran Premio de Brasil de 2012
+  - 130
+  - 2
+  - 91
+  - 9
+  - En 372
+  - 14
+  - 267,54 km/h
+  respuestasD:
+  - Goodyear
+  - Jean Todt
+  - 21
+  - Michael Schumacher
+  - "Canad\xE1"
+  - Lewis Hamilton
+  - Maurizio Arrivabene
+  - 1950
+  - 12
+  - 3 horas
+  - 19
+  - "305 (menos en M\xF3naco)"
+  - 4
+  - V10
+  - Nico Rosberg
+  - 9
+  - Red Bull
+  - 1
+  - Los cinco primeros
+  - Han expulsado a un piloto de la carrera
+  - Nino Farina
+  - "Salida por sem\xE1foro"
+  - "No hay ning\xFAn m\xEDnimo ni ning\xFAn l\xEDmite"
+  - Para que no llueva
+  - 10.000
+  - No se puede adelantar
+  - 8
+  - 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+  - Ninguna es correcta
+  - 2 metros
+  - "En perder 10 segundos la pr\xF3xima vez que pares en boxes"
+  - 722 kg
+  - Manual con levas
+  - Michael Schumacher
+  - Stefano Domenicali
+  - En tener que pasar obligatoriamente por boxes
+  - Nigel Mansell
+  - "Es el sistema de calentamiento de neum\xE1ticos"
+  - Brasil
+  - En el pit lane
+  - 2
+  - "Se suspende la sesi\xF3n"
+  - 1007
+  - 4
+  - Juan Manuel Fangio
+  - 20,12 segundos
+  - "Para el que haya ganado m\xE1s veces el a\xF1o anterior"
+  - "53 a\xF1os y 337 d\xEDas"
+  - Michael Schumacher
+  - Jenson Button
+  - "17 a\xF1os y 166 d\xEDas"
+  - 1kg
+  - "80\xBAC y 100\xBAC"
+  - 1kg
+  - Cuando se va a dar la salida
+  - 2017
+  - Tom Blomqvist
+  - 10 temporadas
+  - P-Zero
+  - Jo Bauer
+  - Pirelli
+  - 7
+  - Director no ejecutivo de la FOM
+  - Codemasters
+  - La carrera ha acabado
+  - 4
+  - Snowman
+  - Trasera
+  - 5000
+  - 13
+  - 396km/h
+  - 1,85 segundos
+  - "Los F1 no tienen marcha atr\xE1s"
+  - Fernando Alonso
+  - "55\xBAC"
+  - 75 litros por segundo
+  - Entre 20 y 60 mm
+  - 700.00
+  - 1
+  - Cada 1,2 segundos
+  - Freixenet
+  - Jules Bianchi
+  - Los diez primeros
+  - P7
+  - Mercedes
+  - "Se para la sesi\xF3n"
+  - 0.011 segundos
+  - Alain Prost
+  - Silverstone
+  - Michael Schumacher
+  - "8.438.000\u20AC"
+  - "20 a\xF1os"
+  - 4
+  - En las que determine la FIA
+  - "Se para la sesi\xF3n"
+  - Para ganar velocidad punta
+  - 310
+  - "Los coches de repuesto no est\xE1n permitidos"
+  - No
+  - 2
+  - Monaco
+  - Renault
+  - "Gran Premio de Espa\xF1a de 1963"
+  - Silverstone
+  - Fernando Alonso
+  - Tuvo que abandonar antes de comenzar la carrera
+  - San Fernado
+  - Presidente de la FIA
+  - El Gran Premio de EEUU de 2005
+  - "Para avisar de que se ha parado la sesi\xF3n"
+  - "S\xED"
+  - Roberto Merhi
+  - 6
+  - 36
+  - 2,45 segundos
+  - 4
+  - Valtteri Bottas
+  - 3 horas, 39 minutos y 39 segundos
+  - Nico Rosberg
+  - 3
+  - Williams
+  - Avisa del final de la carrera
+  - 17
+  - En el Gran Premio de China 2007
+  - Bernie Ecclestone
+  - Red Bull
+  - "En Bak\xFA"
+  - 7,25 km
+  - 18 veces
+  - Ferrari
+  - Sebastian Vettel en 2011
+  - Ross Brawn
+  - Valentino Rossi
+  - Ferrari
+  - "Gran Breta\xF1a"
+  - 37
+  - "En Bak\xFA"
+  - Sebastian Vettel
+  - Bridgestone
+  - 20
+  - Rubens Barrichello
+  - "Avisa a los pilotos de que la sesi\xF3n se ha parado"
+  - Gran Premio de Australia de 2014
+  - 172
+  - 7
+  - 103
+  - 8
+  - En 358
+  - 15
+  - 231,34 km/h

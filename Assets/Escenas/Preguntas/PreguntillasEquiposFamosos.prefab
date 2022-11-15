@@ -1,0 +1,973 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1437614480326154}
+  m_IsPrefabAsset: 1
+--- !u!1 &1437614480326154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4352727301217456}
+  - component: {fileID: 114898989657879556}
+  m_Layer: 0
+  m_Name: PreguntillasEquiposFamosos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4352727301217456
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437614480326154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114898989657879556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437614480326154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfc4a20061ca284080b16b3a4ef113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombregeneral: Equipos
+  nombreniveles:
+  - Ferrari
+  - McLaren
+  - Williams
+  - Renault
+  - Red Bull
+  - Lotus
+  - Benetton
+  - Tyrell
+  - Sauber
+  - Mercedes
+  Preguntas:
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFCu\xE1ntas carreras consecutivas ha llegado a ganar?"
+  - "\xBFQui\xE9nes son sus pilotos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tiene?"
+  - "\xBFQui\xE9n es su presidente?"
+  - "\xBFCon qu\xE9 piloto gan\xF3 el primer t\xEDtulo de pilotos?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo campeonato de constructores?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo campeonato de pilotos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes son sus pilotos actualmente?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ndo se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQui\xE9n es su motorista actualmente?"
+  - "\xBFQu\xE9 a\xF1o empezaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes son sus jefes de equipo?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tienen?"
+  - "\xBFQu\xE9 a\xF1o fueron descalificados del campeonato de constructores?"
+  - "\xBFCu\xE1l ha sido su dupla de pilotos m\xE1s famosa?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQu\xE9 a\xF1o lograron su primera victoria?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQu\xE9 piloto ha conseguido m\xE1s victorias?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFQui\xE9n es su jefa de equipo?"
+  - "\xBFQu\xE9 a\xF1o consiguieron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto logr\xF3 su \xFAltima victoria?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1l es su dupla de pilotos actual?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos a\xF1os ha estado Fernando Alonso como piloto titular?"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio consiguieron su \xFAltima victoria?"
+  - "\xBFQu\xE9 piloto logr\xF3 los t\xEDtulos de pilotos?"
+  - "\xBFQu\xE9 a\xF1o consiguieron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o fue su \xFAltimo regreso a la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos tienen?"
+  - "\xBFC\xF3mo hicieron su primera aparici\xF3n en la F\xF3rmula 1?"
+  - "\xBFDe qu\xE9 equipos es propietario?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFQu\xE9 piloto les ha dado m\xE1s \xE9xitos?"
+  - "\xBFQui\xE9n es su propietario?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQu\xE9 piloto corri\xF3 con un brazo roto a finales de 2010?"
+  - "\xBFQui\xE9n es su ingeniero m\xE1s famoso?"
+  - "\xBFQu\xE9 a\xF1o ganaron su primer t\xEDtulo de constructores?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores lograron?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias consiguieron con Emerson Fittipaldi?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFEn qu\xE9 d\xE9cadas tuvo su mayor rendimiento?"
+  - "\xBFQu\xE9 piloto estuvo m\xE1s a\xF1os?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron sin ganar antes de retirarse?"
+  - "\xBFQu\xE9 piloto logr\xF3 la primera victoria de Lotus con una entrada privada?"
+  - "\xBFQu\xE9 ingeniero fue el responsable de que consiguieran su \xFAltimo t\xEDtulo
+    de constructores?"
+  - "\xBFCu\xE1ntas temporadas estuvieron en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o lograron su \xFAltimo t\xEDtulo de constructores?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores lograron?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFCon qu\xE9 motorista obtuvieron sus mejores resultados?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias consiguieron con Schumacher?"
+  - "\xBFQui\xE9n fue su jefe de equipo entre 1990 y 1997?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFC\xF3mo empezaron su aventura en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 piloto les dio m\xE1s \xE9xitos?"
+  - "\xBFQu\xE9 monoplaza usaron como base en su temporada de debut?"
+  - "\xBFQu\xE9 piloto fue el \xFAltimo en acabar una carrera con ellos?"
+  - "\xBFCu\xE1ntos t\xEDtulos de pilotos consiguieron?"
+  - "\xBFPor que equipo fueron comprados?"
+  - "\xBFCon qu\xE9 piloto consigui\xF3 su primera victoria?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores consigui\xF3?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFCu\xE1ntas ruedas ten\xEDa su monoplaza de 1976?"
+  - "\xBFQu\xE9 a\xF1o se fund\xF3?"
+  - "\xBFQu\xE9 piloto gan\xF3 6 de 11 carreras en 1971?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntos campeonatos de pilotos ganaron?"
+  - "\xBFPor que equipo fueron comprados?"
+  - "\xBFCu\xE1ntos a\xF1os estuvo en la F\xF3rmula 1?"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFCu\xE1ntos a\xF1os estuvieron sin ganar hasta su retirada?"
+  - "\xBFCu\xE1ntas victorias consiguieron?"
+  - "\xBFD\xF3nde estaba su sede?"
+  - "\xBFCon qu\xE9 piloto lograron su primera victoria?"
+  - "\xBFQu\xE9 a\xF1o se retiraron de la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFCu\xE1ntas victorias han conseguido? (hasta final 2016)"
+  - "\xBFQui\xE9n fue su fundador?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQu\xE9 a\xF1o debutaron en la F\xF3rmula 1?"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCon qu\xE9 piloto lograron su primera victoria?"
+  - "\xBFCu\xE1l es su motorista actual?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFEn qu\xE9 Gran Premio de 2016 lograron puntuar?"
+  - "\xBFQu\xE9 piloto sustituy\xF3 a Wehrlein los primeros Grandes Premios de 2017?"
+  - "\xBFEn qu\xE9 posici\xF3n del campeonato de constructores se encuentran?"
+  - "\xBFCu\xE1ntos puntos han conseguido esta temporada?"
+  - "\xBFQui\xE9n es su presidente?"
+  - "\xBFCu\xE1ntos t\xEDtulos de constructores tienen?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFQu\xE9 a\xF1o debutaron?"
+  - "\xBFCu\xE1ntas victorias han logrado? (hasta final 2016)"
+  - "\xBFQui\xE9nes forman su dupla actual de pilotos?"
+  - "\xBFDe qu\xE9 pa\xEDs es?"
+  - "\xBFQui\xE9n es su jefe de equipo?"
+  - "\xBFD\xF3nde se encuentra su sede?"
+  - "\xBFCu\xE1ntos a\xF1os llevan en la F\xF3rmula 1?"
+  - "\xBFEn qu\xE9 posici\xF3n del campeonato de constructores se encuentran?"
+  - "\xBFCu\xE1l es el puesto de Niki Lauda?"
+  - "\xBFC\xF3mo se conoce al equipo?"
+  - "\xBFQui\xE9n es el director t\xE9cnico?"
+  - "\xBFQu\xE9 pilotos estuvieron luchando por el t\xEDtulo de pilotos entre 2014
+    y 2016?"
+  - "\xBFA cu\xE1ntos equipos motoriza actualmente?"
+  RespuestasCorrectas:
+  - 1946
+  - En Maranello
+  - 16
+  - 67
+  - 224
+  - Maurizio Arrivabene
+  - 14
+  - "Sebastian Vettel y Kimi R\xE4ikk\xF6nen"
+  - 15
+  - Sergio Marchionne
+  - Con Alberto Ascari
+  - Enzo Ferrari
+  - 2008
+  - Italia
+  - 2007
+  - 8
+  - Bruce McLaren
+  - En Woking
+  - 51
+  - Fernando Alonso y Stoffel Vandoorne
+  - "Gran Breta\xF1a"
+  - En 1963
+  - 182
+  - Honda
+  - 1966
+  - "\xC9ric Boullier y Zak Brown"
+  - 12
+  - 2007
+  - Ayrton Senna - Alain Prost
+  - 1998
+  - 1968
+  - "Gran Breta\xF1a"
+  - Mercedes
+  - 1979
+  - En Grove
+  - 9
+  - Nigel Mansell
+  - Frank Williams
+  - 113
+  - 1972
+  - Felipe Massa y Lance Stroll
+  - Claire Williams
+  - 1997
+  - 45
+  - Pastor Maldonado
+  - 2
+  - Francia
+  - "Nico H\xFClkenberg y Jolyon Palmer"
+  - 35
+  - 1977
+  - En Enstone
+  - 6
+  - 1977
+  - Cyril Abiteboul
+  - "En el Gran Premio de Jap\xF3n de 2008"
+  - Fernando Alonso
+  - 2006
+  - 18
+  - 2016
+  - 2
+  - Como patrocinador de Sauber
+  - De Red Bull y Toro Rosso
+  - 2005
+  - Daniel Ricciardo y Max Verstappen
+  - Austria
+  - 4
+  - Sebastian Vettel
+  - Dietrich Mateschitz
+  - 52
+  - Mark Webber
+  - Adrian Newey
+  - 2010
+  - Renault
+  - Christian Horner
+  - En Milton Keynes
+  - 1958
+  - 7
+  - "Gran Breta\xF1a"
+  - 77
+  - 1952
+  - 9
+  - Colin Chapman
+  - "En la d\xE9cada de los 60 y los 70"
+  - Jim Clark
+  - 7
+  - Stirling Moss
+  - Colin Chapman
+  - 37
+  - 1978
+  - 1994
+  - 1
+  - 1986
+  - 27
+  - Con Renault
+  - 16
+  - 19
+  - Flavio Briatore
+  - "Gran Breta\xF1a"
+  - Como patrocinadores
+  - Michael Schumacher
+  - "El Toleman del a\xF1o anterior"
+  - Jenson Button
+  - 2
+  - 'Por Renault  '
+  - Con Gerhard Berger
+  - 1
+  - "Gran Breta\xF1a"
+  - 6
+  - 1960
+  - Jackie Stewart
+  - 1970
+  - 2
+  - Por BAR
+  - 19
+  - Ken Tyrell
+  - 15
+  - 23
+  - En Ockham
+  - Con Jackie Stewart
+  - 1998
+  - 25
+  - 1
+  - Peter Sauber
+  - Suiza
+  - 1993
+  - Pascal Wehrlein y Marcus Ericsson
+  - En Hinwil
+  - Robert Kubica
+  - Ferrari
+  - "Fr\xE9d\xE9ric Vasseur"
+  - En el Gran Premio de Brasil
+  - Antonio Giovinazzi
+  - "En la 9\xAA posici\xF3n"
+  - 5
+  - Pascal Picci
+  - 3
+  - 10
+  - 1954
+  - 64
+  - Lewis Hamilton y Valtteri Bottas
+  - Alemania
+  - Toto Wolff
+  - En Brackley
+  - 10
+  - "En la 1\xAA posici\xF3n"
+  - Presidente no ejecutivo
+  - Como las flechas de plata
+  - James Allison
+  - Nico Rosberg y Lewis Hamilton
+  - A 3
+  respuestasA:
+  - 1950
+  - En Maranello
+  - 14
+  - 63
+  - 216
+  - Maurizio Arrivabene
+  - 10
+  - "Fernando Alonso y Kimi R\xE4ikk\xF6nen"
+  - 12
+  - Luca Cordero di Montezemolo
+  - Con Michael Schumacher
+  - Sergio Marchionne
+  - 2015
+  - Italia
+  - 2001
+  - 8
+  - Enzo Ferrari
+  - En Maranello
+  - 47
+  - Fernando Alonso y Stoffel Vandoorne
+  - Italia
+  - 1952
+  - 163
+  - Ferrari
+  - 1959
+  - Ron Dennis y Zak Brown
+  - 10
+  - 2005
+  - Ayrton Senna - Alain Prost
+  - 1990
+  - 1968
+  - Alemania
+  - Ferrari
+  - 1974
+  - En Grove
+  - 8
+  - Ayrton Senna
+  - Claire Williams
+  - 110
+  - 1970
+  - Felipe Massa y Valtteri Bottas
+  - Claire Williams
+  - 1997
+  - 43
+  - Felipe Massa
+  - 1
+  - Francia
+  - "Nico H\xFClkenberg y Kevin Magnussen"
+  - 38
+  - 1977
+  - En Brackley
+  - 5
+  - 1982
+  - Cyril Abiteboul
+  - "En el Gran Premio dem Espa\xF1a de 2006"
+  - Fernando Alonso
+  - 2005
+  - 17
+  - 2015
+  - 1
+  - "Como proveedor de neum\xE1ticos"
+  - De Red Bull y Toro Rosso
+  - 2004
+  - Daniel Ricciardo y Max Verstappen
+  - Italia
+  - 2
+  - Mark Webber
+  - Christian Horner
+  - 58
+  - Sebastian Vettel
+  - Paddy Lowe
+  - 2010
+  - Mercedes
+  - Dietrich Mateschitz
+  - En Woking
+  - 1958
+  - 6
+  - Alemania
+  - 77
+  - 1958
+  - 4
+  - Bruce McLaren
+  - "En la d\xE9cada de los 80"
+  - Jim Clark
+  - 4
+  - Damon Hill
+  - Niki Lauda
+  - 34
+  - 1978
+  - 1997
+  - 0
+  - 1994
+  - 18
+  - Con Ford
+  - 16
+  - 25
+  - Christian Horner
+  - Alemania
+  - Como patrocinadores
+  - Nigel Mansell
+  - "El Toleman del a\xF1o anterior"
+  - Giancarlo Fisichella
+  - 4
+  - Por Renault
+  - Con Jackie Stewart
+  - 0
+  - Austria
+  - 6
+  - 1954
+  - Nigel Mansell
+  - 1968
+  - 2
+  - Por Renault
+  - 18
+  - Bruce McLaren
+  - 15
+  - 14
+  - En Grove
+  - Con Alain Prost
+  - 1998
+  - 21
+  - 2
+  - Bruce McLaren
+  - Suiza
+  - 2010
+  - Pascal Wehrlein Adrian Sutil
+  - En Grove
+  - Pedro de la Rosa
+  - Honda
+  - Monisha Kaltenborn
+  - En el Gran Premio de Abu Dhabi
+  - Antonio Giovinazzi
+  - "En la 10\xAA posici\xF3n"
+  - 1
+  - Pascal Picci
+  - 2
+  - 5
+  - 1949
+  - 64
+  - Nico Rosberg y Valtteri Bottas
+  - Austria
+  - Niki Lauda
+  - En Grove
+  - 8
+  - "En la 2\xAA posici\xF3n"
+  - Presidente no ejecutivo
+  - Como las flechas de oro
+  - Adrian Newey
+  - Nico Rosberg y Valtteri Bottas
+  - A 3
+  respuestasB:
+  - 1946
+  - En Brackley
+  - 12
+  - 62
+  - 243
+  - Toto Wolff
+  - 12
+  - "Sebastian Vettel y Kimi R\xE4ikk\xF6nen"
+  - 18
+  - Enzo Ferrari
+  - Con Niki Lauda
+  - Maurizio Arrivabene
+  - 2007
+  - Alemania
+  - 2012
+  - 6
+  - Dietrich Mateschitz
+  - En Grove
+  - 51
+  - Fernando Alonso y Jenson Button
+  - "Gran Breta\xF1a"
+  - 1972
+  - 182
+  - Renault
+  - 1950
+  - "\xC9ric Boullier y Zak Brown"
+  - 13
+  - 2007
+  - Fernando Alonso - Jenson Button
+  - 1999
+  - 1963
+  - Italia
+  - Mercedes
+  - 1983
+  - En Maranello
+  - 6
+  - Nigel Mansell
+  - Frank Williams
+  - 98
+  - 1978
+  - Felipe Massa y Lance Stroll
+  - Frank Williams
+  - 2002
+  - 32
+  - Valtteri Bottas
+  - 2
+  - "Gran Breta\xF1a"
+  - Kevin Magnussen y Jolyon Palmer
+  - 35
+  - 1969
+  - En Maranello
+  - 8
+  - 1977
+  - "Fr\xE9d\xE9ric Vasseur"
+  - En el Gran Premio de Australia de 2013
+  - Giancarlo Fisichella
+  - 2007
+  - 18
+  - 2005
+  - 3
+  - Como patrocinador de Sauber
+  - De Red Bull y Sauber
+  - 2006
+  - Daniel Ricciardo y Daniil Kvyat
+  - Alemania
+  - 4
+  - Max Verstappen
+  - Dietrich Mateschitz
+  - 43
+  - Daniel Ricciardo
+  - James Allison
+  - 2011
+  - Renault
+  - Toto Wolff
+  - En Milton Keynes
+  - 1963
+  - 8
+  - Francia
+  - 84
+  - 1963
+  - 9
+  - Dietrich Mateschitz
+  - "En la d\xE9cada de los 60 y los 70"
+  - Damon Hill
+  - 6
+  - Michael Schumacher
+  - Colin Chapman
+  - 28
+  - 1982
+  - 1994
+  - 4
+  - 1982
+  - 22
+  - Con Renault
+  - 14
+  - 16
+  - Toto Wolff
+  - "Gran Breta\xF1a"
+  - "Como proveedores de neum\xE1ticos"
+  - Alain Prost
+  - "El Williams del a\xF1o anterior"
+  - Jenson Button
+  - 3
+  - Por Mercedes
+  - Con Juan Manuel Fangio
+  - 1
+  - Estados Unidos
+  - 4
+  - 1963
+  - Jackie Stewart
+  - 1964
+  - 3
+  - Por Red Bull
+  - 16
+  - Ken Tyrell
+  - 25
+  - 19
+  - En Ockham
+  - Con Ayrton Senna
+  - 1995
+  - 23
+  - 1
+  - "Fr\xE9d\xE9ric Vasseur"
+  - Suecia
+  - 1995
+  - Pascal Wehrlein y Felipe Nasr
+  - En Hinwil
+  - Felipe Massa
+  - Ferrari
+  - "Fr\xE9d\xE9ric Vasseur"
+  - "En el Gran Premio de Hungr\xEDa"
+  - Felipe Nasr
+  - "En la 9\xAA posici\xF3n"
+  - 9
+  - Peter Sauber
+  - 3
+  - 7
+  - 1962
+  - 60
+  - Lewis Hamilton y Nico Rosberg
+  - Alemania
+  - Paddy Lowe
+  - En Maranello
+  - 10
+  - "En la 3\xAA posici\xF3n"
+  - Jefe de equipo
+  - Como las flechas de plata
+  - Pat Fry
+  - Nico Rosberg y Lewis Hamilton
+  - A 2
+  respuestasC:
+  - 1948
+  - En Woking
+  - 20
+  - 67
+  - 224
+  - Jean Todt
+  - 8
+  - Sebastian Vettel y Fernando Alonso
+  - 15
+  - Piero Ferrari
+  - Con Alberto Ascari
+  - Enzo Ferrari
+  - 2010
+  - Argentina
+  - 2015
+  - 5
+  - Bruce McLaren
+  - En Brackley
+  - 62
+  - Stoffel Vandoorne y Jenson Button
+  - Francia
+  - En 1963
+  - 196
+  - Mercedes
+  - 1966
+  - "\xC9ric Boullier, Zak Brown y Ron Dennis"
+  - 14
+  - 2009
+  - Fernando Alonso - Lewis Hamilt
+  - 1988
+  - 1972
+  - "Gran Breta\xF1a"
+  - Renault
+  - 1979
+  - En Wooking
+  - 5
+  - Alain Prost
+  - Zak Brown
+  - 113
+  - 1968
+  - Valtteri Bottas y Pastor Maldonado
+  - Maurizio Arrivabene
+  - 1994
+  - 58
+  - Pastor Maldonado
+  - 4
+  - Italia
+  - "Nico H\xFClkenberg y Robert Kubica"
+  - 28
+  - 1985
+  - En Enstone
+  - 6
+  - 1994
+  - Flavio Briatore
+  - "En el Gran Premio de Jap\xF3n de 2008"
+  - "Nico H\xFClkenberg"
+  - 2006
+  - 16
+  - 2013
+  - 2
+  - Como equipo constructor
+  - De Red Bull
+  - 2007
+  - Daniel Ricciardo y Sebastian Vettel
+  - Austria
+  - 3
+  - Daniel Ricciardo
+  - Sergio Marchionne
+  - 52
+  - Mark Webber
+  - Pat Fry
+  - 2009
+  - Ferrari
+  - Christian Horner
+  - En Brackley
+  - 1972
+  - 5
+  - "Gran Breta\xF1a"
+  - 72
+  - 1952
+  - 7
+  - Cyril Abiteboul
+  - "En la d\xE9cada de los 80 y los 90"
+  - Alain Prost
+  - 7
+  - Alain Prost
+  - Ayrton Senna
+  - 37
+  - 1973
+  - 2000
+  - 2
+  - 1986
+  - 24
+  - Con Ferrari
+  - 13
+  - 19
+  - Jean Todt
+  - Austria
+  - Como proveedores de champagne
+  - Michael Schumacher
+  - "El Ferrari de dos a\xF1os antes"
+  - Pedro de la Rosa
+  - 2
+  - Por Honda
+  - Con Nigel Mansell
+  - 3
+  - "Gran Breta\xF1a"
+  - 2
+  - 1947
+  - Niki Lauda
+  - 1970
+  - 1
+  - Por BAR
+  - 12
+  - Enzo Ferrari
+  - 36
+  - 23
+  - En Woking
+  - Con Nigel Mansell
+  - 1997
+  - 25
+  - 0
+  - Monisha Kaltenborn
+  - Austria
+  - 1993
+  - Felipe Nasr y Marcus Ericsson
+  - En Woking
+  - Marcus Ericsson
+  - Renault
+  - Peter Sauber
+  - En el Gran Premio de Brasil
+  - Marcus Ericsson
+  - "En la 8\xAA posici\xF3n"
+  - 3
+  - Monisha Kaltenborn
+  - 4
+  - 10
+  - 1959
+  - 68
+  - Lewis Hamilton y Valtteri Bottas
+  - "Gran Breta\xF1a"
+  - James Allison
+  - En Brackley
+  - 6
+  - "En la 1\xAA posici\xF3n"
+  - Asesor
+  - Como las flechas de bronce
+  - Joan Villadelprat
+  - Lewis Hamilton y Valtteri Bottas
+  - A 6
+  respuestasD:
+  - 1954
+  - En Grove
+  - 16
+  - 57
+  - 203
+  - Stefano Domenicali
+  - 14
+  - Felipe Massa y Michael Schumacher
+  - 16
+  - Sergio Marchionne
+  - Con Juan Manuel Fangio
+  - Piero Ferrari
+  - 2008
+  - Francia
+  - 2007
+  - 9
+  - Bernie Ecclestone
+  - En Woking
+  - 38
+  - Fernando Alonso y Lewis Hamilton
+  - Estados Unidos
+  - En 1947
+  - 134
+  - Honda
+  - 1961
+  - Ron Dennis
+  - 12
+  - 2003
+  - Jenson Button - Stoffel Vandoorne
+  - 2003
+  - 1954
+  - Francia
+  - Honda
+  - 1962
+  - En Brackley
+  - 9
+  - Juan Manuel Fangio
+  - Bernie Ecclestone
+  - 138
+  - 1972
+  - Lance Stroll y Valtteri Bottas
+  - "\xC9ric Boullier"
+  - 1987
+  - 45
+  - Lance Stroll
+  - 5
+  - Alemania
+  - "Nico H\xFClkenberg y Jolyon Palmer"
+  - 32
+  - 2016
+  - En Maranello
+  - 4
+  - 1962
+  - Bob Bell
+  - En el Gran Premio de Singapur de 2008
+  - Robert Kubica
+  - 2008
+  - 19
+  - 2016
+  - 4
+  - Como motorista
+  - De Red Bully Renault
+  - 2005
+  - Max Verstappen y Daniel Ricciardo
+  - Francia
+  - 5
+  - Sebastian Vettel
+  - Toto Wolff
+  - 39
+  - Daniil Kvyat
+  - Adrian Newey
+  - 2013
+  - Honda
+  - Maurizio Arrivabene
+  - En Grove
+  - 1949
+  - 7
+  - Italia
+  - 63
+  - 1967
+  - 12
+  - Colin Chapman
+  - "En la d\xE9cada de los 90"
+  - Clay Regazzoni
+  - 5
+  - Stirling Moss
+  - Jim Clark
+  - 41
+  - 1986
+  - 1999
+  - 1
+  - 1997
+  - 27
+  - Con Honda
+  - 19
+  - 23
+  - Flavio Briatore
+  - Estados Unidos
+  - Como proveedores de frenos
+  - Rubens Barrichello
+  - "El McLaren del a\xF1o anterior"
+  - Michael Schumacher
+  - 5
+  - Por Ferrari
+  - Con Gerhard Berger
+  - 2
+  - Francia
+  - 3
+  - 1960
+  - Alain Prost
+  - 1975
+  - 0
+  - Por McLaren
+  - 19
+  - Dietrich Mateschitz
+  - 12
+  - 26
+  - En Brackley
+  - Con Jackie Stewart
+  - 2000
+  - 29
+  - 3
+  - Peter Sauber
+  - Alemania
+  - 2002
+  - Pascal Wehrlein y Marcus Ericsson
+  - En Brackley
+  - Robert Kubica
+  - Mercedes
+  - Cyril Abiteboul
+  - "En el Gran Premio de M\xF3naco"
+  - Pedro de la Rosa
+  - "En la 11\xAA posici\xF3n"
+  - 5
+  - "Fr\xE9d\xE9ric Vasseur"
+  - 1
+  - 14
+  - 1954
+  - 56
+  - Fernando Alonso y Lewis Hamilton
+  - "Espa\xF1a"
+  - Toto Wolff
+  - En Woking
+  - 12
+  - "En la 4\xAA posici\xF3n"
+  - "Jefe de mec\xE1nicos"
+  - Como las flechas de diamante
+  - Paddy Lowe
+  - Fernando Alonso y Lewis Hamilton
+  - A 4
